@@ -1,1 +1,1 @@
-Movie Reccomendation Website
+Movie Recommendation Website

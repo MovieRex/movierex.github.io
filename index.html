@@ -38,11 +38,11 @@
 
 .isotope,
 .isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-     -moz-transition-duration: 0.8s;
-      -ms-transition-duration: 0.8s;
-       -o-transition-duration: 0.8s;
-          transition-duration: 0.8s;
+  -webkit-transition-duration: 0.35s;
+     -moz-transition-duration: 0.35s;
+      -ms-transition-duration: 0.35s;
+       -o-transition-duration: 0.35s;
+          transition-duration: 0.35s;
 }
 
 .isotope {
@@ -83,6 +83,7 @@ $(function() {
     container.isotope({
         itemSelector : 'ul#container > li',
         layoutMode : 'fitRows'
+
     });
     
     $.filtrify("container", "placeHolder", {
@@ -96,6 +97,8 @@ $(function() {
 
 </script>
 
+
+
 </head>
 <body>
 
@@ -107,7 +110,9 @@ $(function() {
 <h>YA WELCOME</h>
 
 
-<p>suggestions or somethin: movierexweb@gmail.com</p>
+<p>suggestions or somethin: movierexweb@gmail.com
+.... don't hold your breath for a response, I'm VERY busy
+</p>
 
 
 </div>
@@ -115,31 +120,33 @@ $(function() {
 <div id="main" role="main">
 <div id="content" class="demo">
 
-<h2><center>Filters</center></h2>
+<h2><center> </center></h2>
 
 <!-- List of filters: 
-* MR MUST WATCH *
-Funny as fuck
-Sad as hell
-Dark Humor
-Fucked Up
-MindFuck
-Thriller
-Psychological
-Historical
-Aesthetic
-Feel Good
-Cerebral
-Sci-Fi
-Space
+* REX MUST WATCH *
+Hilarious
 Comedy
+Dark
+MindF**k
+Thriller
+Cerebral
+Depressing
+Historical
+True Story
+F**ked Up
+Psychological
+Crime
+Documentary
+Feel Good
 Drama
-Badass Women
+Sci-Fi
+Fantasy
+Space
+Aesthetic
 War
-WWII
 Apocalypse
 Dystopian
-Horror 
+Horror
 Animated
 Plot Twist
 Foreign
@@ -147,269 +154,449 @@ Short Film
 -->
 
 
+<style>
+.placeHolder{
+  text-align: center;
+  margin: auto;
+  padding: 0px;
+}
+.placeHolder ul li{
+ display:inline-flex;
+  list-style-type: none;
+  width: 128px;
+  height: 77px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background:lightblue; //for visualization only
+  align-items:center;
+  justify-content:center;
+ }
+</style>
+
 <div id="placeHolder"></div>
 
-<ul id="container">
+<!-- <ul class="container"> This makes centering work, but not transitions...  -->
+<!-- <ul class="movies"> -->
 
-  <li data-Tags="* MR MUST WATCH *, Historical, Drama, Fucked Up, Sad As Hell"><strong>12 Years A Slave</strong></strong><a href="https://www.rottentomatoes.com/m/12_years_a_slave" target="_blank"><img src="img/movies/12YearsASlave.jpg" width=115></a><span>genre: <i>Historical, Drama, Fucked Up</i></span></li>
+<!-- /* 
+  <li data-Filters=""><strong>The</strong></strong><a href="https://www.rottentomatoes.com/m/the" target="_blank"><img src="img/movies/the.jpg" width=175></a></li>
+*/
+ -->
+<!-- <ul id="container"> -->
+<ul class="container">
 
-  <li data-Tags="Apocalypse, Thriller, Horror, Plot Twist"><strong>28 Days Later</strong></strong><a href="https://www.rottentomatoes.com/m/28_days_later" target="_blank"><img src="img/movies/28DaysLater.jpg" width=115></a></li>
+  <li data-Filters=""><strong>The Pink Cloud</strong></strong><a href="https://www.rottentomatoes.com/m/the_pink_cloud" target="_blank"><img src="img/movies/ThePinkCloud.jpg" width=175></a></li>
 
-  <li data-Tags="Drama, Historical"><strong>Amadeus</strong></strong><a href="https://www.rottentomatoes.com/m/amadeus" target="_blank"><img src="img/movies/Amadeus.jpg" width=115></a></li>
+  <li data-Filters=""><strong>American Hustle</strong></strong><a href="https://www.rottentomatoes.com/m/american_hustle" target="_blank"><img src="img/movies/AmericanHustle.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Drama, Fucked Up"><strong>American History X</strong></strong><a href="https://www.rottentomatoes.com/m/american_history_x" target="_blank"><img src="img/movies/AmericanHistoryX.jpg" width=115></a></li>
+  <li data-Filters=""><strong>High Life</strong></strong><a href="https://www.rottentomatoes.com/m/high_life_2019" target="_blank"><img src="img/movies/HighLife.jpg" width=175></a></li>
 
-  <li data-Tags="Comedy, Foreign, Aesthetic, Feel Good"><strong>Amélie</strong></strong><a href="https://www.rottentomatoes.com/m/amelie" target="_blank"><img src="img/movies/Amelie.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Saltburn</strong></strong><a href="https://www.rottentomatoes.com/m/saltburn" target="_blank"><img src="img/movies/Saltburn.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Dark Humor, Drama, Comedy, Plot Twist, Thriller"><strong>American Beauty</strong></strong><a href="https://www.rottentomatoes.com/m/american_beauty" target="_blank"><img src="img/movies/AmericanBeauty.jpg" width=115></a></li>
+  <li data-Filters=""><strong>I Am Mother</strong></strong><a href="https://www.rottentomatoes.com/m/i_am_mother" target="_blank"><img src="img/movies/IAmMother.jpg" width=175></a></li>
 
-  <li data-Tags="Psychological, Thriller, Fucked Up, MindFuck, Plot Twist"><strong>American Psycho</strong><a href="https://www.rottentomatoes.com/m/american_psycho" target="_blank"><img src="img/movies/AmericanPsycho.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Dream Scenario</strong></strong><a href="https://www.rottentomatoes.com/m/dream_scenario" target="_blank"><img src="img/movies/DreamScenario.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Sci-Fi, MindFuck, Psychological, Badass Women"><strong>Annihilation</strong></strong><a href="https://www.rottentomatoes.com/m/annihilation" target="_blank"><img src="img/movies/Annihilation.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Infinity Pool</strong></strong><a href="https://www.rottentomatoes.com/m/infinity_pool_2023" target="_blank"><img src="img/movies/InfinityPool.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Historical, Thriller"><strong>Argo</strong></strong><a href="https://www.rottentomatoes.com/m/argo_2012" target="_blank"><img src="img/movies/Argo.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Poor Things</strong></strong><a href="https://www.rottentomatoes.com/m/poor_things" target="_blank"><img src="img/movies/PoorThings.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Sci-Fi, Cerebral, Drama, Thriller, Badass Women, MindFuck"><strong>Arrival</strong></strong><a href="https://www.rottentomatoes.com/m/arrival_2016" target="_blank"><img src="img/movies/Arrival.jpg" width=115></a></li>
+  <li data-Filters=""><strong>They Look Like People</strong></strong><a href="https://www.rottentomatoes.com/m/they_look_like_people" target="_blank"><img src="img/movies/TheyLookLikePeople.jpg" width=175></a></li>
 
-  <li data-Tags="Drama, Comedy, Funny As Fuck"><strong>The Ballad Of Buster Scruggs</strong></strong><a href="https://www.rottentomatoes.com/m/the_ballad_of_buster_scruggs" target="_blank"><img src="img/movies/TheBalladOfBusterScruggs.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>The Feast</strong></strong><a href="https://www.rottentomatoes.com/m/the_feast_2021" target="_blank"><img src="img/movies/TheFeast.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, War, Drama, Fucked Up, Sad As Hell"><strong>Beasts Of No Nation</strong><a href="https://www.rottentomatoes.com/m/beasts_of_no_nation" target="_blank"><img src="img/movies/BeastsOfNoNation.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Everything Everywhere All at Once</strong></strong><a href="https://www.rottentomatoes.com/m/everything_everywhere_all_at_once" target="_blank"><img src="img/movies/EverythingEverywhereAllAtOnce.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Funny As Fuck, Comedy, Feel Good"><strong>The Big Lebowski</strong></strong><a href="https://www.rottentomatoes.com/m/the_big_lebowski" target="_blank"><img src="img/movies/TheBigLebowski.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Don't Look Up</strong></strong><a href="https://www.rottentomatoes.com/m/dont_look_up_2021" target="_blank"><img src="img/movies/DontLookUp.jpg" width=175></a></li>
 
-  <li data-Tags="Sci-Fi, Thriller, Drama, Apocalypse"><strong>Bird Box</strong><a href="https://www.rottentomatoes.com/m/bird_box" target="_blank"><img src="img/movies/BirdBox.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Little Fish</strong></strong><a href="https://www.rottentomatoes.com/m/little_fish_2021" target="_blank"><img src="img/movies/LittleFish.jpg" width=175></a></li>
 
-  <li data-Tags="Dark Humor, Comedy, Cerebral, Drama"><strong>Birdman Or (The Unexpected Virtue Of Ignorance)</strong></strong><a href="https://www.rottentomatoes.com/m/birdman" target="_blank"><img src="img/movies/Birdman.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Being John Malkovich</strong></strong><a href="https://www.rottentomatoes.com/m/being_john_malkovich" target="_blank"><img src="img/movies/BeingJohnMalkovich.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Comedy, Drama, Thriller"><strong>Blackkklansman</strong></strong><a href="https://www.rottentomatoes.com/m/blackkklansman" target="_blank"><img src="img/movies/Blackkklansman.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Pleasure</strong></strong><a href="https://www.rottentomatoes.com/m/pleasure_2022" target="_blank"><img src="img/movies/Pleasure.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Historical, Drama, Thriller, Fucked Up"><strong>Black Mass</strong></strong><a href="https://www.rottentomatoes.com/m/black_mass_2015" target="_blank"><img src="img/movies/BlackMass.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Adaptation</strong></strong><a href="https://www.rottentomatoes.com/m/1118700-adaptation" target="_blank"><img src="img/movies/Adaptation.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Thriller, Psychological, MindFuck"><strong>Black Swan</strong></strong><a href="https://www.rottentomatoes.com/m/black_swan_2010" target="_blank"><img src="img/movies/BlackSwan.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Queen & Slim</strong></strong><a href="https://www.rottentomatoes.com/m/queen_and_slim" target="_blank"><img src="img/movies/QueenAndSlim.jpg" width=175></a></li>
 
-  <li data-Tags="Foreign, Drama"><strong>City Of God</strong></strong><a href="https://www.rottentomatoes.com/m/city_of_god" target="_blank"><img src="img/movies/CityOfGod.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Hedwig and the Angry Inch</strong></strong><a href="https://www.rottentomatoes.com/m/hedwig_and_the_angry_inch" target="_blank"><img src="img/movies/HedwigAndTheAngryInch.jpg" width=175></a></li>
 
-  <li data-Tags="Horror, Thriller"><strong>Cloverfield</strong><a href="https://www.rottentomatoes.com/m/cloverfield" target="_blank"><img src="img/movies/Cloverfield.jpg" width=115></a></li>
+  <li data-Filters=""><strong>My Octopus Teacher</strong></strong><a href="https://www.rottentomatoes.com/m/my_octopus_teacher" target="_blank"><img src="img/movies/MyOctopusTeacher.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Cerebral, Drama, Sci-Fi, Thriller, MindFuck, Plot Twist"><strong>Coherence</strong></strong><a href="https://www.rottentomatoes.com/m/coherence_2013" target="_blank"><img src="img/movies/Coherence.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Swiss Army Man</strong></strong><a href="https://www.rottentomatoes.com/m/swiss_army_man" target="_blank"><img src="img/movies/SwissArmyMan.jpg" width=175></a></li>
 
-  <li data-Tags="Drama, Thriller, Fucked Up, Plot Twist, Sad As Hell"><strong>Crash</strong></strong><a href="https://www.rottentomatoes.com/m/1144992-crash" target="_blank"><img src="img/movies/Crash.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Okja</strong></strong><a href="https://www.rottentomatoes.com/m/Okja" target="_blank"><img src="img/movies/Okja.jpg" width=175></a></li>
 
-  <li data-Tags="Drama, Historical, Sad As Hell"><strong>Dallas Buyer's Club</strong><a href="https://www.rottentomatoes.com/m/dallas_buyers_club_2013" target="_blank"><img src="img/movies/DallasBuyersClub.jpg" width=115></a></li>
+  <li data-Filters=""><strong>The Post</strong></strong><a href="https://www.rottentomatoes.com/m/the_post" target="_blank"><img src="img/movies/ThePost.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Drama, Mystery, Thriller, Plot Twist"><strong>The Departed</strong></strong><a href="https://www.rottentomatoes.com/m/departed" target="_blank"><img src="img/movies/TheDeparted.jpg" width=115></a></li>
+  <li data-Filters=""><strong>It's a Disaster</strong></strong><a href="https://www.rottentomatoes.com/m/its_a_disaster" target="_blank"><img src="img/movies/ItsADisaster.jpg" width=175></a></li>
 
-  <li data-Tags="Dark Humor, Comedy, Drama, Fucked Up, Plot Twist"><strong>The Details</strong></strong><a href="https://www.rottentomatoes.com/m/the_details_2010" target="_blank"><img src="img/movies/TheDetails.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Blow the Man Down</strong></strong><a href="https://www.rottentomatoes.com/m/blow_the_man_down" target="_blank"><img src="img/movies/BlowTheManDown.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Sci-Fi, Dystopian"><strong>District 9</strong></strong><a href="https://www.rottentomatoes.com/m/district_9" target="_blank"><img src="img/movies/District9.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Sorry to Bother You</strong></strong><a href="https://www.rottentomatoes.com/m/sorry_to_bother_you_2018" target="_blank"><img src="img/movies/SorryToBotherYou.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Fucked Up, Dark Humor, Comedy"><strong>Django Unchained</strong></strong><a href="https://www.rottentomatoes.com/m/django_unchained_2012" target="_blank"><img src="img/movies/DjangoUnchained.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Midsommar</strong></strong><a href="https://www.rottentomatoes.com/m/midsommar" target="_blank"><img src="img/movies/Midsommar.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Drama, MindFuck, Plot Twist, Psychological"><strong>Enemy</strong></strong><a href="https://www.rottentomatoes.com/m/enemy_2013" target="_blank"><img src="img/movies/Enemy.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Hereditary</strong></strong><a href="https://www.rottentomatoes.com/m/hereditary" target="_blank"><img src="img/movies/Hereditary.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Sci-Fi, Drama, Comedy, Cerebral"><strong>Eternal Sunshine of the Spotless Mind</strong><a href="https://www.rottentomatoes.com/m/eternal_sunshine_of_the_spotless_mind" target="_blank"><img src="img/movies/EternalSunshineOfTheSpotlessMind.jpg" width=115></a></li>
+  <li data-Filters=""><strong>What We Do in the Shadows</strong></strong><a href="https://www.rottentomatoes.com/m/what_we_do_in_the_shadows" target="_blank"><img src="img/movies/WhatWeDoInTheShadows.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Sci-Fi, Cerebral, MindFuck, Aesthetic, Drama, Thriller"><strong>Ex Machina</strong><a href="https://www.rottentomatoes.com/m/ex_machina" target="_blank"><img src="img/movies/ExMachina.jpg" width=115></a></li>
+  <li data-Filters=""><strong>The Lighthouse</strong></strong><a href="https://www.rottentomatoes.com/m/the_lighthouse_2019" target="_blank"><img src="img/movies/TheLighthouse.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Drama, MindFuck, Psychological"><strong>Eyes Wide Shut</strong></strong><a href="https://www.rottentomatoes.com/m/eyes_wide_shut" target="_blank"><img src="img/movies/EyesWideShut.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Alien</strong></strong><a href="https://www.rottentomatoes.com/m/Alien" target="_blank"><img src="img/movies/Alien.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Badass Women, Crime, Drama, Thriller, Comedy, Dark Humor"><strong>Fargo</strong><a href="https://www.rottentomatoes.com/m/fargo" target="_blank"><img src="img/movies/Fargo.jpg" width=115></a></li>
+  <li data-Filters=""><strong>The Domestics</strong></strong><a href="https://www.rottentomatoes.com/m/the_domestics" target="_blank"><img src="img/movies/TheDomestics.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Comedy, Historical, Drama, Funny As Fuck"><strong>The Favourite</strong></strong><a href="https://www.rottentomatoes.com/m/the_favourite_2018" target="_blank"><img src="img/movies/TheFavourite.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Children of Men</strong></strong><a href="https://www.rottentomatoes.com/m/children_of_men" target="_blank"><img src="img/movies/ChildrenOfMen.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Drama, Psychological, Plot Twist, Fucked Up, Dark Humor, MindFuck"><strong>Fight Club</strong><a href="https://www.rottentomatoes.com/m/fight_club" target="_blank"><img src="img/movies/FightClub.jpg" width=115></a></li>
+  <li data-Filters=""><strong>10 Cloverfield Lane</strong></strong><a href="https://www.rottentomatoes.com/m/10_cloverfield_lane" target="_blank"><img src="img/movies/10CloverfieldLane.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Comedy, Sad As Hell"><strong>The Florida Project</strong></strong><a href="https://www.rottentomatoes.com/m/the_florida_project" target="_blank"><img src="img/movies/TheFloridaProject.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Zola</strong></strong><a href="https://www.rottentomatoes.com/m/zola" target="_blank"><img src="img/movies/Zola.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Drama, Comedy, Fucked Up, Plot Twist, Dark Humor, MindFuck"><strong>Get Out</strong><a href="https://www.rottentomatoes.com/m/get_out" target="_blank"><img src="img/movies/GetOut.jpg" width=115></a></li>
+  <li data-Filters=""><strong>The Platform</strong></strong><a href="https://www.rottentomatoes.com/m/the_platform" target="_blank"><img src="img/movies/ThePlatform.jpg" width=175></a></li>
 
-  <li data-Tags="Drama"><strong>Girl, Interrupted</strong></strong><a href="https://www.rottentomatoes.com/m/girl_interrupted" target="_blank"><img src="img/movies/GirlInterrupted.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Young Adult</strong></strong><a href="https://www.rottentomatoes.com/m/young_adult" target="_blank"><img src="img/movies/YoungAdult.jpg" width=175></a></li>
 
-  <li data-Tags="Historical, Drama"><strong>Gladiator</strong><a href="https://www.rottentomatoes.com/m/gladiator" target="_blank"><img src="img/movies/Gladiator.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Thoroughbreds</strong></strong><a href="https://www.rottentomatoes.com/m/thoroughbreds_2018" target="_blank"><img src="img/movies/Thoroughbreds.jpg" width=175></a></li>
 
-  <li data-Tags="Plot Twist, Thriller, Cerebral"><strong>Gone Girl</strong></strong><a href="https://www.rottentomatoes.com/m/gone_girl" target="_blank"><img src="img/movies/GoneGirl.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Bodies Bodies Bodies</strong></strong><a href="https://www.rottentomatoes.com/m/bodies_bodies_bodies" target="_blank"><img src="img/movies/BodiesBodiesBodies.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Funny As Fuck, Comedy, Feel Good, Aesthetic"><strong>The Grand Budapest Hotel</strong><a href="https://www.rottentomatoes.com/m/gladiator" target="_blank"><img src="img/movies/TheGrandBudapestHotel.jpg" width=115></a></li>
+  <li data-Filters=""><strong>X</strong></strong><a href="https://www.rottentomatoes.com/m/x_2022" target="_blank"><img src="img/movies/X.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Drama, Fucked Up"><strong>Gran Torino</strong></strong><a href="https://www.rottentomatoes.com/m/gran_torino" target="_blank"><img src="img/movies/GranTorino.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Pearl</strong></strong><a href="https://www.rottentomatoes.com/m/pearl_2022" target="_blank"><img src="img/movies/Pearl.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Historical, Comedy, Sad As Hell"><strong>Green Book</strong><a href="https://www.rottentomatoes.com/m/green_book" target="_blank"><img src="img/movies/GreenBook.jpg" width=115></a></li>
+  <li data-Filters=""><strong>The Night House</strong></strong><a href="https://www.rottentomatoes.com/m/the_night_house" target="_blank"><img src="img/movies/TheNightHouse.jpg" width=175></a></li>
 
-  <li data-Tags="Horror, Thriller, Crime"><strong>Green Room</strong><a href="https://www.rottentomatoes.com/m/green_room_2016" target="_blank"><img src="img/movies/GreenRoom.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Triangle of Sadness</strong></strong><a href="https://www.rottentomatoes.com/m/triangle_of_sadness" target="_blank"><img src="img/movies/TriangleOfSadness.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Thriller, Plot Twist, Drama"><strong>Goodfellas</strong></strong><a href="https://www.rottentomatoes.com/m/goodfellas" target="_blank"><img src="img/movies/Goodfellas.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Dogtooth</strong></strong><a href="https://www.rottentomatoes.com/m/dogtooth" target="_blank"><img src="img/movies/Dogtooth.jpg" width=175></a></li>
 
-  <li data-Tags="Crime, Thriller, Drama"><strong>Good Time</strong></strong><a href="https://www.rottentomatoes.com/m/good_time" target="_blank"><img src="img/movies/GoodTime.jpg" width=115></a></li>
+  <li data-Filters=""><strong>The Little Hours</strong></strong><a href="https://www.rottentomatoes.com/m/the_little_hours" target="_blank"><img src="img/movies/TheLittleHours.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Comedy, Dark Humor, Plot Twist"><strong>The Hateful Eight</strong></strong><a href="https://www.rottentomatoes.com/m/the_hateful_eight" target="_blank"><img src="img/movies/TheHatefulEight.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>It Comes At Night</strong></strong><a href="https://www.rottentomatoes.com/m/it_comes_at_night" target="_blank"><img src="img/movies/ItComesAtNight.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, War, Thriller, Drama"><strong>The Hurt Locker</strong><a href="https://www.rottentomatoes.com/m/the_hurt_locker" target="_blank"><img src="img/movies/TheHurtLocker.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Goodnight Mommy</strong></strong><a href="https://www.rottentomatoes.com/m/goodnight_mommy" target="_blank"><img src="img/movies/GoodnightMommy.jpg" width=175></a></li>
 
-  <li data-Tags="Comedy, Dark Humor, Thriller, Drama, Crime"><strong>I Don't Feel At Home In This World Anymore</strong></strong><a href="https://www.rottentomatoes.com/m/i_dont_feel_at_home_in_this_world_anymore" target="_blank"><img src="img/movies/IDontFeelAtHomeInThisWorldAnymore.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Red Rocket</strong></strong><a href="https://www.rottentomatoes.com/m/red_rocket" target="_blank"><img src="img/movies/RedRocket.jpg" width=175></a></li>
 
-  <!-- <li data-Tags="Funny As Fuck, Comedy, Cerebral, Feel Good"><strong>I Heart Huckabees</strong></strong><a href="https://www.rottentomatoes.com/m/i_heart_huckabees" target="_blank"><img src="img/movies/IHeartHuckabees.jpg" width=115></a></li>   -->
+  <li data-Filters=""><strong>Creep 2</strong></strong><a href="https://www.rottentomatoes.com/m/creep_2" target="_blank"><img src="img/movies/Creep2.jpg" width=175></a></li>
 
-  <li data-Tags="Comedy, Crime, Drama"><strong>In Bruges</strong></strong><a href="https://www.rottentomatoes.com/m/in_bruges" target="_blank"><img src="img/movies/InBruges.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Creep</strong></strong><a href="https://www.rottentomatoes.com/m/creep_2014" target="_blank"><img src="img/movies/Creep.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, MindFuck, Cerebral, Drama, Plot Twist"><strong>Inception</strong><a href="https://www.rottentomatoes.com/m/inception" target="_blank"><img src="img/movies/Inception.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Calibre</strong></strong><a href="https://www.rottentomatoes.com/m/calibre" target="_blank"><img src="img/movies/Calibre.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, WWII, Thriller, Dark Humor, Aesthetic, Comedy, Drama, Badass Women"><strong>Inglourious Basterds</strong><a href="https://www.rottentomatoes.com/m/inglourious_basterds" target="_blank"><img src="img/movies/IngloriousBasterds.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Barbarian</strong></strong><a href="https://www.rottentomatoes.com/m/barbarian_2022" target="_blank"><img src="img/movies/Barbarian.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Space, Sci-Fi, Cerebral, Aesthetic, Drama"><strong>Interstellar</strong><a href="https://www.rottentomatoes.com/m/interstellar" target="_blank"><img src="img/movies/Interstellar.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Paddleton</strong></strong><a href="https://www.rottentomatoes.com/m/paddleton" target="_blank"><img src="img/movies/Paddleton.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Crime, Historical, Drama, Comedy"><strong>I, Tonya</strong></strong><a href="https://www.rottentomatoes.com/m/i_tonya" target="_blank"><img src="img/movies/ITonya.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Tar</strong></strong><a href="https://www.rottentomatoes.com/m/tar_2022" target="_blank"><img src="img/movies/Tar.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Cerebral, Dark Humor, Drama, Comedy, Sad As Hell, Animated"><strong>It's Such A Beautiful Day</strong><a href="https://www.rottentomatoes.com/m/its_such_a_beautiful_day" target="_blank"><img src="img/movies/ItsSuchABeautifulDay.jpg" width=115></a><span>genre: <i>Cerebral, Dark Humor, Animated</i></li>
+  <li data-Filters=""><strong>Speak No Evil</strong></strong><a href="https://www.rottentomatoes.com/m/Speak_No_Evil_2022" target="_blank"><img src="img/movies/SpeakNoEvil.jpg" width=175></a></li>
 
-  <li data-Tags="WWII, Comedy, Sad As Hell, Drama"><strong>Jojo Rabbit</strong><a href="https://www.rottentomatoes.com/m/jojo_rabbit" target="_blank"><img src="img/movies/JojoRabbit.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Benedetta</strong></strong><a href="https://www.rottentomatoes.com/m/benedetta" target="_blank"><img src="img/movies/Benedetta.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Drama, Fucked Up, Psychological"><strong>Joker</strong></strong><a href="https://www.rottentomatoes.com/m/joker_2019" target="_blank"><img src="img/movies/Joker.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>The Death Of Dick Long</strong></strong><a href="https://www.rottentomatoes.com/m/the_death_of_dick_long" target="_blank"><img src="img/movies/TheDeathOfDickLong.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Fucked Up, True Story"><strong>Judas and the Black Messiah</strong></strong><a href="https://www.rottentomatoes.com/m/judas_and_the_black_messiah" target="_blank"><img src="img/movies/JudasAndTheBlackMessiah.jpg" width=115></a></li>  
+  <li data-Filters=""><strong>Possessor</strong></strong><a href="https://www.rottentomatoes.com/m/possessor_uncut" target="_blank"><img src="img/movies/Possessor.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Thriller, Comedy, Dark Humor, Badass Women"><strong>Kill Bill: Vol. 1</strong><a href="https://www.rottentomatoes.com/m/kill_bill_vol_1" target="_blank"><img src="img/movies/KillBillVol1.jpg" width=115></a></li>
+  <li data-Filters=""><strong>It Follows</strong></strong><a href="https://www.rottentomatoes.com/m/it_follows" target="_blank"><img src="img/movies/ItFollows.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Comedy, Thriller, Dark Humor, Badass Women"><strong>Kill Bill: Vol. 2</strong><a href="https://www.rottentomatoes.com/m/kill_bill_vol_2" target="_blank"><img src="img/movies/KillBillVol2.jpg" width=115></a></li>
+  <li data-Filters=""><strong>Sleep Tight</strong></strong><a href="https://www.rottentomatoes.com/m/sleep_tight" target="_blank"><img src="img/movies/SleepTight.jpg" width=175></a></li>
 
-  <li data-Tags="Crime, Drama, Plot Twist, MindFuck, Thriller, Fucked Up"><strong>The Killing of a Sacred Deer</strong><a href="https://www.rottentomatoes.com/m/the_killing_of_a_sacred_deer" target="_blank"><img src="img/movies/TheKillingOfASacredDeer.jpg" width=115></a></li>
+  <li data-Filters=""><strong>The Endless</strong></strong><a href="https://www.rottentomatoes.com/m/the_endless" target="_blank"><img src="img/movies/TheEndless.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Women Talking</strong></strong><a href="https://www.rottentomatoes.com/m/women_talking" target="_blank"><img src="img/movies/WomenTalking.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Barbie</strong></strong><a href="https://www.rottentomatoes.com/m/barbie" target="_blank"><img src="img/movies/Barbie.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Sick Of Myself</strong></strong><a href="https://www.rottentomatoes.com/m/sick_of_myself" target="_blank"><img src="img/movies/SickOfMyself.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Ad Astra</strong></strong><a href="https://www.rottentomatoes.com/m/ad_astra" target="_blank"><img src="img/movies/AdAstra.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Anatomy of a Fall</strong></strong><a href="https://www.rottentomatoes.com/m/anatomy_of_a_fall" target="_blank"><img src="img/movies/AnatomyOfAFall.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Saint Maud</strong></strong><a href="https://www.rottentomatoes.com/m/saint_maud" target="_blank"><img src="img/movies/SaintMaud.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Beau Is Afraid</strong></strong><a href="https://www.rottentomatoes.com/m/beau_is_afraid" target="_blank"><img src="img/movies/BeauIsAfraid.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Synchronic</strong></strong><a href="https://www.rottentomatoes.com/m/synchronic" target="_blank"><img src="img/movies/Synchronic.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Talk To Me</strong></strong><a href="https://www.rottentomatoes.com/m/talk_to_me_2023" target="_blank"><img src="img/movies/TalkToMe.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Seven Psychopaths</strong></strong><a href="https://www.rottentomatoes.com/m/seven_psychopaths" target="_blank"><img src="img/movies/SevenPsychopaths.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>Skin</strong></strong><a href="https://www.rottentomatoes.com/m/skin" target="_blank"><img src="img/movies/Skin.jpg" width=175></a></li>
+
+  <li data-Filters=""><strong>The Whale</strong></strong><a href="https://www.rottentomatoes.com/m/the_whale_2022" target="_blank"><img src="img/movies/TheWhale.jpg" width=175></a></li>
+
+  <li data-Filters="F**ked Up"><strong>The House That Jack Built</strong></strong><a href="https://www.rottentomatoes.com/m/the_house_that_jack_built_2018" target="_blank"><img src="img/movies/TheHouseThatJackBuilt.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Historical, Drama, F**ked Up, Depressing, True Story"><strong>12 Years A Slave</strong></strong><a href="https://www.rottentomatoes.com/m/12_years_a_slave" target="_blank"><img src="img/movies/12YearsASlave.jpg" width=175></a></li>
+
+  <li data-Filters="Apocalypse, Thriller, Horror, Plot Twist"><strong>28 Days Later</strong></strong><a href="https://www.rottentomatoes.com/m/28_days_later" target="_blank"><img src="img/movies/28DaysLater.jpg" width=175></a></li>
+
+  <li data-Filters="Drama, Historical, Biopic"><strong>Amadeus</strong></strong><a href="https://www.rottentomatoes.com/m/amadeus" target="_blank"><img src="img/movies/Amadeus.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Crime, Drama, F**ked Up, Prison"><strong>American History X</strong></strong><a href="https://www.rottentomatoes.com/m/american_history_x" target="_blank"><img src="img/movies/AmericanHistoryX.jpg" width=175></a></li>
+
+  <li data-Filters="Comedy, Foreign, Aesthetic, Feel Good"><strong>Amélie</strong></strong><a href="https://www.rottentomatoes.com/m/amelie" target="_blank"><img src="img/movies/Amelie.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Dark, Drama, Comedy, Plot Twist, Thriller, Cerebral"><strong>American Beauty</strong></strong><a href="https://www.rottentomatoes.com/m/american_beauty" target="_blank"><img src="img/movies/AmericanBeauty.jpg" width=175></a></li>
+
+  <li data-Filters="Psychological, Horror, Thriller, F**ked Up, Plot Twist"><strong>American Psycho</strong><a href="https://www.rottentomatoes.com/m/american_psycho" target="_blank"><img src="img/movies/AmericanPsycho.jpg" width=175></a></li>
+
+  <li data-Filters="Sci-Fi, Cerebral, Horror, Thriller, Cerebral"><strong>Annihilation</strong></strong><a href="https://www.rottentomatoes.com/m/annihilation" target="_blank"><img src="img/movies/Annihilation.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, Drama, Historical, Thriller, True Story"><strong>Argo</strong></strong><a href="https://www.rottentomatoes.com/m/argo_2012" target="_blank"><img src="img/movies/Argo.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Sci-Fi, Cerebral, Drama, Aliens, Plot Twist, MindF**k, Aesthetic, Cerebral"><strong>Arrival</strong></strong><a href="https://www.rottentomatoes.com/m/arrival_2016" target="_blank"><img src="img/movies/Arrival.jpg" width=175></a></li>
+
+  <li data-Filters="Anthology, Comedy, Hilarious, Western, Aesthetic"><strong>The Ballad Of Buster Scruggs</strong></strong><a href="https://www.rottentomatoes.com/m/the_ballad_of_buster_scruggs" target="_blank"><img src="img/movies/TheBalladOfBusterScruggs.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, War, Drama, F**ked Up, Depressing"><strong>Beasts Of No Nation</strong><a href="https://www.rottentomatoes.com/m/beasts_of_no_nation" target="_blank"><img src="img/movies/BeastsOfNoNation.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Hilarious, Comedy, Feel Good"><strong>The Big Lebowski</strong></strong><a href="https://www.rottentomatoes.com/m/the_big_lebowski" target="_blank"><img src="img/movies/TheBigLebowski.jpg" width=175></a></li>
+
+  <li data-Filters="Sci-Fi, Thriller, Horror, Drama, Apocalypse"><strong>Bird Box</strong><a href="https://www.rottentomatoes.com/m/bird_box" target="_blank"><img src="img/movies/BirdBox.jpg" width=175></a></li>
+
+  <li data-Filters="Dark, Comedy, Cerebral, Drama"><strong>Birdman Or (The Unexpected Virtue Of Ignorance)</strong></strong><a href="https://www.rottentomatoes.com/m/birdman" target="_blank"><img src="img/movies/Birdman.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Crime, Biopic, Comedy, Thriller, True Story"><strong>Blackkklansman</strong></strong><a href="https://www.rottentomatoes.com/m/blackkklansman" target="_blank"><img src="img/movies/Blackkklansman.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Crime, Biopic, True Story, Drama, Thriller"><strong>Black Mass</strong></strong><a href="https://www.rottentomatoes.com/m/black_mass_2015" target="_blank"><img src="img/movies/BlackMass.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Drama, Thriller, Psychological, MindF**k, Cerebral"><strong>Black Swan</strong></strong><a href="https://www.rottentomatoes.com/m/black_swan_2010" target="_blank"><img src="img/movies/BlackSwan.jpg" width=175></a></li>  
+
+  <li data-Filters="Foreign, Drama, Crime"><strong>City Of God</strong></strong><a href="https://www.rottentomatoes.com/m/city_of_god" target="_blank"><img src="img/movies/CityOfGod.jpg" width=175></a></li>
+
+  <li data-Filters="Horror, Thriller, Aliens, Sci-Fi"><strong>Cloverfield</strong><a href="https://www.rottentomatoes.com/m/cloverfield" target="_blank"><img src="img/movies/Cloverfield.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Cerebral, Drama, Sci-Fi, Thriller, MindF**k, Plot Twist, Cerebral"><strong>Coherence</strong></strong><a href="https://www.rottentomatoes.com/m/coherence_2013" target="_blank"><img src="img/movies/Coherence.jpg" width=175></a></li>
+
+  <li data-Filters="Drama, Crime, Thriller, F**ked Up, Plot Twist, Depressing"><strong>Crash</strong></strong><a href="https://www.rottentomatoes.com/m/1144992-crash" target="_blank"><img src="img/movies/Crash.jpg" width=175></a></li>
+
+  <li data-Filters="Drama, Depressing, True Story, Biopic"><strong>Dallas Buyer's Club</strong><a href="https://www.rottentomatoes.com/m/dallas_buyers_club_2013" target="_blank"><img src="img/movies/DallasBuyersClub.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Crime, Drama, Thriller, Plot Twist, Cerebral"><strong>The Departed</strong></strong><a href="https://www.rottentomatoes.com/m/departed" target="_blank"><img src="img/movies/TheDeparted.jpg" width=175></a></li>
+
+  <li data-Filters="Dark, Comedy, Drama, Plot Twist"><strong>The Details</strong></strong><a href="https://www.rottentomatoes.com/m/the_details_2010" target="_blank"><img src="img/movies/TheDetails.jpg" width=175></a></li>
+
+  <li data-Filters="Thriller, Sci-Fi, Comedy, Dystopian, Aliens"><strong>District 9</strong></strong><a href="https://www.rottentomatoes.com/m/district_9" target="_blank"><img src="img/movies/District9.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, Drama, F**ked Up, Dark, Western, Comedy"><strong>Django Unchained</strong></strong><a href="https://www.rottentomatoes.com/m/django_unchained_2012" target="_blank"><img src="img/movies/DjangoUnchained.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Thriller, Drama, MindF**k, Plot Twist, Psychological, Cerebral"><strong>Enemy</strong></strong><a href="https://www.rottentomatoes.com/m/enemy_2013" target="_blank"><img src="img/movies/Enemy.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, Sci-Fi, Drama, Comedy, Cerebral"><strong>Eternal Sunshine of the Spotless Mind</strong><a href="https://www.rottentomatoes.com/m/eternal_sunshine_of_the_spotless_mind" target="_blank"><img src="img/movies/EternalSunshineOfTheSpotlessMind.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Sci-Fi, Cerebral, MindF**k, Aesthetic, Drama, Thriller"><strong>Ex Machina</strong><a href="https://www.rottentomatoes.com/m/ex_machina" target="_blank"><img src="img/movies/ExMachina.jpg" width=175></a></li>
+
+  <li data-Filters="Thriller, Drama, Cerebral, Psychological"><strong>Eyes Wide Shut</strong></strong><a href="https://www.rottentomatoes.com/m/eyes_wide_shut" target="_blank"><img src="img/movies/EyesWideShut.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, Crime, Drama, Thriller, Comedy, Dark"><strong>Fargo</strong><a href="https://www.rottentomatoes.com/m/fargo" target="_blank"><img src="img/movies/Fargo.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Comedy, Historical, Hilarious"><strong>The Favourite</strong></strong><a href="https://www.rottentomatoes.com/m/the_favourite_2018" target="_blank"><img src="img/movies/TheFavourite.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, Thriller, Drama, Psychological, Plot Twist, F**ked Up, Dark, MindF**k, Cerebral"><strong>Fight Club</strong><a href="https://www.rottentomatoes.com/m/fight_club" target="_blank"><img src="img/movies/FightClub.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Drama, Comedy, Depressing"><strong>The Florida Project</strong></strong><a href="https://www.rottentomatoes.com/m/the_florida_project" target="_blank"><img src="img/movies/TheFloridaProject.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Thriller, Drama, Comedy, F**ked Up, Plot Twist, Dark, MindF**k, Cerebral"><strong>Get Out</strong><a href="https://www.rottentomatoes.com/m/get_out" target="_blank"><img src="img/movies/GetOut.jpg" width=175></a></li>
+
+  <li data-Filters="Drama"><strong>Girl, Interrupted</strong></strong><a href="https://www.rottentomatoes.com/m/girl_interrupted" target="_blank"><img src="img/movies/GirlInterrupted.jpg" width=175></a></li>  
+
+  <li data-Filters="Historical, Drama"><strong>Gladiator</strong><a href="https://www.rottentomatoes.com/m/gladiator" target="_blank"><img src="img/movies/Gladiator.jpg" width=175></a></li>
+
+  <li data-Filters="Plot Twist, Thriller, Cerebral, Crime, Mystery"><strong>Gone Girl</strong></strong><a href="https://www.rottentomatoes.com/m/gone_girl" target="_blank"><img src="img/movies/GoneGirl.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, Hilarious, Comedy, Feel Good, Aesthetic"><strong>The Grand Budapest Hotel</strong><a href="https://www.rottentomatoes.com/m/gladiator" target="_blank"><img src="img/movies/TheGrandBudapestHotel.jpg" width=175></a></li>
+
+  <li data-Filters="Thriller, Drama, Crime"><strong>Gran Torino</strong></strong><a href="https://www.rottentomatoes.com/m/gran_torino" target="_blank"><img src="img/movies/GranTorino.jpg" width=175></a></li>  
+
+<!--   <li data-Filters="* REX MUST WATCH *, Drama, Historical, Comedy, Depressing"><strong>Green Book</strong><a href="https://www.rottentomatoes.com/m/green_book" target="_blank"><img src="img/movies/GreenBook.jpg" width=175></a></li> -->
+
+  <li data-Filters="Horror, Thriller, Crime"><strong>Green Room</strong><a href="https://www.rottentomatoes.com/m/green_room_2016" target="_blank"><img src="img/movies/GreenRoom.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Crime, Thriller, Plot Twist"><strong>Goodfellas</strong></strong><a href="https://www.rottentomatoes.com/m/goodfellas" target="_blank"><img src="img/movies/Goodfellas.jpg" width=175></a></li>
+
+  <li data-Filters="Crime, Thriller, Drama"><strong>Good Time</strong></strong><a href="https://www.rottentomatoes.com/m/good_time" target="_blank"><img src="img/movies/GoodTime.jpg" width=175></a></li>
+
+  <li data-Filters="Thriller, Comedy, Dark, Western, Drama, Plot Twist"><strong>The Hateful Eight</strong></strong><a href="https://www.rottentomatoes.com/m/the_hateful_eight" target="_blank"><img src="img/movies/TheHatefulEight.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, War, Thriller, Drama"><strong>The Hurt Locker</strong><a href="https://www.rottentomatoes.com/m/the_hurt_locker" target="_blank"><img src="img/movies/TheHurtLocker.jpg" width=175></a></li>
+
+  <li data-Filters="Comedy, Dark, Thriller, Drama, Crime"><strong>I Don't Feel At Home In This World Anymore</strong></strong><a href="https://www.rottentomatoes.com/m/i_dont_feel_at_home_in_this_world_anymore" target="_blank"><img src="img/movies/IDontFeelAtHomeInThisWorldAnymore.jpg" width=175></a></li>  
+
+  <!-- <li data-Filters="Funny As Fuck, Comedy, Cerebral, Feel Good"><strong>I Heart Huckabees</strong></strong><a href="https://www.rottentomatoes.com/m/i_heart_huckabees" target="_blank"><img src="img/movies/IHeartHuckabees.jpg" width=175></a></li>   -->
+
+  <li data-Filters="Comedy, Crime, Drama"><strong>In Bruges</strong></strong><a href="https://www.rottentomatoes.com/m/in_bruges" target="_blank"><img src="img/movies/InBruges.jpg" width=175></a></li>  
+
+  <li data-Filters="Thriller, MindF**k, Cerebral, Drama, Plot Twist, Sci-Fi"><strong>Inception</strong><a href="https://www.rottentomatoes.com/m/inception" target="_blank"><img src="img/movies/Inception.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, War, Dark, Aesthetic, Comedy, Drama"><strong>Inglourious Basterds</strong><a href="https://www.rottentomatoes.com/m/inglourious_basterds" target="_blank"><img src="img/movies/IngloriousBasterds.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Space, Sci-Fi, Cerebral, Aesthetic, Drama"><strong>Interstellar</strong><a href="https://www.rottentomatoes.com/m/interstellar" target="_blank"><img src="img/movies/Interstellar.jpg" width=175></a></li>
+
+  <li data-Filters="Crime, True Story, Biopic, Drama, Comedy"><strong>I, Tonya</strong></strong><a href="https://www.rottentomatoes.com/m/i_tonya" target="_blank"><img src="img/movies/ITonya.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Cerebral, Dark, Drama, Comedy, Hilarious, Depressing, Animated"><strong>It's Such A Beautiful Day</strong><a href="https://www.rottentomatoes.com/m/its_such_a_beautiful_day" target="_blank"><img src="img/movies/ItsSuchABeautifulDay.jpg" width=175></a><span>genre: <i>Cerebral, Dark Humor, Animated</i></li>
+
+  <li data-Filters="War, Comedy, Depressing, Drama"><strong>Jojo Rabbit</strong><a href="https://www.rottentomatoes.com/m/jojo_rabbit" target="_blank"><img src="img/movies/JojoRabbit.jpg" width=175></a></li>
+
+  <li data-Filters="Thriller, Drama, Crime, F**ked Up, Psychological"><strong>Joker</strong></strong><a href="https://www.rottentomatoes.com/m/joker_2019" target="_blank"><img src="img/movies/Joker.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, Drama, F**ked Up, Crime, True Story"><strong>Judas and the Black Messiah</strong></strong><a href="https://www.rottentomatoes.com/m/judas_and_the_black_messiah" target="_blank"><img src="img/movies/JudasAndTheBlackMessiah.jpg" width=175></a></li>  
+
+  <li data-Filters="* REX MUST WATCH *, Crime, Thriller, Comedy, Dark, Hilarious"><strong>Kill Bill: Vol. 1</strong><a href="https://www.rottentomatoes.com/m/kill_bill_vol_1" target="_blank"><img src="img/movies/KillBillVol1.jpg" width=175></a></li>
+
+  <li data-Filters="* REX MUST WATCH *, Crime, Comedy, Thriller, Dark, Hilarious"><strong>Kill Bill: Vol. 2</strong><a href="https://www.rottentomatoes.com/m/kill_bill_vol_2" target="_blank"><img src="img/movies/KillBillVol2.jpg" width=175></a></li>
+
+  <li data-Filters="Crime, Drama, Plot Twist, MindF**k, Thriller, F**ked Up, Cerebral, Aesthetic"><strong>The Killing of a Sacred Deer</strong><a href="https://www.rottentomatoes.com/m/the_killing_of_a_sacred_deer" target="_blank"><img src="img/movies/TheKillingOfASacredDeer.jpg" width=175></a></li>
   
-  <li data-Tags="Crime, Comedy, Aesthetic, Drama"><strong>Knives Out</strong><a href="https://www.rottentomatoes.com/m/knives_out" target="_blank"><img src="img/movies/KnivesOut.jpg" width=115></a></li>
+  <li data-Filters="Crime, Comedy, Mystery, Aesthetic, Drama"><strong>Knives Out</strong><a href="https://www.rottentomatoes.com/m/knives_out" target="_blank"><img src="img/movies/KnivesOut.jpg" width=175></a></li>
  
-  <li data-Tags="* MR MUST WATCH *, Drama, Funny As Fuck"><strong>Lady Bird</strong></strong><a href="https://www.rottentomatoes.com/m/lady_bird" target="_blank"><img src="img/movies/LadyBird.jpg" width=115></a></li>  
+  <li data-Filters="* REX MUST WATCH *, Drama, Comedy, Hilarious"><strong>Lady Bird</strong></strong><a href="https://www.rottentomatoes.com/m/lady_bird" target="_blank"><img src="img/movies/LadyBird.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Thriller, Drama, Fucked Up"><strong>Léon: The Professional</strong></strong><a href="https://www.rottentomatoes.com/m/leon_the_professional" target="_blank"><img src="img/movies/LeonTheProfessional.jpg" width=115></a></li>  
+  <li data-Filters="* REX MUST WATCH *, Crime, Thriller, Drama"><strong>Léon: The Professional</strong></strong><a href="https://www.rottentomatoes.com/m/leon_the_professional" target="_blank"><img src="img/movies/LeonTheProfessional.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Comedy, Dark Humor, Sad As Hell"><strong>Little Miss Sunshine</strong><a href="https://www.rottentomatoes.com/m/little_miss_sunshine" target="_blank"><img src="img/movies/LittleMissSunshine.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama, Comedy, Dark, Depressing"><strong>Little Miss Sunshine</strong><a href="https://www.rottentomatoes.com/m/little_miss_sunshine" target="_blank"><img src="img/movies/LittleMissSunshine.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Historical, Thriller, Plot Twist, Foreign"><strong>The Lives Of Others</strong><a href="https://www.rottentomatoes.com/m/the_lives_of_others" target="_blank"><img src="img/movies/TheLivesOfOthers.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama, Historical, Thriller, Plot Twist, Foreign"><strong>The Lives Of Others</strong><a href="https://www.rottentomatoes.com/m/the_lives_of_others" target="_blank"><img src="img/movies/TheLivesOfOthers.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller"><strong>Logan</strong></strong><a href="https://www.rottentomatoes.com/m/logan_2017" target="_blank"><img src="img/movies/Logan.jpg" width=115></a></li>  
+  <li data-Filters="Thriller"><strong>Logan</strong></strong><a href="https://www.rottentomatoes.com/m/logan_2017" target="_blank"><img src="img/movies/Logan.jpg" width=175></a></li>  
 
-  <!-- <li data-Tags="Apocalypse, Thriller, Fucked Up"><strong>Mad Max: Fury Road</strong></strong><a href="https://www.rottentomatoes.com/m/mad_max_fury_road" target="_blank"><img src="img/movies/MadMaxFuryRoad.jpg" width=115></a></li>   -->
+  <li data-Filters="Apocalypse, Thriller, Aesthetic"><strong>Mad Max: Fury Road</strong></strong><a href="https://www.rottentomatoes.com/m/mad_max_fury_road" target="_blank"><img src="img/movies/MadMaxFuryRoad.jpg" width=175></a></li>  
 
-  <li data-Tags="Cerebral, Sci-Fi, Thriller, Plot Twist"><strong>The Matrix</strong></strong><a href="https://www.rottentomatoes.com/m/matrix" target="_blank"><img src="img/movies/TheMatrix.jpg" width=115></a></li>
+  <li data-Filters="Cerebral, Sci-Fi, Thriller, Plot Twist"><strong>The Matrix</strong></strong><a href="https://www.rottentomatoes.com/m/matrix" target="_blank"><img src="img/movies/TheMatrix.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Crime, Thriller, MindFuck, Plot Twist"><strong>Memento</strong></strong><a href="https://www.rottentomatoes.com/m/memento" target="_blank"><img src="img/movies/Memento.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama, Crime, Thriller, MindF**k, Plot Twist, Cerebral"><strong>Memento</strong></strong><a href="https://www.rottentomatoes.com/m/memento" target="_blank"><img src="img/movies/Memento.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Dystopian, Sci-Fi, Plot Twist"><strong>Minority Report</strong></strong><a href="https://www.rottentomatoes.com/m/minority_report" target="_blank"><img src="img/movies/MinorityReport.jpg" width=115></a></li>  
+  <li data-Filters="Thriller, Dystopian, Sci-Fi, Plot Twist"><strong>Minority Report</strong></strong><a href="https://www.rottentomatoes.com/m/minority_report" target="_blank"><img src="img/movies/MinorityReport.jpg" width=175></a></li>  
 
-  <li data-Tags="Drama, Crime, Badass Women"><strong>Molly's Game</strong></strong><a href="https://www.rottentomatoes.com/m/mollys_game" target="_blank"><img src="img/movies/MollysGame.jpg" width=115></a></li>
+  <li data-Filters="Drama, Crime, Biopic, True Story"><strong>Molly's Game</strong></strong><a href="https://www.rottentomatoes.com/m/mollys_game" target="_blank"><img src="img/movies/MollysGame.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Drama, Crime, Fucked Up, Psychological"><strong>Monster</strong></strong><a href="https://www.rottentomatoes.com/m/monster" target="_blank"><img src="img/movies/Monster.jpg" width=115></a></li>  
+  <li data-Filters="Thriller, Drama, Crime, True Story, Biopics, Psychological"><strong>Monster</strong></strong><a href="https://www.rottentomatoes.com/m/monster" target="_blank"><img src="img/movies/Monster.jpg" width=175></a></li>  
 
-  <li data-Tags="Cerebral, Sci-Fi, Space, Drama, Aesthetic, Plot Twist, MindFuck"><strong>Moon</strong></strong><a href="https://www.rottentomatoes.com/m/moon" target="_blank"><img src="img/movies/Moon.jpg" width=115></a></li>
+  <li data-Filters="Cerebral, Sci-Fi, Space, Drama, Aesthetic, Plot Twist, MindF**k"><strong>Moon</strong></strong><a href="https://www.rottentomatoes.com/m/moon" target="_blank"><img src="img/movies/Moon.jpg" width=175></a></li>
 
-  <li data-Tags="Drama"><strong>Moonlight</strong></strong><a href="https://www.rottentomatoes.com/m/moonlight" target="_blank"><img src="img/movies/Moonlight.jpg" width=115></a></li>  
+  <li data-Filters="Drama"><strong>Moonlight</strong></strong><a href="https://www.rottentomatoes.com/m/moonlight" target="_blank"><img src="img/movies/Moonlight.jpg" width=175></a></li>  
 
-  <li data-Tags="Cerebral, Thriller, Horror, Aesthetic, Plot Twist, MindFuck"><strong>mother!</strong></strong><a href="https://www.rottentomatoes.com/m/=mother_2017" target="_blank"><img src="img/movies/Mother!.jpg" width=115></a></li>
+  <li data-Filters="Cerebral, Thriller, Horror, Aesthetic, Plot Twist, MindF**k"><strong>mother!</strong></strong><a href="https://www.rottentomatoes.com/m/=mother_2017" target="_blank"><img src="img/movies/Mother!.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Sad As Hell, Historical"><strong>Mudbound</strong></strong><a href="https://www.rottentomatoes.com/m/mudbound" target="_blank"><img src="img/movies/Mudbound.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama, Depressing, Historical"><strong>Mudbound</strong></strong><a href="https://www.rottentomatoes.com/m/mudbound" target="_blank"><img src="img/movies/Mudbound.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Drama, MindFuck, Plot Twist"><strong>Mulholland Dr.</strong></strong><a href="https://www.rottentomatoes.com/m/mulholland_dr" target="_blank"><img src="img/movies/MulhollandDrive.jpg" width=115></a></li>  
+  <li data-Filters="Thriller, Drama, MindF**k, Plot Twist, Cerebral, Mystery"><strong>Mulholland Dr.</strong></strong><a href="https://www.rottentomatoes.com/m/mulholland_dr" target="_blank"><img src="img/movies/MulhollandDrive.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Fucked Up, Plot Twist, Psychological, Crime, Drama"><strong>Nightcrawler</strong></strong><a href="https://www.rottentomatoes.com/m/nightcrawler" target="_blank"><img src="img/movies/Nightcrawler.jpg" width=115></a></li>  
+  <li data-Filters="* REX MUST WATCH *, Thriller, F**ked Up, Plot Twist, Psychological, Crime, Drama"><strong>Nightcrawler</strong></strong><a href="https://www.rottentomatoes.com/m/nightcrawler" target="_blank"><img src="img/movies/Nightcrawler.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Drama, Fucked Up, Thriller"><strong>No Country For Old Men</strong><a href="https://www.rottentomatoes.com/m/no_country_for_old_men" target="_blank"><img src="img/movies/NoCountryforOldMen.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Crime, Drama, F**ked Up, Thriller"><strong>No Country For Old Men</strong><a href="https://www.rottentomatoes.com/m/no_country_for_old_men" target="_blank"><img src="img/movies/NoCountryforOldMen.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Drama, Thriller, MindFuck, Cerebral, Fucked Up, Aesthetic"><strong>Nocturnal Animals</strong></strong><a href="https://www.rottentomatoes.com/m/nocturnal_animals" target="_blank"><img src="img/movies/NocturnalAnimals.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Crime, Drama, Thriller, MindF**k, Cerebral, F**ked Up, Aesthetic"><strong>Nocturnal Animals</strong></strong><a href="https://www.rottentomatoes.com/m/nocturnal_animals" target="_blank"><img src="img/movies/NocturnalAnimals.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama"><strong>Nomadland</strong></strong><a href="https://www.rottentomatoes.com/m/nomadland" target="_blank"><img src="img/movies/Nomadland.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama"><strong>Nomadland</strong></strong><a href="https://www.rottentomatoes.com/m/nomadland" target="_blank"><img src="img/movies/Nomadland.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Fucked Up, MindFuck, Foreign, Plot Twist, Drama"><strong>Oldboy</strong></strong><a href="https://www.rottentomatoes.com/m/oldboy" target="_blank"><img src="img/movies/Oldboy.jpg" width=115></a>
+  <li data-Filters="* REX MUST WATCH *, Thriller, F**ked Up, MindF**k, Foreign, Plot Twist, Drama"><strong>Oldboy</strong></strong><a href="https://www.rottentomatoes.com/m/oldboy" target="_blank"><img src="img/movies/Oldboy.jpg" width=175></a>
 
-  <li data-Tags="Thriller, Comedy, Plot Twist"><strong>Once Upon A Time... In Hollywood</strong><a href="https://www.rottentomatoes.com/m/once_upon_a_time_in_hollywood" target="_blank"><img src="img/movies/OnceUponATimeInHollywood.jpg" width=115></a></li>
+  <li data-Filters="Thriller, Comedy, Plot Twist"><strong>Once Upon A Time... In Hollywood</strong><a href="https://www.rottentomatoes.com/m/once_upon_a_time_in_hollywood" target="_blank"><img src="img/movies/OnceUponATimeInHollywood.jpg" width=175></a></li>
 
-  <li data-Tags="Drama"><strong>One Flew Over the Cuckoo's Nest</strong></strong><a href="https://www.rottentomatoes.com/m/one_flew_over_the_cuckoos_nest" target="_blank"><img src="img/movies/OneFlewOverTheCuckoosNest.jpg" width=115></a>
+  <li data-Filters="Drama"><strong>One Flew Over the Cuckoo's Nest</strong></strong><a href="https://www.rottentomatoes.com/m/one_flew_over_the_cuckoos_nest" target="_blank"><img src="img/movies/OneFlewOverTheCuckoosNest.jpg" width=175></a>
 
-  <li data-Tags="War, Drama, Fanstasy, Foreign"><strong>Pan's Labyrinth</strong></strong><a href="https://www.rottentomatoes.com/m/pans_labyrinth" target="_blank"><img src="img/movies/PansLabyrinth.jpg" width=115></a></li>  
+  <li data-Filters="War, Drama, Fanstasy, Foreign"><strong>Pan's Labyrinth</strong></strong><a href="https://www.rottentomatoes.com/m/pans_labyrinth" target="_blank"><img src="img/movies/PansLabyrinth.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Drama, Plot Twist, Fucked Up, MindFuck, Dark Humor, Aesthetic, Foreign"><strong>Parasite</strong></strong><a href="https://www.rottentomatoes.com/m/parasite_2019" target="_blank"><img src="img/movies/Parasite.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Thriller, Drama, Plot Twist, F**ked Up, MindF**k, Dark Humor, Aesthetic, Foreign"><strong>Parasite</strong></strong><a href="https://www.rottentomatoes.com/m/parasite_2019" target="_blank"><img src="img/movies/Parasite.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Historical, WWII, Fucked Up, Sad As Hell, Drama"><strong>The Pianist</strong></strong><a href="https://www.rottentomatoes.com/m/pianist" target="_blank"><img src="img/movies/ThePianist.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Historical, WWII, F**ked Up, Sad As Hell, Drama"><strong>The Pianist</strong></strong><a href="https://www.rottentomatoes.com/m/pianist" target="_blank"><img src="img/movies/ThePianist.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Sci-Fi, Cerebral, Drama, Plot Twist, Thriller, MindFuck"><strong>The Prestige</strong></strong><a href="https://www.rottentomatoes.com/m/prestige" target="_blank"><img src="img/movies/ThePrestige.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Sci-Fi, Cerebral, Drama, Plot Twist, Thriller, MindF**k"><strong>The Prestige</strong></strong><a href="https://www.rottentomatoes.com/m/prestige" target="_blank"><img src="img/movies/ThePrestige.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Thriller, Psychological, Fucked Up, Plot Twist"><strong>Prisoners</strong></strong><a href="https://www.rottentomatoes.com/m/prisoners_2013" target="_blank"><img src="img/movies/Prisoners.jpg" width=115></a></li>  
+  <li data-Filters="* REX MUST WATCH *, Drama, Thriller, Psychological, F**ked Up, Plot Twist"><strong>Prisoners</strong></strong><a href="https://www.rottentomatoes.com/m/prisoners_2013" target="_blank"><img src="img/movies/Prisoners.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Fucked Up"><strong>Promising Young Woman</strong></strong><a href="https://www.rottentomatoes.com/m/promising_young_woman" target="_blank"><img src="img/movies/PromisingYoungWoman.jpg" width=115></a></li>  
+  <li data-Filters="* REX MUST WATCH *, Thriller, F**ked Up"><strong>Promising Young Woman</strong></strong><a href="https://www.rottentomatoes.com/m/promising_young_woman" target="_blank"><img src="img/movies/PromisingYoungWoman.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Comedy, Dark Humor, Thriller"><strong>Pulp Fiction</strong></strong><a href="https://www.rottentomatoes.com/m/pulp_fiction" target="_blank"><img src="img/movies/PulpFiction.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Crime, Comedy, Dark Humor, Thriller"><strong>Pulp Fiction</strong></strong><a href="https://www.rottentomatoes.com/m/pulp_fiction" target="_blank"><img src="img/movies/PulpFiction.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Sci-Fi, Thriller, Horror"><strong>A Quiet Place</strong></strong><a href="https://www.rottentomatoes.com/m/a_quiet_place_2018" target="_blank"><img src="img/movies/AQuietPlace.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Sci-Fi, Thriller, Horror"><strong>A Quiet Place</strong></strong><a href="https://www.rottentomatoes.com/m/a_quiet_place_2018" target="_blank"><img src="img/movies/AQuietPlace.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Horror, Fucked Up, MindFuck, Plot Twist"><strong>Raw</strong></strong><a href="https://www.rottentomatoes.com/m/raw_2017" target="_blank"><img src="img/movies/Raw.jpg" width=115></a></li>  
+  <li data-Filters="Thriller, Horror, F**ked Up, MindF**k, Plot Twist"><strong>Raw</strong></strong><a href="https://www.rottentomatoes.com/m/raw_2017" target="_blank"><img src="img/movies/Raw.jpg" width=175></a></li>  
 
-  <li data-Tags="Horror, Dark Humor, Thriller"><strong>Ready Or Not</strong></strong><a href="https://www.rottentomatoes.com/m/ready_or_not_2019" target="_blank"><img src="img/movies/ReadyOrNot.jpg" width=115></a></li>  
+  <li data-Filters="Horror, Dark Humor, Thriller"><strong>Ready Or Not</strong></strong><a href="https://www.rottentomatoes.com/m/ready_or_not_2019" target="_blank"><img src="img/movies/ReadyOrNot.jpg" width=175></a></li>  
 
-  <li data-Tags="Crime, Comedy, Drama, Thriller"><strong>Reservoir Dogs</strong></strong><a href="https://www.rottentomatoes.com/m/reservoir_dogs" target="_blank"><img src="img/movies/ReservoirDogs.jpg" width=115></a></li>
+  <li data-Filters="Crime, Comedy, Drama, Thriller"><strong>Reservoir Dogs</strong></strong><a href="https://www.rottentomatoes.com/m/reservoir_dogs" target="_blank"><img src="img/movies/ReservoirDogs.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Drama, Sad As Hell, Fucked Up"><strong>Requiem For A Dream</strong></strong><a href="https://www.rottentomatoes.com/m/requiem_for_a_dream" target="_blank"><img src="img/movies/RequiemForADream.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Thriller, Drama, Sad As Hell, F**ked Up"><strong>Requiem For A Dream</strong></strong><a href="https://www.rottentomatoes.com/m/requiem_for_a_dream" target="_blank"><img src="img/movies/RequiemForADream.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Apocalypse, Sci-Fi, Drama"><strong>The Road</strong></strong><a href="https://www.rottentomatoes.com/m/the_road_2009" target="_blank"><img src="img/movies/TheRoad.jpg" width=115></a></li>  
+  <li data-Filters="Thriller, Apocalypse, Sci-Fi, Drama"><strong>The Road</strong></strong><a href="https://www.rottentomatoes.com/m/the_road_2009" target="_blank"><img src="img/movies/TheRoad.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Thriller, Crime, Drama, Sad As Hell"><strong>Room</strong></strong><a href="https://www.rottentomatoes.com/m/room_2015" target="_blank"><img src="img/movies/Room.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Thriller, Crime, Drama, Sad As Hell"><strong>Room</strong></strong><a href="https://www.rottentomatoes.com/m/room_2015" target="_blank"><img src="img/movies/Room.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, WWII, Drama, Fucked Up, Historical, Sad As Hell"><strong>Schindler's List</strong></strong><a href="https://www.rottentomatoes.com/m/schindlers_list" target="_blank"><img src="img/movies/SchindlersList.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, WWII, Drama, F**ked Up, Historical, Sad As Hell"><strong>Schindler's List</strong></strong><a href="https://www.rottentomatoes.com/m/schindlers_list" target="_blank"><img src="img/movies/SchindlersList.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Thriller, MindFuck, Fucked Up, Plot Twist"><strong>Seven</strong></strong><a href="https://www.rottentomatoes.com/m/seven" target="_blank"><img src="img/movies/Seven.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Crime, Thriller, MindF**k, F**ked Up, Plot Twist"><strong>Seven</strong></strong><a href="https://www.rottentomatoes.com/m/seven" target="_blank"><img src="img/movies/Seven.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama"><strong>The Shawshank Redemption</strong></strong><a href="https://www.rottentomatoes.com/m/shawshank_redemption" target="_blank"><img src="img/movies/TheShawshankRedemption.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama"><strong>The Shawshank Redemption</strong></strong><a href="https://www.rottentomatoes.com/m/shawshank_redemption" target="_blank"><img src="img/movies/TheShawshankRedemption.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Horror, Thriller"><strong>The Shining</strong></strong><a href="https://www.rottentomatoes.com/m/shining" target="_blank"><img src="img/movies/TheShining.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Horror, Thriller"><strong>The Shining</strong></strong><a href="https://www.rottentomatoes.com/m/shining" target="_blank"><img src="img/movies/TheShining.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Drama, Psychological"><strong>Shutter Island</strong></strong><a href="https://www.rottentomatoes.com/m/1198124-shutter_island" target="_blank"><img src="img/movies/ShutterIsland.jpg" width=115></a></li>  
+  <li data-Filters="Thriller, Drama, Psychological"><strong>Shutter Island</strong></strong><a href="https://www.rottentomatoes.com/m/1198124-shutter_island" target="_blank"><img src="img/movies/ShutterIsland.jpg" width=175></a></li>  
 
-  <li data-Tags="Crime, Thriller, Drama, Badass Women"><strong>Sicario</strong></strong><a href="https://www.rottentomatoes.com/m/sicario_2015" target="_blank"><img src="img/movies/Sicario.jpg" width=115></a></li>
+  <li data-Filters="Crime, Thriller, Drama, Badass Women"><strong>Sicario</strong></strong><a href="https://www.rottentomatoes.com/m/sicario_2015" target="_blank"><img src="img/movies/Sicario.jpg" width=175></a></li>
 
-  <li data-Tags="Drama, Thriller, Plot Twist"><strong>Side Effects</strong></strong><a href="https://www.rottentomatoes.com/m/side_effects_2013" target="_blank"><img src="img/movies/SideEffects.jpg" width=115></a></li>
+  <li data-Filters="Drama, Thriller, Plot Twist"><strong>Side Effects</strong></strong><a href="https://www.rottentomatoes.com/m/side_effects_2013" target="_blank"><img src="img/movies/SideEffects.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Thriller, Fucked Up, Badass Women, Plot Twist"><strong>The Silence Of The Lambs</strong><a href="https://www.rottentomatoes.com/m/silence_of_the_lambs" target="_blank"><img src="img/movies/TheSilenceOfTheLambs.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Crime, Thriller, F**ked Up, Badass Women, Plot Twist"><strong>The Silence Of The Lambs</strong><a href="https://www.rottentomatoes.com/m/silence_of_the_lambs" target="_blank"><img src="img/movies/TheSilenceOfTheLambs.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Apocalypse, Sci-Fi"><strong>Snowpiercer</strong></strong><a href="https://www.rottentomatoes.com/m/snowpiercer" target="_blank"><img src="img/movies/Snowpiercer.jpg" width=115></a></li>  
+  <li data-Filters="Thriller, Apocalypse, Sci-Fi"><strong>Snowpiercer</strong></strong><a href="https://www.rottentomatoes.com/m/snowpiercer" target="_blank"><img src="img/movies/Snowpiercer.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Sad As Hell, Fucked Up, True Story"><strong>Spotlight</strong></strong><a href="https://www.rottentomatoes.com/m/spotlight_2015" target="_blank"><img src="img/movies/Spotlight.jpg" width=115></a></li>  
+  <li data-Filters="* REX MUST WATCH *, Drama, Sad As Hell, F**ked Up, True Story"><strong>Spotlight</strong></strong><a href="https://www.rottentomatoes.com/m/spotlight_2015" target="_blank"><img src="img/movies/Spotlight.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Sad As Hell"><strong>Still Alice</strong><a href="https://www.rottentomatoes.com/m/still_alice" target="_blank"><img src="img/movies/StillAlice.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama, Sad As Hell"><strong>Still Alice</strong><a href="https://www.rottentomatoes.com/m/still_alice" target="_blank"><img src="img/movies/StillAlice.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Fucked Up, Sad As Hell"><strong>The Tale</strong></strong><a href="https://www.rottentomatoes.com/m/the_tale" target="_blank"><img src="img/movies/TheTale.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama, F**ked Up, Sad As Hell"><strong>The Tale</strong></strong><a href="https://www.rottentomatoes.com/m/the_tale" target="_blank"><img src="img/movies/TheTale.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Comedy, Funny As Fuck, Plot Twist, Badass Women"><strong>Tangerine</strong></strong><a href="https://www.rottentomatoes.com/m/tangerine_2015" target="_blank"><img src="img/movies/Tangerine.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama, Comedy, Funny As Fuck, Plot Twist, Badass Women"><strong>Tangerine</strong></strong><a href="https://www.rottentomatoes.com/m/tangerine_2015" target="_blank"><img src="img/movies/Tangerine.jpg" width=175></a></li>
 
-  <li data-Tags="Crime, Comedy, Drama, Badass Women"><strong>Three Billboards Outside Ebbing Missouri</strong></strong><a href="https://www.rottentomatoes.com/m/three_billboards_outside_ebbing_missouri" target="_blank"><img src="img/movies/ThreeBillboardsOutsideEbbingMissouri.jpg" width=115></a></li>  
+  <li data-Filters="Crime, Comedy, Drama, Badass Women"><strong>Three Billboards Outside Ebbing Missouri</strong></strong><a href="https://www.rottentomatoes.com/m/three_billboards_outside_ebbing_missouri" target="_blank"><img src="img/movies/ThreeBillboardsOutsideEbbingMissouri.jpg" width=175></a></li>  
 
-  <li data-Tags="Crime, Drama, Thriller, Fucked Up, Dark, Foreign"><strong>Titane</strong></strong><a href="https://www.rottentomatoes.com/m/titane" target="_blank"><img src="img/movies/Titane.jpg" width=115></a></li>  
+  <li data-Filters="Crime, Drama, Thriller, F**ked Up, Dark, Foreign"><strong>Titane</strong></strong><a href="https://www.rottentomatoes.com/m/titane" target="_blank"><img src="img/movies/Titane.jpg" width=175></a></li>  
   
-  <li data-Tags="Comedy, Drama, Fucked Up"><strong>Trainspotting</strong></strong><a href="https://www.rottentomatoes.com/m/trainspotting" target="_blank"><img src="img/movies/Trainspotting.jpg" width=115></a></li>  
+  <li data-Filters="Comedy, Drama, F**ked Up"><strong>Trainspotting</strong></strong><a href="https://www.rottentomatoes.com/m/trainspotting" target="_blank"><img src="img/movies/Trainspotting.jpg" width=175></a></li>  
 
-  <li data-Tags="Horror, Thriller, Apocalypse, Foreign"><strong>Train To Busan</strong></strong><a href="https://www.rottentomatoes.com/m/train_to_busan" target="_blank"><img src="img/movies/TrainToBusan.jpg" width=115></a></li>  
+  <li data-Filters="Horror, Thriller, Apocalypse, Foreign"><strong>Train To Busan</strong></strong><a href="https://www.rottentomatoes.com/m/train_to_busan" target="_blank"><img src="img/movies/TrainToBusan.jpg" width=175></a></li>  
 
-  <li data-Tags="* MR MUST WATCH *, Comedy, Drama, MindFuck"><strong>The Truman Show</strong><a href="https://www.rottentomatoes.com/m/truman_show" target="_blank"><img src="img/movies/TheTrumanShow.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Comedy, Drama, MindF**k"><strong>The Truman Show</strong><a href="https://www.rottentomatoes.com/m/truman_show" target="_blank"><img src="img/movies/TheTrumanShow.jpg" width=175></a></li>
 
-  <li data-Tags="Thriller, Dark Humor, MindFuck, Plot Twist, Horror"><strong>Us</strong><a href="https://www.rottentomatoes.com/m/us_2019" target="_blank"><img src="img/movies/Us.jpg" width=115></a></li>
+  <li data-Filters="Thriller, Dark Humor, MindF**k, Plot Twist, Horror"><strong>Us</strong><a href="https://www.rottentomatoes.com/m/us_2019" target="_blank"><img src="img/movies/Us.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Thriller, MindFuck, Plot Twist"><strong>The Usual Suspects</strong></strong><a href="https://www.rottentomatoes.com/m/usual_suspects" target="_blank"><img src="img/movies/TheUsualSuspects.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Crime, Thriller, MindF**k, Plot Twist"><strong>The Usual Suspects</strong></strong><a href="https://www.rottentomatoes.com/m/usual_suspects" target="_blank"><img src="img/movies/TheUsualSuspects.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Dystopian, Thriller, Fucked Up, Plot Twist, Drama"><strong>V for Vendetta</strong></strong><a href="https://www.rottentomatoes.com/m/v_for_vendetta" target="_blank"><img src="img/movies/VForVendetta.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Dystopian, Thriller, F**ked Up, Plot Twist, Drama"><strong>V for Vendetta</strong></strong><a href="https://www.rottentomatoes.com/m/v_for_vendetta" target="_blank"><img src="img/movies/VForVendetta.jpg" width=175></a></li>
 
-  <li data-Tags="Dark Humor, Comedy, Drama, Thriller, Fucked Up"><strong>The Voices</strong></strong><a href="https://www.rottentomatoes.com/m/the_voices" target="_blank"><img src="img/movies/TheVoices.jpg" width=115></a></li>
+  <li data-Filters="Dark Humor, Comedy, Drama, Thriller, F**ked Up"><strong>The Voices</strong></strong><a href="https://www.rottentomatoes.com/m/the_voices" target="_blank"><img src="img/movies/TheVoices.jpg" width=175></a></li>
 
-<!--   <li data-Tags="Funny As Fuck, Comedy, Drama, Dark Humor"><strong>Welcome To Me</strong></strong><a href="https://www.rottentomatoes.com/m/welcome_to_me" target="_blank"><img src="img/movies/WelcomeToMe.jpg" width=115></a></li> -->
-  <li data-Tags="* MR MUST WATCH *, Horrow, Thriller, Fucked Up, MindFuck, Plot Twist"><strong>The Wailing</strong></strong><a href="https://www.rottentomatoes.com/m/the_wailing" target="_blank"><img src="img/movies/TheWailing.jpg" width=115></a></li>
+<!--   <li data-Filters="Funny As Fuck, Comedy, Drama, Dark Humor"><strong>Welcome To Me</strong></strong><a href="https://www.rottentomatoes.com/m/welcome_to_me" target="_blank"><img src="img/movies/WelcomeToMe.jpg" width=175></a></li> -->
+  <li data-Filters="* REX MUST WATCH *, Horrow, Thriller, F**ked Up, MindF**k, Plot Twist"><strong>The Wailing</strong></strong><a href="https://www.rottentomatoes.com/m/the_wailing" target="_blank"><img src="img/movies/TheWailing.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Thriller, Fucked Up, MindFuck, Plot Twist"><strong>We Need To Talk About Kevin</strong></strong><a href="https://www.rottentomatoes.com/m/we_need_to_talk_about_kevin" target="_blank"><img src="img/movies/WeNeedToTalkAboutKevin.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama, Thriller, F**ked Up, MindF**k, Plot Twist"><strong>We Need To Talk About Kevin</strong></strong><a href="https://www.rottentomatoes.com/m/we_need_to_talk_about_kevin" target="_blank"><img src="img/movies/WeNeedToTalkAboutKevin.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama"><strong>Whiplash</strong></strong><a href="https://www.rottentomatoes.com/m/whiplash_2014" target="_blank"><img src="img/movies/Whiplash.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Drama"><strong>Whiplash</strong></strong><a href="https://www.rottentomatoes.com/m/whiplash_2014" target="_blank"><img src="img/movies/Whiplash.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Crime, Thriller, Fucked Up, Sad As Hell"><strong>Wind River</strong></strong><a href="https://www.rottentomatoes.com/m/wind_river_2017" target="_blank"><img src="img/movies/WindRiver.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Crime, Thriller, F**ked Up, Sad As Hell"><strong>Wind River</strong></strong><a href="https://www.rottentomatoes.com/m/wind_river_2017" target="_blank"><img src="img/movies/WindRiver.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Cerebral, Comedy, Sci-Fi, Animated, Short Film"><strong>World Of Tomorrow</strong></strong><a href="https://www.rottentomatoes.com/m/world_of_tomorrow_2015" target="_blank"><img src="img/movies/WorldOfTomorrow.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, Cerebral, Comedy, Sci-Fi, Animated, Short Film"><strong>World Of Tomorrow</strong></strong><a href="https://www.rottentomatoes.com/m/world_of_tomorrow_2015" target="_blank"><img src="img/movies/WorldOfTomorrow.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, War, Historical, Badass Women, Thriller"><strong>Zero Dark Thirty</strong></strong><a href="https://www.rottentomatoes.com/m/zero_dark_thirty" target="_blank"><img src="img/movies/ZeroDarkThirty.jpg" width=115></a></li>
+  <li data-Filters="* REX MUST WATCH *, War, Historical, Badass Women, Thriller"><strong>Zero Dark Thirty</strong></strong><a href="https://www.rottentomatoes.com/m/zero_dark_thirty" target="_blank"><img src="img/movies/ZeroDarkThirty.jpg" width=175></a></li>
 
-  <li data-Tags="* MR MUST WATCH *, Drama, Thriller, Psychological, Crime"><strong>Zodiac</strong></strong><a href="https://www.rottentomatoes.com/m/zodiac" target="_blank"><img src="img/movies/Zodiac.jpg" width=115></a></li>  
-
+  <li data-Filters="* REX MUST WATCH *, Drama, Thriller, Psychological, Crime"><strong>Zodiac</strong></strong><a href="https://www.rottentomatoes.com/m/zodiac" target="_blank"><img src="img/movies/Zodiac.jpg" width=175></a></li>  
 
 </ul>
+
+<script>
+var ul = document.querySelector('ul');
+for (var i = ul.children.length; i >= 0; i--) {
+    ul.appendChild(ul.children[Math.random() * i | 0]);
+}
+</script>
 
 </div>
 </div>

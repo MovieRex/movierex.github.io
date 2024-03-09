@@ -34,9 +34,9 @@ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: b
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+ul, ol { margin: 0 auto; padding: 0 0 0 40px; }
 dd { margin: 0 0 0 40px; }
-nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
+nav ul, nav ol { list-style: none; list-style-position: inside; list-style-image: none; margin: 0; padding: 0; }
 
 img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
 svg:not(:root) { overflow: hidden; }
@@ -83,6 +83,9 @@ a#fork img {
   top: 0; right: 0; 
   border: 0;
 }
+#isotope-container {
+   margin: 0 auto !important;
+}
 
 a { color: #1BA9D4; text-decoration: underline; cursor: pointer; }
 a:visited { color: #1BA9D4; }
@@ -96,7 +99,7 @@ div#header {
 }
 div#header > h1 {
   font: 300% BallparkWeiner, sans-serif;
-  text-shadow: rgba(0, 0, 0, 0.5) 0 0 1px;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 5px;
   margin: 0;
   padding: 0;
 }
@@ -125,16 +128,16 @@ div#header > iframe {
 #___plusone_0{ width:65px !important; }*/
 
 div#main {
-  background-color: grey;
-  border-top: 1px solid #DDD;
+  background-color: black;
+  border-top: 5px solid #DDD;
   box-shadow: inset white 0 1px, inset rgba(0, 0, 0, 0.5) 0 0 25px;
 }
 
 div#content {
-  max-width: 800px;
+  max-width: 2000px;
   margin: 0 auto;
   padding: 0 20px 300px 20px;
-  color: black;
+  color: white;
   text-shadow: none;
   font-size: 80%;
   min-height: 1000px;
@@ -154,9 +157,9 @@ div#content > div#browsers + h2 {
 
 div#content > h2 {
   font: italic bold 200% Georgia, serif;
-  margin-top: 60px;
+  margin-top: 30px;
   margin-bottom: 30px;
-  text-shadow: 0 -1px black, 0 -2px #222;
+  text-shadow: 0 -1px white, 0 -2px #222;
   text-shadow: rgba(0, 0, 0, 0.7) 0 -1px, rgba(0, 0, 0, 0.3) 0 -2px;
   padding-bottom: 10px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px, rgba(0, 0, 0, 0.01) 0 2px;
@@ -185,7 +188,7 @@ div#content pre:before {
 }
 
 div#content > ul > li {
-  margin: 10px 0;
+  margin: 0 auto;
 }
 
 div#content > h3 {
@@ -251,27 +254,40 @@ div#content.demo > pre.show > code {
 
 div#content.demo > div#placeHolder {
   margin-top: 5px;
+  text-align: center;
 }
 
+
+ul.container {
+  
+  display:inline-block;
+  text-align: center;
+    margin:0px auto 0px auto;
+}
+img {
+  /*border: 5px solid white;*/
+  filter: drop-shadow(-5px -5px 5px white);
+}
 div#content.demo > ul { 
   list-style: none; 
-  margin: 30px -10px;
+  margin: 0px auto;
   padding: 0;
 }
 /*background box*/
 div#content.demo > ul > li { 
   display: inline-block; 
   *display: inline; 
-  *zoom: 1; 
+  *zoom: 0; 
   background: #111111;
   background: rgba(0, 0, 0, 0);
   vertical-align: middle;
-  margin: 5px;
-  padding: 5px;
-  border-radius: 3px;
-  max-width: 113px;
-  font-size: 100%;
+  margin: 0px;
+  padding: 10px; /* padding between movies */
+  border-radius: 0px;
+  max-width: 250px;
+  font-size: 0%;
 }
+
 div#content.demo > ul > li > img {
   width: 113px;
   height: 168px;
@@ -335,7 +351,7 @@ div#content.demo > p + pre {
 
 }
 
-.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: center; direction: ltr; *line-height: 0; }
 .ir br { display: none; }
 .hidden { display: none !important; visibility: hidden; }
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }

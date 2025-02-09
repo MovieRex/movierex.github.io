@@ -14,13 +14,18 @@
 /* reset */
 ul.ft-menu,
 ul.ft-menu * { 
+  font: bold 100% Georgia, serif;
+  text-transform: uppercase;
+  text-shadow: 0 -1px white, 0 -2px #222;
+  text-shadow: rgba(0, 0, 0, 0.7) 0 -1px, rgba(0, 0, 0, 0.3) 0 -2px;
+  padding-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 1px, rgba(0, 0, 0, 0.01) 0 2px;
 	margin: 0; 
 	border: 0; 
 	padding: 0;
 	line-height: 1;
 	position: relative;
 	text-align: center;
-    font: normal normal 100% sans-serif;
 }
 
 
@@ -79,6 +84,8 @@ ul.ft-menu > li.ft-field > div.ft-panel {
 	margin-left: 0px;
 	z-index: 9999;
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+	font: normal normal 100% sans-serif;
+
 }
 ul.ft-menu > li.ft-field > div.ft-panel:before,
 ul.ft-menu > li.ft-field > div.ft-panel:after {
@@ -132,6 +139,7 @@ ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-selected > li {
 	-moz-box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
 	box-shadow: inset 0 0px 0 rgba(255,255,255,.1);
 	background: red;
+	font: normal normal 100% sans-serif;
 /*	background: #019AD2;
 	background: -webkit-linear-gradient(#33BCEF, #019AD2);
 	background: -moz-linear-gradient(#33BCEF, #019AD2);
@@ -172,6 +180,8 @@ ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags > li {
 	/*text-shadow: 0 0px 0 rgba(0, 0, 0, .5);*/
 	padding: 8px 35px 8px 15px;
 	cursor: pointer;
+	    font: normal normal 100% sans-serif;
+
 /*	background: #616975;
 	background: -webkit-linear-gradient(#727A86, #505864);
 	background: -moz-linear-gradient(#727A86, #505864);
@@ -200,6 +210,8 @@ ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags > li:after {
 	-moz-border-radius: 8px;
 	border-radius: 8px;
 	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, .26), 0px 1px 0px 0px rgba(255, 255, 255, .15);
+	    font: normal normal 100% sans-serif;
+
 }
 ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags > li.ft-highlight { 
 	border-bottom: 0px solid #103C56;
@@ -227,6 +239,8 @@ ul.ft-menu > li.ft-field > div.ft-panel > ul.ft-tags > li.ft-highlight:after {
 
 ul.ft-menu > li.ft-field > div.ft-panel > div.ft-mismatch {
     font-size:11px;
+        font: normal normal 100% sans-serif;
+
 	padding: 10px 15px;
 	color: white;
 	background: #555555;

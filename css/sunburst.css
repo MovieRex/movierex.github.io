@@ -64,9 +64,9 @@ pre .haskell .label,
 pre .smalltalk .class,
 pre .javadoctag,
 pre .yardoctag,
-pre .phpdoc {
+/*pre .phpdoc {
   text-decoration: underline;
-}
+}*/
 
 pre .symbol,
 pre .ruby .symbol .string,

@@ -20,7 +20,7 @@ jobs:
           
       - name: Install dependencies
         run: |
-          pip install numpy rottentomatoes
+          pip install numpy rottentomatoes-python
 
       - name: Scrape movie info
         run: python rt_scrape.py

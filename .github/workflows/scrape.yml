@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - "Movies.txt"
+    workflow_dispatch:
 
 jobs:
   run-script:

@@ -15,8 +15,9 @@ with open("index.html", "r") as f:
 
 movies = open(Movies_file,'r')
 for i,mov in enumerate(movies):
-	# mov = mov[:-1]
-	print(rt.tomatometer(mov))
+	print(mov)
+	
+	#print(rt.tomatometer(mov[:-1]))
 	movie = rt.Movie(mov[:-1])
 	genres = movie.genres
 	score = movie.tomatometer

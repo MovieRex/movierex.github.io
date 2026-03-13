@@ -1,4 +1,5 @@
 Unsane 2018
+The Prestige 2006
 The Kill Team 2019
 Watcher 2022
 Civil War 2024
@@ -31,8 +32,8 @@ Femme 2023
 Fresh Kills 2023
 Sinners 2025
 No Other Choice 2025
-Frindship 2024
-The White Tiger 2021
+Friendship 2024
+The White Tiger 2020
 The Cured 2017
 The Girl With All The Gifts 2016
 I Blame Society 2020
@@ -170,8 +171,8 @@ It's Such A Beautiful Day 2012
 Jojo Rabbit 2019
 Joker 2019
 Judas and the Black Messiah 2021
-Kill Bill: Volume 1 2003
-Kill Bill: Volume 2 2004
+Kill Bill: Vol. 1 2003
+Kill Bill: Vol. 2 2004
 The Killing of a Sacred Deer 2017
 Knives Out 2019
 Lady Bird 2017
@@ -201,7 +202,6 @@ The One I Love 2014
 Pan's Labyrinth 2006
 Parasite 2019
 The Pianist 2002
-The Prestige 2006
 Prisoners 2913
 Promising Young Woman 2020
 Pulp Fiction 1994

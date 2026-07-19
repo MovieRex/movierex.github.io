@@ -10,6 +10,7 @@ the template below costs nothing -- no re-scraping needed. Delete a key (or the
 whole file) to force a refresh of a movie.
 '''
 
+import hashlib
 import html
 import json
 import os
@@ -163,6 +164,25 @@ def render_chips(kind, movies, field, with_logos=False):
 	return out
 
 
+ASSETS = ("css/movierex.css", "js/movierex.js")
+
+
+def stamp_assets(contents):
+	'''
+	Appends a content hash to the css/js urls.
+
+	Without this, browsers keep serving a cached stylesheet or script after a
+	deploy -- and a stale script that references since-removed elements throws
+	on load, silently breaking the whole page.
+	'''
+	for path in ASSETS:
+		with open(path, "rb") as f:
+			digest = hashlib.sha1(f.read()).hexdigest()[:8]
+		pattern = re.escape(path) + r"(?:\?v=[0-9a-f]+)?"
+		contents = re.sub(pattern, path + "?v=" + digest, contents)
+	return contents
+
+
 def replace_region(contents, marker, body):
 	'''
 	Replaces everything between a pair of marker comments.
@@ -213,6 +233,7 @@ def main():
 	contents = replace_region(contents, "MOVIE_CARDS", cards)
 	contents = replace_region(contents, "GENRE_CHIPS", genres)
 	contents = replace_region(contents, "STREAMER_CHIPS", streamers)
+	contents = stamp_assets(contents)
 
 	with open(INDEX_FILE, "w") as f:
 		f.write(contents)

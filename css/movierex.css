@@ -440,7 +440,16 @@ main {
 	border: 1px solid var(--border-bright);
 	border-radius: 14px;
 	color: var(--text);
-	overflow: visible;
+	/* Clip to the rounded corners; .modal-body does the scrolling. */
+	overflow: hidden;
+	max-height: calc(100vh - 2rem);
+	max-height: calc(100dvh - 2rem);
+}
+
+/* Scoped to [open] so this never overrides the UA's display:none when closed. */
+.modal[open] {
+	display: flex;
+	flex-direction: column;
 }
 
 .modal::backdrop {
@@ -453,12 +462,19 @@ main {
 	grid-template-columns: 220px 1fr;
 	gap: 1.75rem;
 	padding: 1.75rem;
+	/* min-height:0 lets a flex child actually shrink and scroll. */
+	min-height: 0;
+	overflow-y: auto;
+	overscroll-behavior: contain;
+	-webkit-overflow-scrolling: touch;
 }
 
 .modal-close {
 	position: absolute;
 	top: 0.65rem;
 	right: 0.65rem;
+	/* Stays pinned above the scrolling body. */
+	z-index: 2;
 	width: 2rem;
 	height: 2rem;
 	display: grid;

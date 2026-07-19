@@ -1,132 +1,273 @@
+'''
+Scrapes movie info from Rotten Tomatoes for MovieRex. Written by Brooke Polak.
+
+The public entry point is scrape(title, year), which returns a plain dict of
+movie data (or raises MovieNotFound). Rendering lives in update_html.py, so the
+site template can change without re-scraping anything.
+'''
+
+import os
+import re
+import time
+import unicodedata
+import urllib.parse
+
 import requests
 from bs4 import BeautifulSoup
-import re
-import os
-import urllib.request
+from PIL import Image
 
-class Movie:
-    '''
-    Class that holds movie information scraped from rotten tomatoes
-    for MovieRex. Written by Brooke Polak.
-    '''
-    def __init__(self, title, year):
-        '''
-        Sets all the necessary class properties. also, if its a new movie, 
-        download a poster for the website.        
-        
-        :param self: what is self? who am i?
-        :param title: movie title
-        :param year: movie year -- must break degeneracies!
-        '''
-        
-        rt_url = 'https://www.rottentomatoes.com/m/'
-        
-        self.title = title
-        self.year = year
-        
-        movie_url_suffix = "_".join(self.title.lower().split(' '))
-        # Get rid of any punctuation in movie title
-        movie_url_suffix = re.sub(r'&','and',movie_url_suffix)
-        movie_url_suffix = re.sub(r'[^\w\s]', '', movie_url_suffix)
-        movie_url_suffix = self.replace_accents_with_ascii(movie_url_suffix)
-        
-        try:
-            self.movie_url = rt_url+movie_url_suffix+"_"+str(self.year)
-            page = requests.get(self.movie_url)
-            soup = BeautifulSoup(page.content, "html.parser")
-            # this will be none and throw an error if we cant include year
-            self.critics_score = soup.find('rt-text', {'slot':'critics-score'}).text
-        except AttributeError:
-            try:
-                self.movie_url = rt_url+movie_url_suffix
-                page = requests.get(self.movie_url)
-                soup = BeautifulSoup(page.content, "html.parser")
-                self.critics_score = soup.find('rt-text', {'slot':'critics-score'}).text
-            except AttributeError:
-                # If we STILLL cant find it! use the search function.
-                try:
-                    rt_search_url = "https://www.rottentomatoes.com/search?search="+re.sub('_','%20',movie_url_suffix)
-                    page = requests.get(rt_search_url)
-                    search_soup = BeautifulSoup(page.content, "html.parser")
-                    search = search_soup.find('search-page-media-row')
-                    if int(search['release-year']) == int(self.year):
-                        self.movie_url = search.find('a')['href']
-                    page = requests.get(self.movie_url)
-                    soup = BeautifulSoup(page.content, "html.parser")
-                    self.critics_score = soup.find('rt-text', {'slot':'critics-score'}).text
-                except AttributeError:
-                    print('Warning: Movie not found! skipping')
-                    return None
+RT_BASE = "https://www.rottentomatoes.com"
+POSTER_DIR = "img/movies"
 
-        print(self.movie_url)
-        self.audience_score = soup.find('rt-text', {'slot':'audience-score'}).text
-        self.synopsis = soup.find('rt-text', {'slot':'content'}).text
-        self.poster_url = soup.find('rt-img', {'slot':'poster-image'})["src"]
-        self.genres = [s.text for s in soup.find_all('rt-text', {'slot':'metadata-genre'})]
-        self.streamers = [s.text.strip('\n') for s in soup.find_all('where-to-watch-meta')]
-        # Get rid of stupid actor names in synopsis!
-        self.synopsis = re.sub(r'[^,]\([^()]*\)', '', self.synopsis)
-        
-        # No one cares about theaters anymore! 
-        if 'Fandango at Home' in self.streamers:
-            self.streamers.remove('Fandango at Home')
-        if 'In Theaters' in self.streamers:
-            self.streamers.remove('In Theaters')
-                
+# Posters render a few hundred px wide; anything larger is wasted bytes.
+POSTER_WIDTH = 400
+POSTER_QUALITY = 82
 
-        # check to see if we need to download a movie poster
-        self.img_fname = 'img/movies/'+self.title.replace(' ','')+'.jpg'
-        if not os.path.isfile(self.img_fname):
-            # TODO: fix image link returned by rt scraper
-            urllib.request.urlretrieve(self.poster_url, self.img_fname)
-        
-        
-    def generate_html(self):
-        
-        '''
-        Returns the html for the movie container. 
-        
-        :param self: Description
-        '''
-        
-        img_width  = 175
-        img_height = 260
-        
-        movie_html  = "   <li data-Filters=\""+', '.join(self.genres)+", "+', '.join(self.streamers)+"\">"
-        movie_html += "<strong>"+self.title+"</strong></strong>\n"
-        movie_html += " <button class=\"myBtn_multi\">"
-        movie_html += "<img src=\""+self.img_fname+"\" width="+str(img_width)+" height="+str(img_height)+"></button></li>\n"
-        movie_html += " <div class=\"modal modal_multi\"><div class=\"modal-content\">\n"
-        movie_html += "       <span class=\"close close_multi\">&times;</span>"
-        movie_html += "<div class=\"left\"><img src=\""+self.img_fname+"\" width="+str(img_width)+" height="+str(img_height)+"></div>\n"
-        movie_html += "        <div class=\"left\"><h2>"+self.title+"</h2>\n"
-        movie_html += "        <a href=\""+self.movie_url+"\" target=\"_blank\">   <div class=\"flex-container\">"
-        movie_html += " <img id='tomato' src=\"img/logos/rt_tomato.png\"> "+str(self.critics_score)
-        movie_html += " <img id='tomato' src=\"img/logos/rt_popcorn.png\"> "+str(self.audience_score)
-        movie_html += "</div></a>\n<p>"+self.synopsis+"\n\n <div class=\"flex-container\" id=\"streamers\">"
+# Rotten Tomatoes serves a stub page to the default requests user-agent.
+HEADERS = {
+	"User-Agent": (
+		"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+		"(KHTML, like Gecko) Chrome/122.0 Safari/537.36"
+	),
+	"Accept-Language": "en-US,en;q=0.9",
+}
 
-        for streamer in self.streamers:
-                movie_html += "<img id=\"streamers\" src=\"img/logos/"+streamer.replace(" ","")+".png\"> "
+TIMEOUT = 20
+RETRIES = 3
 
-        movie_html += "</div></p></div>\n</div></div>\n\n"
-        
-        return movie_html
-        
-    def replace_accents_with_ascii(self, text):
-        '''
-        Helper function for turning movie name into url
-        
-        :param text: Description
-        '''
-        replacements = {
-            r'à|á|â|ã|ä|å': 'a',
-            r'è|é|ê|ë': 'e',
-            r'ì|í|î|ï': 'i',
-            r'ò|ó|ô|õ|ö': 'o',
-            r'ù|ú|û|ü': 'u',
-            r'ý|ÿ': 'y',
-            r'ç': 'c'
-        }
-        for pattern, replacement in replacements.items():
-            text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
-        return text
+# Streamers we don't care about listing. RT renamed "Fandango at Home" to
+# plain "Fandango" at some point; both spellings show up.
+IGNORED_STREAMERS = {"Fandango at Home", "Fandango", "In Theaters"}
+
+# Same service, two names depending on when RT last rebranded it.
+STREAMER_ALIASES = {"HBO Max": "Max"}
+
+# RT has started returning some genres as combined pairs. Split them so the
+# site's filters stay consistent with everything scraped before the change.
+GENRE_ALIASES = {
+	"Mystery & Thriller": ["Mystery", "Thriller"],
+	"Sci-Fi & Fantasy": ["Sci-Fi", "Fantasy"],
+	"Music & Musical": ["Music", "Musical"],
+	"Biography & History": ["Biography", "History"],
+}
+
+SESSION = requests.Session()
+SESSION.headers.update(HEADERS)
+
+
+class MovieNotFound(Exception):
+	'''Raised when a title can't be located on Rotten Tomatoes at all.'''
+
+
+def fetch(url):
+	'''
+	GETs a url and returns soup, or None on 404 / persistent failure.
+
+	Retries with backoff so a single flaky response doesn't fail the build.
+	'''
+	for attempt in range(RETRIES):
+		try:
+			response = SESSION.get(url, timeout=TIMEOUT)
+		except requests.RequestException as e:
+			print("    request failed (" + repr(e) + "), retrying")
+		else:
+			if response.status_code == 404:
+				return None
+			if response.ok:
+				return BeautifulSoup(response.content, "html.parser")
+			print("    HTTP " + str(response.status_code) + ", retrying")
+		time.sleep(2 ** attempt)
+	return None
+
+
+def slugify(title):
+	'''
+	Turns a movie title into the Rotten Tomatoes url slug form.
+	'''
+	# Decompose accents to their ascii base character (é -> e).
+	text = unicodedata.normalize("NFKD", title)
+	text = "".join(c for c in text if not unicodedata.combining(c))
+	text = text.lower()
+	text = text.replace("&", " and ")
+	# RT drops apostrophes rather than splitting on them: "Molly's Game" is
+	# /m/mollys_game, not /m/molly_s_game.
+	text = re.sub(r"['’]", "", text)
+	text = re.sub(r"[^a-z0-9]+", " ", text)
+	return "_".join(text.split())
+
+
+def slug_candidates(title, year):
+	'''
+	Yields plausible RT urls, most specific first.
+
+	RT is inconsistent about whether the year is appended and whether a leading
+	article is kept, so we try the realistic combinations before searching.
+	'''
+	slug = slugify(title)
+	variants = [slug]
+
+	stripped = re.sub(r"^(the|a|an)_", "", slug)
+	if stripped != slug:
+		variants.append(stripped)
+
+	for variant in variants:
+		yield RT_BASE + "/m/" + variant + "_" + str(year)
+	for variant in variants:
+		yield RT_BASE + "/m/" + variant
+
+
+def search(title, year):
+	'''
+	Falls back to RT's search page, returning the url of a matching result.
+
+	Only accepts a result whose release year is within a year of ours -- RT
+	sometimes lists the festival year rather than the release year.
+	'''
+	url = RT_BASE + "/search?search=" + urllib.parse.quote(title)
+	soup = fetch(url)
+	if soup is None:
+		return None
+
+	for row in soup.find_all("search-page-media-row"):
+		link = row.find("a", href=True)
+		if not link:
+			continue
+		found_year = row.get("release-year")
+		try:
+			if abs(int(found_year) - int(year)) > 1:
+				continue
+		except (TypeError, ValueError):
+			continue
+		return link["href"]
+	return None
+
+
+def text_of(soup, tag, **attrs):
+	'''
+	Returns the stripped text of the first matching node, or None.
+	'''
+	node = soup.find(tag, attrs) if attrs else soup.find(tag)
+	return node.text.strip() if node else None
+
+
+def find_movie_page(title, year):
+	'''
+	Locates the RT page for a title, returning (url, soup).
+
+	A page only counts as a match if it actually carries a critics score --
+	that rules out RT's "coming soon" and disambiguation stubs.
+	'''
+	for url in slug_candidates(title, year):
+		soup = fetch(url)
+		if soup is not None and text_of(soup, "rt-text", slot="critics-score"):
+			return url, soup
+
+	url = search(title, year)
+	if url:
+		if url.startswith("/"):
+			url = RT_BASE + url
+		soup = fetch(url)
+		if soup is not None and text_of(soup, "rt-text", slot="critics-score"):
+			return url, soup
+
+	raise MovieNotFound(title + " (" + str(year) + ")")
+
+
+def poster_path(title):
+	'''
+	Where a title's poster lives on disk.
+
+	Titles made entirely of punctuation would otherwise collapse to an empty
+	name and write a hidden ".jpg", so fall back to the url slug.
+	'''
+	name = re.sub(r"[^\w]", "", title) or slugify(title) or "untitled"
+	return POSTER_DIR + "/" + name + ".jpg"
+
+
+def optimize_poster(path):
+	'''
+	Downscales a poster in place. RT hands out originals up to 15MB, which is
+	absurd for something displayed a few hundred pixels wide.
+	'''
+	try:
+		with Image.open(path) as img:
+			img = img.convert("RGB")
+			if img.width > POSTER_WIDTH:
+				height = round(img.height * POSTER_WIDTH / img.width)
+				img = img.resize((POSTER_WIDTH, height), Image.LANCZOS)
+			img.save(path, "JPEG", quality=POSTER_QUALITY, optimize=True, progressive=True)
+	except (OSError, ValueError) as e:
+		print("    warning: couldn't optimize " + path + " (" + repr(e) + ")")
+
+
+def download_poster(url, path):
+	'''
+	Downloads a poster if we don't already have it. Returns True on success.
+	'''
+	if os.path.isfile(path):
+		return True
+	if not url:
+		return False
+
+	for attempt in range(RETRIES):
+		try:
+			response = SESSION.get(url, timeout=TIMEOUT)
+			response.raise_for_status()
+		except requests.RequestException as e:
+			print("    poster download failed (" + repr(e) + "), retrying")
+			time.sleep(2 ** attempt)
+			continue
+		os.makedirs(os.path.dirname(path), exist_ok=True)
+		with open(path, "wb") as f:
+			f.write(response.content)
+		optimize_poster(path)
+		return True
+	return False
+
+
+def scrape(title, year):
+	'''
+	Returns a dict of movie data, or raises MovieNotFound.
+
+	Every field except the score is optional -- a missing synopsis or genre
+	list shouldn't sink an otherwise good entry.
+	'''
+	url, soup = find_movie_page(title, year)
+
+	synopsis = text_of(soup, "rt-text", slot="content") or ""
+	# Get rid of stupid actor names in synopsis!
+	synopsis = re.sub(r"[^,]\([^()]*\)", "", synopsis)
+	synopsis = " ".join(synopsis.split())
+
+	genres = []
+	for node in soup.find_all("rt-text", {"slot": "metadata-genre"}):
+		for genre in GENRE_ALIASES.get(node.text.strip(), [node.text.strip()]):
+			if genre and genre not in genres:
+				genres.append(genre)
+
+	streamers = []
+	for node in soup.find_all("where-to-watch-meta"):
+		name = node.text.strip()
+		name = STREAMER_ALIASES.get(name, name)
+		# No one cares about theaters anymore!
+		if name and name not in IGNORED_STREAMERS and name not in streamers:
+			streamers.append(name)
+
+	poster_node = soup.find("rt-img", {"slot": "poster-image"})
+	poster_url = poster_node.get("src") if poster_node else None
+	path = poster_path(title)
+	if not download_poster(poster_url, path):
+		print("    warning: no poster for " + title)
+		path = None
+
+	return {
+		"title": title,
+		"year": str(year),
+		"url": url,
+		"critics": text_of(soup, "rt-text", slot="critics-score"),
+		"audience": text_of(soup, "rt-text", slot="audience-score"),
+		"synopsis": synopsis,
+		"poster": path,
+		"genres": genres,
+		"streamers": streamers,
+	}

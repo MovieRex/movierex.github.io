@@ -28,6 +28,24 @@
   "url": "https://www.rottentomatoes.com/m/12_years_a_slave",
   "year": "2013"
  },
+ "1BR|2019": {
+  "audience": "52%",
+  "critics": "89%",
+  "genres": [
+   "Mystery",
+   "Thriller",
+   "Horror",
+   "Drama"
+  ],
+  "poster": "img/movies/1BR.jpg",
+  "streamers": [
+   "Peacock"
+  ],
+  "synopsis": "New to Los Angeles, a woman moves into a seemingly perfect apartment complex, and soon finds out that there are consequences for breaking the rules.",
+  "title": "1BR",
+  "url": "https://www.rottentomatoes.com/m/1br",
+  "year": "2019"
+ },
  "28 Days Later|2002": {
   "audience": "85%",
   "critics": "87%",
@@ -1223,6 +1241,21 @@
   "url": "https://www.rottentomatoes.com/m/heretic_2024",
   "year": "2024"
  },
+ "Hidden|2015": {
+  "audience": "62%",
+  "critics": "83%",
+  "genres": [
+   "Horror",
+   "Mystery",
+   "Thriller"
+  ],
+  "poster": "img/movies/Hidden.jpg",
+  "streamers": [],
+  "synopsis": "Living inside a fallout shelter, a couple and their young daughter face a mysterious threat from the outside.",
+  "title": "Hidden",
+  "url": "https://www.rottentomatoes.com/m/hidden_2015",
+  "year": "2015"
+ },
  "High Life|2018": {
   "audience": "42%",
   "critics": "83%",
@@ -1450,6 +1483,24 @@
   "title": "It Follows",
   "url": "https://www.rottentomatoes.com/m/it_follows",
   "year": "2014"
+ },
+ "It was just an accident|2025": {
+  "audience": "93%",
+  "critics": "98%",
+  "genres": [
+   "Drama",
+   "Mystery",
+   "Thriller"
+  ],
+  "poster": "img/movies/Itwasjustanaccident.jpg",
+  "streamers": [
+   "Disney+",
+   "Hulu"
+  ],
+  "synopsis": "What begins as a minor accident sets in motion a series of escalating consequences.",
+  "title": "It was just an accident",
+  "url": "https://www.rottentomatoes.com/m/it_was_just_an_accident",
+  "year": "2025"
  },
  "It's Such A Beautiful Day|2012": {
   "audience": "92%",
@@ -1744,6 +1795,25 @@
   "url": "https://www.rottentomatoes.com/m/memento",
   "year": "2000"
  },
+ "Mickey 17|2025": {
+  "audience": "73%",
+  "critics": "78%",
+  "genres": [
+   "Sci-Fi",
+   "Comedy",
+   "Drama",
+   "Mystery",
+   "Thriller"
+  ],
+  "poster": "img/movies/Mickey17.jpg",
+  "streamers": [
+   "Max"
+  ],
+  "synopsis": "Mickey 17, known as an \"expendable,\" goes on a dangerous journey to colonize an ice planet.",
+  "title": "Mickey 17",
+  "url": "https://www.rottentomatoes.com/m/mickey_17",
+  "year": "2025"
+ },
  "Midsommar|2019": {
   "audience": "63%",
   "critics": "83%",
@@ -1955,6 +2025,23 @@
   "title": "Nomadland",
   "url": "https://www.rottentomatoes.com/m/nomadland",
   "year": "2020"
+ },
+ "Obsession|2026": {
+  "audience": "94%",
+  "critics": "94%",
+  "genres": [
+   "Horror",
+   "Mystery",
+   "Thriller"
+  ],
+  "poster": "img/movies/Obsession.jpg",
+  "streamers": [
+   "Peacock"
+  ],
+  "synopsis": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
+  "title": "Obsession",
+  "url": "https://www.rottentomatoes.com/m/obsession_2025",
+  "year": "2026"
  },
  "Oddity|2024": {
   "audience": "77%",
@@ -2218,6 +2305,25 @@
   "url": "https://www.rottentomatoes.com/m/promising_young_woman",
   "year": "2020"
  },
+ "Prospect|2018": {
+  "audience": "73%",
+  "critics": "89%",
+  "genres": [
+   "Sci-Fi",
+   "Adventure",
+   "Mystery",
+   "Thriller"
+  ],
+  "poster": "img/movies/Prospect.jpg",
+  "streamers": [
+   "Disney+",
+   "Hulu"
+  ],
+  "synopsis": "A man and his teenage daughter encounter nonstop danger while searching for valuable gems on an alien moon.",
+  "title": "Prospect",
+  "url": "https://www.rottentomatoes.com/m/prospect_2018",
+  "year": "2018"
+ },
  "Pulp Fiction|1994": {
   "audience": "96%",
   "critics": "92%",
@@ -2405,6 +2511,25 @@
   "title": "Schindler's List",
   "url": "https://www.rottentomatoes.com/m/schindlers_list",
   "year": "1993"
+ },
+ "Send help|2026": {
+  "audience": "86%",
+  "critics": "92%",
+  "genres": [
+   "Horror",
+   "Comedy",
+   "Mystery",
+   "Thriller"
+  ],
+  "poster": "img/movies/Sendhelp.jpg",
+  "streamers": [
+   "Disney+",
+   "Hulu"
+  ],
+  "synopsis": "In \"Send Help,\" two colleagues become stranded on a deserted island, the only survivors of a plane crash. On the island, they must overcome past grievances and work together to survive, but ultimately, it's an unsettling, darkly humorous battle of wills and wits to make it out alive.",
+  "title": "Send help",
+  "url": "https://www.rottentomatoes.com/m/send_help",
+  "year": "2026"
  },
  "Seven Psychopaths|2012": {
   "audience": "71%",
@@ -2759,6 +2884,19 @@
   "title": "Tangerine",
   "url": "https://www.rottentomatoes.com/m/tangerine_2015",
   "year": "2015"
+ },
+ "The Art of Self Defense|2019": {
+  "audience": "63%",
+  "critics": "83%",
+  "genres": [
+   "Comedy"
+  ],
+  "poster": "img/movies/TheArtofSelfDefense.jpg",
+  "streamers": [],
+  "synopsis": "After getting attacked on the street, Casey enlists in a local dojo that's led by a charismatic and mysterious sensei. He soon uncovers a sinister fraternity of violence and masculinity while learning how to defend himself. Casey must now embark on a dark and frightening journey that places him squarely in the sights of his enigmatic new mentor.",
+  "title": "The Art of Self Defense",
+  "url": "https://www.rottentomatoes.com/m/the_art_of_self_defense_2019",
+  "year": "2019"
  },
  "The Ballad Of Buster Scruggs|2018": {
   "audience": "78%",
@@ -3230,6 +3368,23 @@
   "url": "https://www.rottentomatoes.com/m/the_pink_cloud",
   "year": "2021"
  },
+ "The Plague|2025": {
+  "audience": "66%",
+  "critics": "97%",
+  "genres": [
+   "Mystery",
+   "Thriller",
+   "Drama"
+  ],
+  "poster": "img/movies/ThePlague.jpg",
+  "streamers": [
+   "AMC+"
+  ],
+  "synopsis": "In the summer of 2003, at an all-boys summer water polo camp, socially anxious twelve-year-old Ben struggles to fit in amidst a ruthless social hierarchy. When he befriends Eli -- a lonely, acne-ridden outcast shunned by the others for allegedly carrying a contagious \"plague\" -- Ben becomes entangled in a cruel, escalating ritual of scapegoating and fear. As the lines between teasing and real harm blur, Ben is forced to confront his own complicity and the terrifying cost of belonging. A tense, darkly humorous coming-of-age story about masculinity, peer pressure, and the horrors that fester when cruelty masquerades as a game.",
+  "title": "The Plague",
+  "url": "https://www.rottentomatoes.com/m/the_plague_2025",
+  "year": "2025"
+ },
  "The Platform|2019": {
   "audience": "73%",
   "critics": "81%",
@@ -3637,6 +3792,23 @@
   "title": "Tuesday",
   "url": "https://www.rottentomatoes.com/m/tuesday_2023",
   "year": "2023"
+ },
+ "Twinless|2025": {
+  "audience": "94%",
+  "critics": "97%",
+  "genres": [
+   "Comedy",
+   "Drama"
+  ],
+  "poster": "img/movies/Twinless.jpg",
+  "streamers": [
+   "Disney+",
+   "Hulu"
+  ],
+  "synopsis": "In Twinless, two young men meet in a twin support group and form an unlikely friendship. Roman and Dennis both search for solace and an identity without their other halves and soon become inseparable outside the group. But when Roman meets Dennis' ebullient co-worker, Marcie, all is revealed to be not what it seems, as each man harbors secrets that could unravel everything.",
+  "title": "Twinless",
+  "url": "https://www.rottentomatoes.com/m/twinless",
+  "year": "2025"
  },
  "Tár|2022": {
   "audience": "74%",

@@ -162,6 +162,26 @@
 		modal.showModal();
 	}
 
+	/* ---------- back to top ---------- */
+
+	var toTop = document.getElementById('toTop');
+	var header = document.querySelector('.site-header');
+
+	// Visible only once the header has scrolled entirely out of view.
+	function syncToTop() {
+		var gone = window.pageYOffset >= header.offsetHeight;
+		toTop.setAttribute('aria-hidden', gone ? 'false' : 'true');
+	}
+
+	window.addEventListener('scroll', syncToTop, { passive: true });
+	window.addEventListener('resize', syncToTop);
+	syncToTop();
+
+	toTop.addEventListener('click', function () {
+		// Follows the page's scroll-behavior, which reduced-motion turns off.
+		window.scrollTo(0, 0);
+	});
+
 	/* ---------- wiring ---------- */
 
 	chips.forEach(function (chip) {

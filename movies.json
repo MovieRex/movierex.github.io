@@ -22,7 +22,10 @@
    "Biography"
   ],
   "poster": "img/movies/12YearsASlave.jpg",
-  "streamers": [],
+  "streamers": [
+   "Disney+",
+   "Hulu"
+  ],
   "synopsis": "In the years before the Civil War, Solomon Northup, a free black man from upstate New York, is kidnapped and sold into slavery in the South. Subjected to the cruelty of one malevolent owner, he also finds unexpected kindness from another, as he struggles continually to survive and maintain some of his dignity. Then in the 12th year of the disheartening ordeal, a chance meeting with an abolitionist from Canada changes Solomon's life forever.",
   "title": "12 Years A Slave",
   "url": "https://www.rottentomatoes.com/m/12_years_a_slave",
@@ -117,9 +120,7 @@
    "Horror"
   ],
   "poster": "img/movies/Alien.jpg",
-  "streamers": [
-   "Peacock"
-  ],
+  "streamers": [],
   "synopsis": "In deep space, the crew of the commercial starship Nostromo is awakened from their cryo-sleep capsules halfway through their journey home to investigate a distress call from an alien vessel. The terror begins when the crew encounters a nest of eggs inside the alien ship. An organism from inside an egg leaps out and attaches itself to one of the crew, causing him to fall into a coma.",
   "title": "Alien",
   "url": "https://www.rottentomatoes.com/m/alien",
@@ -175,7 +176,9 @@
    "Drama"
   ],
   "poster": "img/movies/AmericanHustle.jpg",
-  "streamers": [],
+  "streamers": [
+   "Netflix"
+  ],
   "synopsis": "Irving Rosenfeld dabbles in forgery and loan-sharking, but when he falls for fellow grifter Sydney Prosser, things change in a big way. Caught red-handed by FBI agent Richie DiMaso, Irv and Sydney are forced to work under cover as part of DiMaso's sting operation to nail a New Jersey mayor. Meanwhile, Irv's jealous wife may be the one to bring everyone's world crashing down. Based on the 1970s Abscam case.",
   "title": "American Hustle",
   "url": "https://www.rottentomatoes.com/m/american_hustle",
@@ -183,7 +186,7 @@
  },
  "American Psycho|2000": {
   "audience": "85%",
-  "critics": "68%",
+  "critics": "69%",
   "genres": [
    "Comedy",
    "Mystery",
@@ -191,10 +194,7 @@
    "Horror"
   ],
   "poster": "img/movies/AmericanPsycho.jpg",
-  "streamers": [
-   "Disney+",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "In New York City in 1987, a handsome, young urban professional, Patrick Bateman, lives a second life as a gruesome serial killer by night. The cast is filled by the detective, the fiance, the mistress, the coworker, and the secretary. This is a biting, wry comedy examining the elements that make a man a monster.",
   "title": "American Psycho",
   "url": "https://www.rottentomatoes.com/m/american_psycho",
@@ -215,7 +215,7 @@
   "year": "2001"
  },
  "Anatomy of a Fall|2023": {
-  "audience": "90%",
+  "audience": "91%",
   "critics": "96%",
   "genres": [
    "Mystery",
@@ -225,8 +225,7 @@
   ],
   "poster": "img/movies/AnatomyOfAFall.jpg",
   "streamers": [
-   "Disney+",
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "For the past year, Sandra, her husband Samuel, and their eleven-year-old son Daniel have lived a secluded life in a remote town in the French Alps. When Samuel is found dead in the snow below their chalet, the police question whether he was murdered or committed suicide. Samuel's suspicious death is presumed murder, and Sandra becomes the main suspect. What follows is not just an investigation into the circumstances of Samuel's death but an unsettling psychological journey into the depths of Sandra and Samuel's conflicted relationship.",
   "title": "Anatomy of a Fall",
@@ -234,17 +233,14 @@
   "year": "2023"
  },
  "Aniara|2018": {
-  "audience": "62%",
-  "critics": "69%",
+  "audience": "64%",
+  "critics": "70%",
   "genres": [
    "Sci-Fi",
    "Drama"
   ],
   "poster": "img/movies/Aniara.jpg",
-  "streamers": [
-   "Disney+",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "When a spacecraft carrying settlers to Mars strays off course, the consumption-obsessed passengers are prompted to consider their place in the universe.",
   "title": "Aniara",
   "url": "https://www.rottentomatoes.com/m/aniara",
@@ -284,7 +280,7 @@
   "year": "2012"
  },
  "Arrival|2016": {
-  "audience": "82%",
+  "audience": "83%",
   "critics": "94%",
   "genres": [
    "Sci-Fi",
@@ -293,14 +289,16 @@
    "Drama"
   ],
   "poster": "img/movies/Arrival.jpg",
-  "streamers": [],
+  "streamers": [
+   "Paramount+"
+  ],
   "synopsis": "Linguistics professor Louise Banks leads an elite team of investigators when gigantic spaceships touch down in 12 locations around the world. As nations teeter on the verge of global war, Banks and her crew must race against time to find a way to communicate with the extraterrestrial visitors. Hoping to unravel the mystery, she takes a chance that could threaten her life and quite possibly all of mankind.",
   "title": "Arrival",
   "url": "https://www.rottentomatoes.com/m/arrival_2016",
   "year": "2016"
  },
  "Attachment|2022": {
-  "audience": "60%",
+  "audience": "59%",
   "critics": "95%",
   "genres": [
    "Drama",
@@ -312,14 +310,16 @@
    "LGBTQ+"
   ],
   "poster": "img/movies/Attachment.jpg",
-  "streamers": [],
+  "streamers": [
+   "AMC+"
+  ],
   "synopsis": "ATTACHMENT is a horror romance about Maja, a has-been actress in Denmark, who falls in love with Leah, a young, Jewish academic visiting from the UK. When Leah suffers a mysterious seizure, Maja fears their whirlwind romance might be cut short and decides to follow Leah back to her home in London. There, Maja meets her new downstairs neighbour: Leah’s mother, Chana. An overbearing, seemingly religious and highly secretive woman, Chana seems resistant to all of Maja’s attempts to win her over. And as Maja notices strange occurrences in the building, she begins to suspect that Chana’s secrets could be much darker than first anticipated.",
   "title": "Attachment",
   "url": "https://www.rottentomatoes.com/m/attachment",
   "year": "2022"
  },
  "Babes|2024": {
-  "audience": "78%",
+  "audience": "77%",
   "critics": "87%",
   "genres": [
    "Comedy"
@@ -343,10 +343,7 @@
    "Thriller"
   ],
   "poster": "img/movies/Barbarian.jpg",
-  "streamers": [
-   "Disney+",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "Traveling to Detroit for a job interview, a young woman books a rental home. But when she arrives late at night, she discovers that the house is double booked and a strange man is already staying there. Against her better judgement, she decides to spend the evening, but soon discovers that there's a lot more to fear than just an unexpected house guest.",
   "title": "Barbarian",
   "url": "https://www.rottentomatoes.com/m/barbarian_2022",
@@ -360,8 +357,7 @@
   ],
   "poster": "img/movies/Barbie.jpg",
   "streamers": [
-   "Max",
-   "Netflix"
+   "Max"
   ],
   "synopsis": "To live in Barbie Land is to be a perfect being in a perfect place. Unless you have a full-on existential crisis. Or you're a Ken.",
   "title": "Barbie",
@@ -386,7 +382,7 @@
  },
  "Beau Is Afraid|2023": {
   "audience": "71%",
-  "critics": "68%",
+  "critics": "67%",
   "genres": [
    "Adventure",
    "Horror",
@@ -396,9 +392,7 @@
    "Drama"
   ],
   "poster": "img/movies/BeauIsAfraid.jpg",
-  "streamers": [
-   "Paramount+"
-  ],
+  "streamers": [],
   "synopsis": "A paranoid man embarks on an epic odyssey to get home to his mother in this bold and ingeniously depraved new film from writer/director Ari Aster.",
   "title": "Beau Is Afraid",
   "url": "https://www.rottentomatoes.com/m/beau_is_afraid",
@@ -428,7 +422,7 @@
   ],
   "poster": "img/movies/Benedetta.jpg",
   "streamers": [
-   "Hulu"
+   "AMC+"
   ],
   "synopsis": "Based on a true story, a 17th-century nun becomes entangled in a forbidden lesbian affair with a novice. But it is Benedetta's shocking religious visions that threaten to shake the Church to its core.",
   "title": "Benedetta",
@@ -502,8 +496,8 @@
   "year": "2014"
  },
  "Birth Rebirth|2023": {
-  "audience": "74%",
-  "critics": "96%",
+  "audience": "73%",
+  "critics": "95%",
   "genres": [
    "Horror",
    "Mystery",
@@ -512,8 +506,7 @@
   ],
   "poster": "img/movies/BirthRebirth.jpg",
   "streamers": [
-   "Disney+",
-   "Hulu"
+   "AMC+"
   ],
   "synopsis": "Rose is a pathologist who prefers working with corpses over social interaction. She also has an obsession -- the reanimation of the dead. Celie is a maternity nurse who has built her life around her bouncy, chatterbox six-year-old daughter, Lila. When one tragic night, Lila suddenly falls ill and dies, the two women's worlds crash into each other. They embark on a dark path of no return where they will be forced to confront how far they are willing to go to protect what they hold most dear.",
   "title": "Birth/Rebirth",
@@ -522,16 +515,14 @@
  },
  "Black Mass|2015": {
   "audience": "68%",
-  "critics": "73%",
+  "critics": "74%",
   "genres": [
    "Biography",
    "Crime",
    "Drama"
   ],
   "poster": "img/movies/BlackMass.jpg",
-  "streamers": [
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "While his brother Bill remains a powerful leader in the Massachusetts Senate, Irish hoodlum James \"Whitey\" Bulger continues to pursue a life of crime in 1970s Boston. Approached by FBI agent John Connolly, the lawman convinces Whitey to help the agency fight the Italian mob. As their unholy alliance spirals out of control, Bulger increases his power and evades capture to become one of the most dangerous gangsters in U.S. history.",
   "title": "Black Mass",
   "url": "https://www.rottentomatoes.com/m/black_mass_2015",
@@ -546,9 +537,7 @@
    "Thriller"
   ],
   "poster": "img/movies/BlackSwan.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "Nina is a ballerina whose passion for the dance rules every facet of her life. When the company's artistic director decides to replace his prima ballerina for their opening production of \"Swan Lake,\" Nina is his first choice. She has competition in newcomer Lily however. While Nina is perfect for the role of the White Swan, Lily personifies the Black Swan. As rivalry between the two dancers transforms into a twisted friendship, Nina's dark side begins to emerge.",
   "title": "Black Swan",
   "url": "https://www.rottentomatoes.com/m/black_swan_2010",
@@ -604,7 +593,7 @@
  },
  "Bodies Bodies Bodies|2022": {
   "audience": "69%",
-  "critics": "86%",
+  "critics": "85%",
   "genres": [
    "Mystery",
    "Thriller",
@@ -613,7 +602,10 @@
    "Drama"
   ],
   "poster": "img/movies/BodiesBodiesBodies.jpg",
-  "streamers": [],
+  "streamers": [
+   "Disney+",
+   "Hulu"
+  ],
   "synopsis": "When a group of rich 20-somethings plan a hurricane party at a remote family mansion, a party game goes awry in this fresh and funny look at backstabbing, fake friends, and one party gone very, very wrong.",
   "title": "Bodies Bodies Bodies",
   "url": "https://www.rottentomatoes.com/m/bodies_bodies_bodies",
@@ -660,9 +652,7 @@
    "Thriller"
   ],
   "poster": "img/movies/ChildrenOfMen.jpg",
-  "streamers": [
-   "Peacock"
-  ],
+  "streamers": [],
   "synopsis": "When infertility threatens mankind with extinction and the last child born has perished, a disillusioned bureaucrat becomes the unlikely champion in the fight for the survival of Earth's population; He must face down his own demons and protect the planet's last remaining hope from danger.",
   "title": "Children of Men",
   "url": "https://www.rottentomatoes.com/m/children_of_men",
@@ -676,7 +666,9 @@
    "Drama"
   ],
   "poster": "img/movies/CityOfGod.jpg",
-  "streamers": [],
+  "streamers": [
+   "Paramount+"
+  ],
   "synopsis": "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood. José \"Zé\" Pequeno is an ambitious drug dealer who uses Rocket and his photos as a way to increase his fame as a turf war erupts with his rival, \"Knockout Ned\". The film was shot on location in Rio's poorest neighborhoods.",
   "title": "City Of God",
   "url": "https://www.rottentomatoes.com/m/city_of_god",
@@ -693,9 +685,7 @@
    "Drama"
   ],
   "poster": "img/movies/Civilwar.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "From filmmaker Alex Garland comes a journey across a dystopian future America, following a team of military-embedded journalists as they race against time to reach DC before rebel factions descend upon the White House.",
   "title": "Civil War",
   "url": "https://www.rottentomatoes.com/m/civil_war_2024",
@@ -703,7 +693,7 @@
  },
  "Cloverfield|2008": {
   "audience": "68%",
-  "critics": "79%",
+  "critics": "78%",
   "genres": [
    "Mystery",
    "Thriller",
@@ -788,9 +778,7 @@
    "LGBTQ+"
   ],
   "poster": "img/movies/DallasBuyer'sClub.jpg",
-  "streamers": [
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "In mid-1980s Texas, electrician Ron Woodroof is stunned to learn that he has AIDS. Though told that he has just 30 days left to live, Woodroof refuses to give in to despair. He seeks out alternative therapies and smuggles unapproved drugs into the U.S. from wherever he can find them. Woodroof joins forces with a fellow AIDS patient and begins selling the treatments to the growing number of people who can't wait for the medical establishment to save them.",
   "title": "Dallas Buyer's Club",
   "url": "https://www.rottentomatoes.com/m/dallas_buyers_club",
@@ -818,15 +806,18 @@
    "Action"
   ],
   "poster": "img/movies/DjangoUnchained.jpg",
-  "streamers": [],
+  "streamers": [
+   "Starz",
+   "Paramount+"
+  ],
   "synopsis": "Two years before the Civil War, Django, a slave, finds himself accompanying an unorthodox German bounty hunter named Dr. King Schultz on a mission to capture the vicious Brittle brothers. Their mission successful, Schultz frees Django, and together they hunt the South's most-wanted criminals. Their travels take them to the infamous plantation of shady Calvin Candie, where Django's long-lost wife is still a slave.",
   "title": "Django Unchained",
   "url": "https://www.rottentomatoes.com/m/django_unchained_2012",
   "year": "2012"
  },
  "Dogtooth|2009": {
-  "audience": "76%",
-  "critics": "93%",
+  "audience": "75%",
+  "critics": "94%",
   "genres": [
    "Drama"
   ],
@@ -853,7 +844,7 @@
   "year": "2021"
  },
  "Dream Scenario|2023": {
-  "audience": "68%",
+  "audience": "69%",
   "critics": "91%",
   "genres": [
    "Fantasy",
@@ -862,16 +853,14 @@
    "Drama"
   ],
   "poster": "img/movies/DreamScenario.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "Hapless family man Paul Matthews finds his life turned upside down when millions of strangers suddenly start seeing him in their dreams. But when his nighttime appearances take a nightmarish turn, Paul is forced to navigate his newfound stardom, in this wickedly entertaining comedy from writer-director Kristoffer Borgli and producer Ari Aster.",
   "title": "Dream Scenario",
   "url": "https://www.rottentomatoes.com/m/dream_scenario",
   "year": "2023"
  },
  "Enemy|2013": {
-  "audience": "64%",
+  "audience": "63%",
   "critics": "73%",
   "genres": [
    "Mystery",
@@ -886,7 +875,7 @@
  },
  "Eternal Sunshine of the Spotless Mind|2004": {
   "audience": "94%",
-  "critics": "92%",
+  "critics": "93%",
   "genres": [
    "Romance",
    "Sci-Fi"
@@ -900,7 +889,7 @@
  },
  "Everything Everywhere All at Once|2022": {
   "audience": "79%",
-  "critics": "94%",
+  "critics": "93%",
   "genres": [
    "Comedy",
    "Adventure",
@@ -909,7 +898,7 @@
   ],
   "poster": "img/movies/EverythingEverywhereAllAtOnce.jpg",
   "streamers": [
-   "Max"
+   "Hulu"
   ],
   "synopsis": "Directed by Daniel Kwan and Daniel Scheinert, collectively known as Daniels, the film is a hilarious and big-hearted sci-fi action adventure about an exhausted Chinese American woman who can't seem to finish her taxes.",
   "title": "Everything Everywhere All at Once",
@@ -926,7 +915,9 @@
    "Drama"
   ],
   "poster": "img/movies/ExMachina.jpg",
-  "streamers": [],
+  "streamers": [
+   "Netflix"
+  ],
   "synopsis": "Caleb Smith a programmer at a huge Internet company, wins a contest that enables him to spend a week at the private estate of Nathan Bateman, his firm's brilliant CEO. When he arrives, Caleb learns that he has been chosen to be the human component in a Turing test to determine the capabilities and consciousness of Ava, a beautiful robot. However, it soon becomes evident that Ava is far more self-aware and deceptive than either man imagined.",
   "title": "Ex Machina",
   "url": "https://www.rottentomatoes.com/m/ex_machina",
@@ -934,7 +925,7 @@
  },
  "Eyes Wide Shut|1999": {
   "audience": "74%",
-  "critics": "76%",
+  "critics": "77%",
   "genres": [
    "Drama"
   ],
@@ -957,7 +948,7 @@
   ],
   "poster": "img/movies/Fargo.jpg",
   "streamers": [
-   "Peacock"
+   "Netflix"
   ],
   "synopsis": "\"Fargo\" is a reality-based crime drama set in Minnesota in 1987. Jerry Lundegaard is a car salesman in Minneapolis who has gotten himself into debt and is so desperate for money that he hires two thugs, to kidnap his own wife. Jerry will collect the ransom from her wealthy father, paying the thugs a small portion and keeping the rest to satisfy his debts. The scheme collapses when the thugs shoot a state trooper.",
   "title": "Fargo",
@@ -1052,7 +1043,7 @@
  },
  "Girl, Interrupted|1999": {
   "audience": "84%",
-  "critics": "54%",
+  "critics": "53%",
   "genres": [
    "Drama"
   ],
@@ -1092,7 +1083,7 @@
   ],
   "poster": "img/movies/GoneGirl.jpg",
   "streamers": [
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "In Carthage, Mo., former New York-based writer Nick Dunne and his glamorous wife Amy present a portrait of a blissful marriage to the public; when Amy goes missing on the couple's fifth wedding anniversary, Nick becomes the prime suspect in her disappearance; the resulting police pressure and media frenzy cause the Dunnes' image of a happy union to crumble, leading to tantalizing questions about who Nick and Amy truly are.",
   "title": "Gone Girl",
@@ -1109,9 +1100,7 @@
    "Comedy"
   ],
   "poster": "img/movies/GoodBoy.jpg",
-  "streamers": [
-   "Paramount+"
-  ],
+  "streamers": [],
   "synopsis": "Sigrid thinks she's met the perfect match with the charming and handsome Christian, but there is one catch -- he lives with a man who acts like his pet dog. Trying to be open-minded, Sigrid continues the relationship but begins to notice an insidious undertone to Christian. Maybe 'puppy play' isn't as innocent as it seems. A chilling feature debut from up-and-coming Scandinavian filmmakers Viljar Bøe and Karl Oskar Åsli.",
   "title": "Good Boy",
   "url": "https://www.rottentomatoes.com/m/good_boy_2022",
@@ -1127,9 +1116,7 @@
    "Drama"
   ],
   "poster": "img/movies/GoodTime.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "A bank robber stops at nothing to free his brother from prison, launching himself into a nightlong odyssey through New York's dark and dangerous criminal underworld.",
   "title": "Good Time",
   "url": "https://www.rottentomatoes.com/m/good_time",
@@ -1137,7 +1124,7 @@
  },
  "Goodfellas|1990": {
   "audience": "97%",
-  "critics": "94%",
+  "critics": "93%",
   "genres": [
    "Crime",
    "Drama"
@@ -1173,7 +1160,9 @@
    "Horror"
   ],
   "poster": "img/movies/GreenRoom.jpg",
-  "streamers": [],
+  "streamers": [
+   "Netflix"
+  ],
   "synopsis": "Members of a punk-rock band and a tough young woman battle murderous white supremacists at a remote Oregon roadhouse.",
   "title": "Green Room",
   "url": "https://www.rottentomatoes.com/m/green_room_2016",
@@ -1210,7 +1199,7 @@
   "year": "2001"
  },
  "Hereditary|2018": {
-  "audience": "71%",
+  "audience": "72%",
   "critics": "90%",
   "genres": [
    "Horror",
@@ -1219,7 +1208,7 @@
   ],
   "poster": "img/movies/Hereditary.jpg",
   "streamers": [
-   "Netflix"
+   "Max"
   ],
   "synopsis": "When the matriarch of the Graham family passes away, her daughter and grandchildren begin to unravel cryptic and increasingly terrifying secrets about their ancestry, trying to outrun the sinister fate they have inherited.",
   "title": "Hereditary",
@@ -1228,14 +1217,16 @@
  },
  "Heretic|2024": {
   "audience": "76%",
-  "critics": "91%",
+  "critics": "89%",
   "genres": [
    "Mystery",
    "Thriller",
    "Horror"
   ],
   "poster": "img/movies/Heretic.jpg",
-  "streamers": [],
+  "streamers": [
+   "Max"
+  ],
   "synopsis": "Two young missionaries are forced to prove their faith when they knock on the wrong door and are greeted by a diabolical Mr. Reed, becoming ensnared in his deadly game of cat-and-mouse.",
   "title": "Heretic",
   "url": "https://www.rottentomatoes.com/m/heretic_2024",
@@ -1273,8 +1264,8 @@
   "year": "2018"
  },
  "Humane|2024": {
-  "audience": "39%",
-  "critics": "71%",
+  "audience": "42%",
+  "critics": "70%",
   "genres": [
    "Sci-Fi",
    "Mystery",
@@ -1283,7 +1274,8 @@
   "poster": "img/movies/Humane.jpg",
   "streamers": [
    "Disney+",
-   "Hulu"
+   "Hulu",
+   "AMC+"
   ],
   "synopsis": "HUMANE takes place over a single day, mere months after a global ecological collapse has forced world leaders to take extreme measures to reduce the earth's population. In a wealthy enclave, a recently retired newsman has invited his grown children to dinner to announce his intentions to enlist in the nation's new euthanasia program. But when the father's plan goes horribly awry, tensions flare and chaos erupts among his children.",
   "title": "Humane",
@@ -1309,7 +1301,7 @@
  },
  "I Blame Society|2020": {
   "audience": "68%",
-  "critics": "89%",
+  "critics": "90%",
   "genres": [
    "Horror",
    "Comedy"
@@ -1359,9 +1351,7 @@
    "Drama"
   ],
   "poster": "img/movies/I,Tonya.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "In 1991, talented figure skater Tonya Harding becomes the first American woman to complete a triple axel during a competition. In 1994, her world comes crashing down when her ex-husband conspires to injure Nancy Kerrigan, a fellow Olympic hopeful, in a poorly conceived attack that forces the young woman to withdraw from the national championship. Harding's life and legacy instantly become tarnished as she's forever associated with one of the most infamous scandals in sports history.",
   "title": "I, Tonya",
   "url": "https://www.rottentomatoes.com/m/i_tonya",
@@ -1384,7 +1374,7 @@
  },
  "Inception|2010": {
   "audience": "91%",
-  "critics": "87%",
+  "critics": "86%",
   "genres": [
    "Sci-Fi",
    "Mystery",
@@ -1392,9 +1382,7 @@
    "Action"
   ],
   "poster": "img/movies/Inception.jpg",
-  "streamers": [
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "Dom Cobb is a thief with the rare ability to enter people's dreams and steal their secrets from their subconscious. His skill has made him a hot commodity in the world of corporate espionage but has also cost him everything he loves. Cobb gets a chance at redemption when he is offered a seemingly impossible task: Plant an idea in someone's mind. If he succeeds, it will be the perfect crime, but a dangerous enemy anticipates Cobb's every move.",
   "title": "Inception",
   "url": "https://www.rottentomatoes.com/m/inception",
@@ -1410,10 +1398,7 @@
    "Sci-Fi"
   ],
   "poster": "img/movies/InfinityPool.jpg",
-  "streamers": [
-   "Disney+",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "While staying at an isolated island resort, James and Em are enjoying a perfect vacation of pristine beaches, exceptional staff, and soaking up the sun. But guided by the seductive and mysterious Gabi, they venture outside the resort grounds and find themselves in a culture filled with violence, hedonism, and untold horror. A tragic accident leaves them facing a zero tolerance policy for crime: either you'll be executed, or, if you're rich enough to afford it, you can watch yourself die instead.",
   "title": "Infinity Pool",
   "url": "https://www.rottentomatoes.com/m/infinity_pool_2023",
@@ -1428,7 +1413,9 @@
    "Drama"
   ],
   "poster": "img/movies/InglouriousBasterds.jpg",
-  "streamers": [],
+  "streamers": [
+   "Peacock"
+  ],
   "synopsis": "It is the first year of Germany's occupation of France. Allied officer Lt. Aldo Raine assembles a team of Jewish soldiers to commit violent acts of retribution against the Nazis, including the taking of their scalps. He and his men join forces with Bridget von Hammersmark, a German actress and undercover agent, to bring down the leaders of the Third Reich. Their fates converge with theater owner Shosanna Dreyfus, who seeks to avenge the Nazis' execution of her family.",
   "title": "Inglourious Basterds",
   "url": "https://www.rottentomatoes.com/m/inglourious_basterds",
@@ -1444,8 +1431,9 @@
   ],
   "poster": "img/movies/Interstellar.jpg",
   "streamers": [
-   "Paramount+",
-   "Netflix"
+   "Disney+",
+   "Hulu",
+   "Paramount+"
   ],
   "synopsis": "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand, a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.",
   "title": "Interstellar",
@@ -1476,9 +1464,7 @@
    "Thriller"
   ],
   "poster": "img/movies/ItFollows.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "After carefree teenager Jay sleeps with her new boyfriend, Hugh, for the first time, she learns that she is the latest recipient of a fatal curse that is passed from victim to victim via sexual intercourse. Death, Jay learns, will creep inexorably toward her as either a friend or a stranger. Jay's friends don't believe her seemingly paranoid ravings, until they too begin to see the phantom assassins and band together to help her flee or defend herself.",
   "title": "It Follows",
   "url": "https://www.rottentomatoes.com/m/it_follows",
@@ -1525,9 +1511,7 @@
    "Drama"
   ],
   "poster": "img/movies/It'saDisaster.jpg",
-  "streamers": [
-   "Peacock"
-  ],
+  "streamers": [],
   "synopsis": "Four couples having Sunday brunch become stuck together in a house when they learn the world is ending.",
   "title": "It's a Disaster",
   "url": "https://www.rottentomatoes.com/m/its_a_disaster",
@@ -1535,7 +1519,7 @@
  },
  "Jojo Rabbit|2019": {
   "audience": "94%",
-  "critics": "80%",
+  "critics": "81%",
   "genres": [
    "Comedy",
    "Drama"
@@ -1548,7 +1532,7 @@
   "year": "2019"
  },
  "Joker|2019": {
-  "audience": "88%",
+  "audience": "89%",
   "critics": "68%",
   "genres": [
    "Crime",
@@ -1587,10 +1571,7 @@
    "Thriller"
   ],
   "poster": "img/movies/KillBill:Vol.1.jpg",
-  "streamers": [
-   "Disney+",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "A former assassin, known simply as The Bride, wakes from a coma four years after her jealous ex-lover Bill attempts to murder her on her wedding day. Fueled by an insatiable desire for revenge, she vows to get even with every person who contributed to the loss of her unborn child, her entire wedding party, and four years of her life. After devising a hit list, The Bride sets off on her quest, enduring unspeakable injury and unscrupulous enemies.",
   "title": "Kill Bill: Vol. 1",
   "url": "https://www.rottentomatoes.com/m/kill_bill_vol_1",
@@ -1603,10 +1584,7 @@
    "Action"
   ],
   "poster": "img/movies/KillBill:Vol.2.jpg",
-  "streamers": [
-   "Disney+",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "The Bride picks up where she left off in volume one with her quest to finish the hit list she has composed of all of the people who have wronged her, including ex-boyfriend Bill, who tried to have her killed four years ago during her wedding to another man. Leaving several dead in her wake, she eventually tracks down Bill in Mexico. Using skills she has learned during her assassin career, she attempts to finish what she set out to do in the first place.",
   "title": "Kill Bill: Vol. 2",
   "url": "https://www.rottentomatoes.com/m/kill_bill_volume_2",
@@ -1622,7 +1600,9 @@
    "Drama"
   ],
   "poster": "img/movies/KnivesOut.jpg",
-  "streamers": [],
+  "streamers": [
+   "Peacock"
+  ],
   "synopsis": "The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there's one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.",
   "title": "Knives Out",
   "url": "https://www.rottentomatoes.com/m/knives_out",
@@ -1637,7 +1617,8 @@
   ],
   "poster": "img/movies/LadyBird.jpg",
   "streamers": [
-   "Max"
+   "Max",
+   "Hulu"
   ],
   "synopsis": "A teenager navigates a loving but turbulent relationship with her strong-willed mother over the course of an eventful and poignant senior year of high school.",
   "title": "Lady Bird",
@@ -1653,7 +1634,9 @@
    "Sci-Fi"
   ],
   "poster": "img/movies/LittleFish.jpg",
-  "streamers": [],
+  "streamers": [
+   "AMC+"
+  ],
   "synopsis": "Little Fish, the fourth feature film from director Chad Hartigan, is a romance set in a near-future Seattle teetering on the brink of calamity. Starring Olivia Cooke, Jack O'Connell, Soko and Raul Castillo, the film opens in the midst of a global epidemic: Neuroinflammatory Affliction, a sever and rapid Alzheimer's-like condition in which people's memories disappear. Couple Jude Williams and Emma Ryerson are grappling with the realities of NIA, interspersed with glimpses from the past as the two meet and their relationship blooms. But as NIA's grip on society tightens, blurring the lines between the past and the present, it becomes more and more difficult to know what's true and what's false.",
   "title": "Little Fish",
   "url": "https://www.rottentomatoes.com/m/little_fish_2021",
@@ -1668,8 +1651,7 @@
   ],
   "poster": "img/movies/LittleMissSunshine.jpg",
   "streamers": [
-   "Disney+",
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "The Hoover family -- a man, his wife, an uncle, a brother and a grandfather -- puts the fun back in dysfunctional by piling into a VW bus and heading to California to support a daughter in her bid to win the Little Miss Sunshine Contest. The sanity of everyone involved is stretched to the limit as the group's quirks cause epic problems as they travel along their interstate route.",
   "title": "Little Miss Sunshine",
@@ -1677,8 +1659,8 @@
   "year": "2006"
  },
  "Logan|2017": {
-  "audience": "76%",
-  "critics": "92%",
+  "audience": "91%",
+  "critics": "93%",
   "genres": [
    "Fantasy",
    "Adventure",
@@ -1694,7 +1676,7 @@
   "year": "2017"
  },
  "Love Lies Bleeding|2024": {
-  "audience": "82%",
+  "audience": "81%",
   "critics": "94%",
   "genres": [
    "Mystery",
@@ -1705,9 +1687,7 @@
    "Action"
   ],
   "poster": "img/movies/Loveliesbleeding.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "From Director Rose Glass comes an electric new love story; reclusive gym manager Lou falls hard for Jackie, an ambitious bodybuilder headed through town to Vegas in pursuit of her dream. But their love ignites violence, pulling them deep into the web of Lou's criminal family.",
   "title": "Love Lies Bleeding",
   "url": "https://www.rottentomatoes.com/m/love_lies_bleeding_2024",
@@ -1732,7 +1712,7 @@
  },
  "Léon: The Professional|1994": {
   "audience": "95%",
-  "critics": "75%",
+  "critics": "76%",
   "genres": [
    "Mystery",
    "Thriller",
@@ -1741,7 +1721,9 @@
    "Drama"
   ],
   "poster": "img/movies/Léon:TheProfessional.jpg",
-  "streamers": [],
+  "streamers": [
+   "AMC+"
+  ],
   "synopsis": "Mathilda is only 12 years old, but is already familiar with the dark side of life: her abusive father stores drugs for corrupt police officers, and her mother neglects her. Léon, who lives down the hall, tends to his houseplants and works as a hired hitman for mobster Tony. When her family is murdered by crooked DEA agent Stansfield, Mathilda joins forces with a reluctant Léon to learn his deadly trade and avenge her family's deaths.",
   "title": "Léon: The Professional",
   "url": "https://www.rottentomatoes.com/m/leon_the_professional",
@@ -1756,24 +1738,24 @@
    "Sci-Fi"
   ],
   "poster": "img/movies/MadMax:FuryRoad.jpg",
-  "streamers": [
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "Years after the collapse of civilization, the tyrannical Immortan Joe enslaves apocalypse survivors inside the desert fortress the Citadel. When the warrior Imperator Furiosa leads the despot's five wives in a daring escape, she forges an alliance with Max Rockatansky, a loner and former captive. Fortified in the massive, armored truck the War Rig, they try to outrun the ruthless warlord and his henchmen in a deadly high-speed chase through the Wasteland.",
   "title": "Mad Max: Fury Road",
   "url": "https://www.rottentomatoes.com/m/mad_max_fury_road",
   "year": "2015"
  },
  "Mads|2024": {
-  "audience": "71%",
-  "critics": "93%",
+  "audience": "67%",
+  "critics": "94%",
   "genres": [
    "Horror",
    "Mystery",
    "Thriller"
   ],
   "poster": "img/movies/MadS.jpg",
-  "streamers": [],
+  "streamers": [
+   "AMC+"
+  ],
   "synopsis": "Eighteen year old Romain has just graduated and makes a stop at his dealer's place to try a new pill. As he heads off to a party, he sees an injured woman on the side of the road and decides to help her, but when she gets in his car, she suddenly smashes her own head against the dashboard, bleeding out until she dies. Is this a bad trip? Or is it something else? One thing is for sure, it's only the beginning of the night.",
   "title": "Mads",
   "url": "https://www.rottentomatoes.com/m/mads",
@@ -1788,7 +1770,11 @@
   ],
   "poster": "img/movies/Memento.jpg",
   "streamers": [
-   "Peacock"
+   "Netflix",
+   "Disney+",
+   "Peacock",
+   "Hulu",
+   "AMC+"
   ],
   "synopsis": "Leonard is tracking down the man who raped and murdered his wife. The difficulty, however, of locating his wife's killer is compounded by the fact that he suffers from a rare, untreatable form of memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
   "title": "Memento",
@@ -1797,7 +1783,7 @@
  },
  "Mickey 17|2025": {
   "audience": "73%",
-  "critics": "78%",
+  "critics": "77%",
   "genres": [
    "Sci-Fi",
    "Comedy",
@@ -1823,7 +1809,9 @@
    "Thriller"
   ],
   "poster": "img/movies/Midsommar.jpg",
-  "streamers": [],
+  "streamers": [
+   "Max"
+  ],
   "synopsis": "A young American couple, their relationship foundering, travel to a fabled Swedish midsummer festival where a seemingly pastoral paradise transforms into a sinister, dread-soaked nightmare as the locals reveal their terrifying agenda.",
   "title": "Midsommar",
   "url": "https://www.rottentomatoes.com/m/midsommar",
@@ -1838,7 +1826,7 @@
   ],
   "poster": "img/movies/Molly'sGame.jpg",
   "streamers": [
-   "Netflix"
+   "Paramount+"
   ],
   "synopsis": "The true story of Molly Bloom, a beautiful, young, Olympic-class skier who ran the world's most exclusive high-stakes poker game for a decade before being arrested in the middle of the night by 17 FBI agents wielding automatic weapons. Her players included Hollywood royalty, sports stars, business titans and finally, unbeknown to her, the Russian mob. Her only ally was her criminal defense lawyer Charlie Jaffey, who learned there was much more to Molly than the tabloids led people to believe.",
   "title": "Molly's Game",
@@ -1847,7 +1835,7 @@
  },
  "Monster|2003": {
   "audience": "85%",
-  "critics": "78%",
+  "critics": "79%",
   "genres": [
    "Romance",
    "Comedy",
@@ -1856,7 +1844,7 @@
   ],
   "poster": "img/movies/Monster.jpg",
   "streamers": [
-   "Max"
+   "Netflix"
   ],
   "synopsis": "Your Monster tells the story of the soft-spoken actor Laura Franco, who is dumped by her longtime boyfriend while recovering from surgery and retreats to her childhood home to recover. With her future looking bleak, insult is added to injury when Laura discovers her ex is staging a musical that she helped him develop. But out of these gut-wrenching life changes emerges a monster with whom she finds a connection, encouraging Laura to follow her dreams, open her heart and fall in love with her inner rage.",
   "title": "Monster",
@@ -1871,7 +1859,9 @@
    "LGBTQ+"
   ],
   "poster": "img/movies/Moonlight.jpg",
-  "streamers": [],
+  "streamers": [
+   "Hulu"
+  ],
   "synopsis": "A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him.",
   "title": "Moonlight",
   "url": "https://www.rottentomatoes.com/m/moonlight_2016",
@@ -1879,7 +1869,7 @@
  },
  "Moon|2009": {
   "audience": "89%",
-  "critics": "65%",
+  "critics": "66%",
   "genres": [
    "Romance",
    "Comedy",
@@ -1888,7 +1878,7 @@
   ],
   "poster": "img/movies/Moon.jpg",
   "streamers": [
-   "Apple TV+"
+   "Apple TV"
   ],
   "synopsis": "Starring Scarlett Johansson and Channing Tatum, Fly Me To The Moon is a sharp, stylish romantic comedy set against the high-stakes backdrop of NASA's historic Apollo 11 moon landing. Brought in to fix NASA's public image, sparks fly in all directions as marketing maven Kelly Jones wreaks havoc on launch director Cole Davis's already difficult task. When the White House deems the mission too important to fail, the countdown truly begins....",
   "title": "Moon",
@@ -1913,7 +1903,7 @@
  },
  "Mulholland Dr.|2001": {
   "audience": "87%",
-  "critics": "84%",
+  "critics": "83%",
   "genres": [
    "Mystery",
    "Thriller"
@@ -1950,7 +1940,9 @@
    "Drama"
   ],
   "poster": "img/movies/Nightcrawler.jpg",
-  "streamers": [],
+  "streamers": [
+   "AMC+"
+  ],
   "synopsis": "Los Angeles denizen Louis Bloom survives by scavenging and petty theft. He stumbles into a new career as a cameraman and -- armed with a camcorder and police scanner -- begins nocturnal forays across the city in search of shocking and grisly crimes. When he catches the eye of a shopworn news director who welcomes the chance to raise her station's ratings, Louis goes to increasingly greater lengths to catch the \"money shot.\"",
   "title": "Nightcrawler",
   "url": "https://www.rottentomatoes.com/m/nightcrawler",
@@ -2018,8 +2010,7 @@
   ],
   "poster": "img/movies/Nomadland.jpg",
   "streamers": [
-   "Disney+",
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "A woman embarks on a journey through the American West after losing everything during the recession.",
   "title": "Nomadland",
@@ -2044,7 +2035,7 @@
   "year": "2026"
  },
  "Oddity|2024": {
-  "audience": "77%",
+  "audience": "85%",
   "critics": "96%",
   "genres": [
    "Horror",
@@ -2052,7 +2043,11 @@
    "Thriller"
   ],
   "poster": "img/movies/Oddity.jpg",
-  "streamers": [],
+  "streamers": [
+   "Disney+",
+   "Hulu",
+   "AMC+"
+  ],
   "synopsis": "When Dani is brutally murdered at the remote country house that she and her husband Ted are renovating, everyone suspects a patient from the local mental health institution, where Ted is a doctor. However, soon after the tragic killing, the suspect is found dead. A year later, Dani's blind twin sister Darcy, a self-proclaimed psychic and collector of cursed items, pays an unexpected visit to Ted and his new girlfriend, Yana. Convinced that there was more to her sister's murder than people know, Darcy has brought with her the most dangerous items from her cursed collection to help her exact revenge.",
   "title": "Oddity",
   "url": "https://www.rottentomatoes.com/m/oddity",
@@ -2087,9 +2082,7 @@
    "Thriller"
   ],
   "poster": "img/movies/Oldboy.jpg",
-  "streamers": [
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "Dae-Su is an obnoxious drunk bailed from the police station yet again by a friend. However, he's abducted from the street and wakes up in a cell, where he remains for the next 15 years, drugged unconscious when human contact is unavoidable, otherwise with only the television as company. And then, suddenly released, he is invited to track down his jailor with a denouement that is simply stunning.",
   "title": "Oldboy",
   "url": "https://www.rottentomatoes.com/m/oldboy",
@@ -2103,7 +2096,9 @@
    "Drama"
   ],
   "poster": "img/movies/OnceUponATimeInHollywood.jpg",
-  "streamers": [],
+  "streamers": [
+   "Hulu"
+  ],
   "synopsis": "Actor Rick Dalton gained fame and fortune by starring in a 1950s television Western, but is now struggling to find meaningful work in a Hollywood that he doesn't recognize anymore. He spends most of his time drinking and palling around with Cliff Booth, his easygoing best friend and longtime stunt double. Rick also happens to live next door to Roman Polanski and Sharon Tate -- the filmmaker and budding actress whose futures will forever be altered by members of the Manson Family.",
   "title": "Once Upon A Time... In Hollywood",
   "url": "https://www.rottentomatoes.com/m/once_upon_a_time_in_hollywood",
@@ -2111,7 +2106,7 @@
  },
  "One Flew Over the Cuckoo's Nest|1975": {
   "audience": "96%",
-  "critics": "93%",
+  "critics": "92%",
   "genres": [
    "Drama"
   ],
@@ -2154,7 +2149,7 @@
   "year": "2006"
  },
  "Parasite|2019": {
-  "audience": "93%",
+  "audience": "90%",
   "critics": "99%",
   "genres": [
    "Comedy",
@@ -2163,9 +2158,7 @@
    "Drama"
   ],
   "poster": "img/movies/Parasite.jpg",
-  "streamers": [
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
   "title": "Parasite",
   "url": "https://www.rottentomatoes.com/m/parasite_2019",
@@ -2181,10 +2174,7 @@
    "Comedy"
   ],
   "poster": "img/movies/Pearl.jpg",
-  "streamers": [
-   "Paramount+",
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "Filmmaker Ti West returns with another chapter from the twisted world of X, in this astonishing follow-up to the year's most acclaimed horror film. Trapped on her family's isolated farm, Pearl must tend to her ailing father under the bitter and overbearing watch of her devout mother. Lusting for a glamorous life like she's seen in the movies, Pearl finds her ambitions, temptations, and repressions all colliding in this stunning, technicolor-inspired origin story of X's iconic villain.",
   "title": "Pearl",
   "url": "https://www.rottentomatoes.com/m/pearl_2022",
@@ -2205,7 +2195,7 @@
  },
  "Poor Things|2023": {
   "audience": "80%",
-  "critics": "93%",
+  "critics": "92%",
   "genres": [
    "Comedy",
    "Fantasy",
@@ -2214,8 +2204,7 @@
   ],
   "poster": "img/movies/PoorThings.jpg",
   "streamers": [
-   "Disney+",
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "From filmmaker Yorgos Lanthimos and producer Emma Stone comes the incredible tale and fantastical evolution of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter. Under Baxter's protection, Bella is eager to learn. Hungry for the worldliness she is lacking, Bella runs off with Duncan Wedderburn, a slick and debauched lawyer, on a whirlwind adventure across the continents. Free from the prejudices of her times, Bella grows steadfast in her purpose to stand for equality and liberation.",
   "title": "Poor Things",
@@ -2248,7 +2237,7 @@
   "poster": "img/movies/Primer.jpg",
   "streamers": [
    "Prime Video",
-   "Apple TV+"
+   "Apple TV"
   ],
   "synopsis": "Intellectual engineers Aaron and Abe build and sell error-checking technology with the help of their friends Robert and Phillip. But when Aaron and Abe accidentally invent what they think is a time machine, Abe builds a version capable of transporting a human and puts the device to the test. As the two friends obsess over their creation, they discover the dark consequences of their actions.",
   "title": "Primer",
@@ -2265,9 +2254,7 @@
    "Drama"
   ],
   "poster": "img/movies/Prisoners.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "Keller Dover faces a parent's worst nightmare when his 6-year-old daughter, Anna, and her friend go missing. The only lead is an old motorhome that had been parked on their street. The head of the investigation, Detective Loki, arrests the driver, but a lack of evidence forces Loki to release his only suspect. Dover, knowing that his daughter's life is at stake, decides that he has no choice but to take matters into his own hands.",
   "title": "Prisoners",
   "url": "https://www.rottentomatoes.com/m/prisoners_2013",
@@ -2275,14 +2262,12 @@
  },
  "Problemista|2023": {
   "audience": "85%",
-  "critics": "86%",
+  "critics": "85%",
   "genres": [
    "Comedy"
   ],
   "poster": "img/movies/Problemista.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "Alejandro is an aspiring toy designer from El Salvador, struggling to bring his unusual ideas to life in New York City. As time on his work visa runs out, a job assisting an erratic art-world outcast becomes his only hope to stay in the country and realize his dream. From writer/director Julio Torres comes a surreal adventure through the equally treacherous worlds of New York City and the U.S. Immigration system.",
   "title": "Problemista",
   "url": "https://www.rottentomatoes.com/m/problemista",
@@ -2332,7 +2317,9 @@
    "Drama"
   ],
   "poster": "img/movies/PulpFiction.jpg",
-  "streamers": [],
+  "streamers": [
+   "Paramount+"
+  ],
   "synopsis": "Vincent Vega and Jules Winnfield are hitmen with a penchant for philosophical discussions. In this ultra-hip, multi-strand crime movie, their storyline is interwoven with those of their boss, gangster Marsellus Wallace ; his actress wife, Mia ; struggling boxer Butch Coolidge ; master fixer Winston Wolfe and a nervous pair of armed robbers, Pumpkin and Honey Bunny.",
   "title": "Pulp Fiction",
   "url": "https://www.rottentomatoes.com/m/pulp_fiction",
@@ -2379,21 +2366,26 @@
    "Comedy"
   ],
   "poster": "img/movies/ReadyOrNot.jpg",
-  "streamers": [],
+  "streamers": [
+   "Disney+",
+   "Hulu"
+  ],
   "synopsis": "Grace couldn't be happier after she marries the man of her dreams at his family's luxurious estate. There's just one catch -- she must now hide from midnight until dawn while her new in-laws hunt her down with guns, crossbows and other weapons. As Grace desperately tries to survive the night, she soon finds a way to turn the tables on her not-so-lovable relatives.",
   "title": "Ready Or Not",
   "url": "https://www.rottentomatoes.com/m/ready_or_not_2019",
   "year": "2019"
  },
  "Red Rocket|2021": {
-  "audience": "75%",
+  "audience": "79%",
   "critics": "90%",
   "genres": [
    "Comedy",
    "Drama"
   ],
   "poster": "img/movies/RedRocket.jpg",
-  "streamers": [],
+  "streamers": [
+   "Netflix"
+  ],
   "synopsis": "The audacious new film from writer-director Sean Baker, starring Simon Rex in a magnetic, live-wire performance, Red Rocket is a darkly funny and humane portrait of a uniquely American hustler and a hometown that barely tolerates him.",
   "title": "Red Rocket",
   "url": "https://www.rottentomatoes.com/m/red_rocket",
@@ -2401,12 +2393,14 @@
  },
  "Requiem For A Dream|2000": {
   "audience": "93%",
-  "critics": "78%",
+  "critics": "80%",
   "genres": [
    "Drama"
   ],
   "poster": "img/movies/RequiemForADream.jpg",
-  "streamers": [],
+  "streamers": [
+   "Peacock"
+  ],
   "synopsis": "Imaginatively evoking the inner landscape of human beings longing to connect, to love and feel loved, the film is a parable of happiness gloriously found and tragically lost. \"Requiem for a Dream\" tells parallel stories that are linked by the relationship between the lonely, widowed Sara Goldfarb and her sweet but aimless son, Harry. The plump Sara, galvanized by the prospect of appearing on a TV game show, has started on a dangerous diet regimen to beautify herself for a national audience.",
   "title": "Requiem For A Dream",
   "url": "https://www.rottentomatoes.com/m/requiem_for_a_dream",
@@ -2420,7 +2414,9 @@
    "Drama"
   ],
   "poster": "img/movies/ReservoirDogs.jpg",
-  "streamers": [],
+  "streamers": [
+   "Peacock"
+  ],
   "synopsis": "A group of thieves assemble to pull of the perfect diamond heist. It turns into a bloody ambush when one of the men turns out to be a police informer. As the group begins to question each other's guilt, the heightening tensions threaten to explode the situation before the police step in.",
   "title": "Reservoir Dogs",
   "url": "https://www.rottentomatoes.com/m/reservoir_dogs",
@@ -2428,7 +2424,7 @@
  },
  "Resolution|2012": {
   "audience": "65%",
-  "critics": "80%",
+  "critics": "81%",
   "genres": [
    "Horror",
    "Mystery",
@@ -2448,7 +2444,9 @@
    "Drama"
   ],
   "poster": "img/movies/Room.jpg",
-  "streamers": [],
+  "streamers": [
+   "Max"
+  ],
   "synopsis": "Held captive for years in an enclosed space, a woman and her young son finally gain their freedom, allowing the boy to experience the outside world for the first time.",
   "title": "Room",
   "url": "https://www.rottentomatoes.com/m/room_2015",
@@ -2482,7 +2480,7 @@
  },
  "Saltburn|2023": {
   "audience": "79%",
-  "critics": "71%",
+  "critics": "72%",
   "genres": [
    "Comedy",
    "Drama",
@@ -2490,7 +2488,9 @@
    "Thriller"
   ],
   "poster": "img/movies/Saltburn.jpg",
-  "streamers": [],
+  "streamers": [
+   "Hulu"
+  ],
   "synopsis": "Academy Award winning filmmaker Emerald Fennell brings us a beautifully wicked tale of privilege and desire. Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family's sprawling estate, for a summer never to be forgotten.",
   "title": "Saltburn",
   "url": "https://www.rottentomatoes.com/m/saltburn",
@@ -2538,7 +2538,9 @@
    "Comedy"
   ],
   "poster": "img/movies/SevenPsychopaths.jpg",
-  "streamers": [],
+  "streamers": [
+   "Paramount+"
+  ],
   "synopsis": "Boozy writer Marty is a man in search of a screenplay. He has a catchy title but no story to go along with it. Marty has a couple of oddball buddies, Hans and Billy, who make a living by kidnapping rich people's dogs, then returning them and collecting the reward. However this time, the fur flies when Hans and Billy kidnap the beloved pooch of a gangster, and Marty uses the ensuing events as fodder for his screenplay.",
   "title": "Seven Psychopaths",
   "url": "https://www.rottentomatoes.com/m/seven_psychopaths",
@@ -2554,7 +2556,9 @@
    "Drama"
   ],
   "poster": "img/movies/Seven.jpg",
-  "streamers": [],
+  "streamers": [
+   "Peacock"
+  ],
   "synopsis": "When retiring police Detective William Somerset tackles a final case with the aid of newly transferred David Mills, they discover a number of elaborate and grisly murders. They soon realize they are dealing with a serial killer who is targeting people he thinks represent one of the seven deadly sins. Somerset also befriends Mills' wife, Tracy, who is pregnant and afraid to raise her child in the crime-riddled city.",
   "title": "Seven",
   "url": "https://www.rottentomatoes.com/m/seven",
@@ -2587,7 +2591,7 @@
   ],
   "poster": "img/movies/ShutterIsland.jpg",
   "streamers": [
-   "Paramount+"
+   "Starz"
   ],
   "synopsis": "The implausible escape of a brilliant murderess brings U.S. Marshal Teddy Daniels and his new partner to Ashecliffe Hospital, a fortress-like insane asylum located on a remote, windswept island. The woman appears to have vanished from a locked room, and there are hints of terrible deeds committed within the hospital walls. As the investigation deepens, Teddy realizes he will have to confront his own dark fears if he hopes to make it off the island alive.",
   "title": "Shutter Island",
@@ -2596,7 +2600,7 @@
  },
  "Sicario|2015": {
   "audience": "85%",
-  "critics": "92%",
+  "critics": "91%",
   "genres": [
    "Mystery",
    "Thriller",
@@ -2605,7 +2609,10 @@
    "Action"
   ],
   "poster": "img/movies/Sicario.jpg",
-  "streamers": [],
+  "streamers": [
+   "Disney+",
+   "Hulu"
+  ],
   "synopsis": "After rising through the ranks of her male-dominated profession, idealistic FBI agent Kate Macer receives a top assignment. Recruited by mysterious government official Matt Graver, Kate joins a task force for the escalating war against drugs. Led by the intense and shadowy Alejandro, the team travels back-and-forth across the U.S.-Mexican border, using one cartel boss to flush out a bigger one.",
   "title": "Sicario",
   "url": "https://www.rottentomatoes.com/m/sicario_2015",
@@ -2618,11 +2625,7 @@
    "Comedy"
   ],
   "poster": "img/movies/SickOfMyself.jpg",
-  "streamers": [
-   "Prime Video",
-   "Paramount+",
-   "Apple TV+"
-  ],
+  "streamers": [],
   "synopsis": "Signe and Thomas are in an unhealthy, competitive relationship that takes a vicious turn when Thomas suddenly breaks through as a contemporary artist. In response, Signe makes a desperate attempt to regain her status by creating a new persona hell-bent on attracting attention and sympathy.",
   "title": "Sick Of Myself",
   "url": "https://www.rottentomatoes.com/m/sick_of_myself",
@@ -2637,7 +2640,9 @@
    "Thriller"
   ],
   "poster": "img/movies/SideEffects.jpg",
-  "streamers": [],
+  "streamers": [
+   "Netflix"
+  ],
   "synopsis": "For four years, Emily Taylor has awaited the release of her husband, Martin, from being imprisoned for insider trading. Finally, Martin comes home, but Emily feels just as bad as she did when he was incarcerated, and she sinks into a deep depression. After her failed suicide attempt, psychiatrist Jonathan Banks prescribes a series of medications. When those don't work, he gives Emily a new medication -- but the drug leads to ruined lives and death.",
   "title": "Side Effects",
   "url": "https://www.rottentomatoes.com/m/side_effects_2013",
@@ -2662,7 +2667,7 @@
   "year": "2025"
  },
  "Skin|2018": {
-  "audience": "82%",
+  "audience": "81%",
   "critics": "76%",
   "genres": [
    "Biography",
@@ -2685,7 +2690,7 @@
   ],
   "poster": "img/movies/SleepTight.jpg",
   "streamers": [
-   "Peacock"
+   "AMC+"
   ],
   "synopsis": "César is the superintendent of an apartment building and keeps very close tabs on the tenants. He secretly enjoys inflicting pain on others, and the occupant of apartment 5B will be his new target.",
   "title": "Sleep Tight",
@@ -2700,7 +2705,9 @@
    "Drama"
   ],
   "poster": "img/movies/SmallEngineRepair.jpg",
-  "streamers": [],
+  "streamers": [
+   "Netflix"
+  ],
   "synopsis": "Frankie, Swaino and Packie are lifelong friends who share a love of the Red Sox, rowdy bars and Frankie's teenaged daughter Crystal. But when Frankie invites his pals to a whiskey-fueled evening and asks them to do a favor on behalf of the brash young woman they all adore, events spin wildly out of control. Based on Pollono's award-winning play, Small Engine Repair is a pitch-black comedic drama with a wicked twist and a powerful exploration of brotherhood, class struggle and toxic masculinity.",
   "title": "Small Engine Repair",
   "url": "https://www.rottentomatoes.com/m/small_engine_repair_2021",
@@ -2724,17 +2731,15 @@
   "year": "2013"
  },
  "Something In The Dirt|2022": {
-  "audience": "47%",
-  "critics": "90%",
+  "audience": "48%",
+  "critics": "89%",
   "genres": [
    "Sci-Fi",
    "Comedy",
    "Horror"
   ],
   "poster": "img/movies/SomethingInTheDirt.jpg",
-  "streamers": [
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "When neighbors John and Levi witness supernatural events in their Los Angeles apartment building, they realize documenting the paranormal could inject some fame and fortune into their wasted lives. An ever-deeper, darker rabbit hole, their friendship frays as they uncover the dangers of the phenomena, the city and each other.",
   "title": "Something In The Dirt",
   "url": "https://www.rottentomatoes.com/m/something_in_the_dirt",
@@ -2749,10 +2754,7 @@
    "Sci-Fi"
   ],
   "poster": "img/movies/SorryToBotherYou.jpg",
-  "streamers": [
-   "Disney+",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "In an alternate reality of present-day Oakland, Calif., telemarketer Cassius Green finds himself in a macabre universe after he discovers a magical key that leads to material glory. As Green's career begins to take off, his friends and co-workers organize a protest against corporate oppression. Cassius soon falls under the spell of Steve Lift, a cocaine-snorting CEO who offers him a salary beyond his wildest dreams.",
   "title": "Sorry to Bother You",
   "url": "https://www.rottentomatoes.com/m/sorry_to_bother_you_2018",
@@ -2768,17 +2770,15 @@
    "Action"
   ],
   "poster": "img/movies/SourceCode.jpg",
-  "streamers": [
-   "Peacock"
-  ],
+  "streamers": [],
   "synopsis": "Helicopter pilot Colter Stevens is part of a top-secret military operation that enables him to experience the last few minutes in the life of Sean Fentress, a man who died in a commuter-train explosion. The purpose of Colter's mission is to learn the identity of the bomber and prevent a similar catastrophe. As Colter lives Sean's final moments, he becomes more certain that he can prevent the first tragedy from occurring -- as long as he doesn't run out of time.",
   "title": "Source Code",
   "url": "https://www.rottentomatoes.com/m/source_code",
   "year": "2011"
  },
  "Speak No Evil|2022": {
-  "audience": "57%",
-  "critics": "84%",
+  "audience": "59%",
+  "critics": "83%",
   "genres": [
    "Horror",
    "Mystery",
@@ -2786,7 +2786,9 @@
    "Drama"
   ],
   "poster": "img/movies/SpeakNoEvil.jpg",
-  "streamers": [],
+  "streamers": [
+   "AMC+"
+  ],
   "synopsis": "On a vacation in Tuscany, two families -- one Danish, one Dutch -- meet and become fast friends. Months later, the free-spirited Dutch family extends an invitation to the more conservative Danish one for a holiday weekend getaway at their countryside home. However, it doesn't take long before things gradually get out of hand as the joy of reunion is replaced with misunderstandings. The Dutch hospitality quickly turns unnerving for the Danes, and they find themselves increasingly caught in a web of their own politeness in the face of eccentric... or is it sinister... behavior.",
   "title": "Speak No Evil",
   "url": "https://www.rottentomatoes.com/m/speak_no_evil_2022",
@@ -2812,9 +2814,7 @@
    "Drama"
   ],
   "poster": "img/movies/StillAlice.jpg",
-  "streamers": [
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "Dr. Alice Howland is a renowned linguistics professor at Columbia University. When words begin to escape her and she starts becoming lost on her daily jogs, Alice must come face-to-face with a devastating diagnosis: early-onset Alzheimer's disease. As the once-vibrant woman struggles to hang on to her sense of self for as long as possible, Alice's three grown children must watch helplessly as their mother disappears more and more with each passing day.",
   "title": "Still Alice",
   "url": "https://www.rottentomatoes.com/m/still_alice",
@@ -2837,7 +2837,7 @@
  },
  "Synchronic|2019": {
   "audience": "76%",
-  "critics": "78%",
+  "critics": "79%",
   "genres": [
    "Sci-Fi",
    "Mystery",
@@ -2861,9 +2861,7 @@
    "Thriller"
   ],
   "poster": "img/movies/TalkToMe.jpg",
-  "streamers": [
-   "Paramount+"
-  ],
+  "streamers": [],
   "synopsis": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
   "title": "Talk To Me",
   "url": "https://www.rottentomatoes.com/m/talk_to_me_2023",
@@ -2877,9 +2875,7 @@
    "Drama"
   ],
   "poster": "img/movies/Tangerine.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "After hearing that her boyfriend/pimp cheated on her while she was in jail, a transgender sex worker and her best friend set out to find him and teach him and his new lover a lesson.",
   "title": "Tangerine",
   "url": "https://www.rottentomatoes.com/m/tangerine_2015",
@@ -2900,7 +2896,7 @@
  },
  "The Ballad Of Buster Scruggs|2018": {
   "audience": "78%",
-  "critics": "89%",
+  "critics": "90%",
   "genres": [
    "Western",
    "Comedy",
@@ -2916,7 +2912,7 @@
   "year": "2018"
  },
  "The Beta Test|2021": {
-  "audience": "61%",
+  "audience": "62%",
   "critics": "92%",
   "genres": [
    "Mystery",
@@ -2925,7 +2921,7 @@
   ],
   "poster": "img/movies/TheBetaTest.jpg",
   "streamers": [
-   "Hulu"
+   "AMC+"
   ],
   "synopsis": "A married Hollywood agent receives a mysterious letter for an anonymous sexual encounter and becomes ensnared in a sinister world of lying, murder and infidelity in this scintillating satire.",
   "title": "The Beta Test",
@@ -2934,12 +2930,14 @@
  },
  "The Big Lebowski|1998": {
   "audience": "93%",
-  "critics": "80%",
+  "critics": "79%",
   "genres": [
    "Comedy"
   ],
   "poster": "img/movies/TheBigLebowski.jpg",
-  "streamers": [],
+  "streamers": [
+   "Netflix"
+  ],
   "synopsis": "Jeff Bridges plays Jeff Lebowski who insists on being called \"the Dude,\" a laid-back, easygoing burnout who happens to have the same name as a millionaire whose wife owes a lot of dangerous people a whole bunch of money -- resulting in the Dude having his rug soiled, sending him spiraling into the Los Angeles underworld.",
   "title": "The Big Lebowski",
   "url": "https://www.rottentomatoes.com/m/the_big_lebowski",
@@ -2947,7 +2945,7 @@
  },
  "The Cured|2017": {
   "audience": "45%",
-  "critics": "71%",
+  "critics": "70%",
   "genres": [
    "Horror",
    "Mystery",
@@ -2955,7 +2953,9 @@
    "Drama"
   ],
   "poster": "img/movies/TheCured.jpg",
-  "streamers": [],
+  "streamers": [
+   "AMC+"
+  ],
   "synopsis": "After years of a zombie plague that ravaged Europe, humanity grapples with how to reintegrate the former zombies into society.",
   "title": "The Cured",
   "url": "https://www.rottentomatoes.com/m/the_cured",
@@ -3017,28 +3017,32 @@
    "Comedy"
   ],
   "poster": "img/movies/TheDetails.jpg",
-  "streamers": [],
+  "streamers": [
+   "Starz"
+  ],
   "synopsis": "Seemingly blind to the actual cracks in his marriage, a doctor blames a family of destructive raccoons for the problems in his home life.",
   "title": "The Details",
   "url": "https://www.rottentomatoes.com/m/the_details_2010",
   "year": "2010"
  },
  "The Devil's Bath|2024": {
-  "audience": "64%",
-  "critics": "90%",
+  "audience": "61%",
+  "critics": "91%",
   "genres": [
    "Horror",
    "Drama"
   ],
   "poster": "img/movies/TheDevil'sBath.jpg",
-  "streamers": [],
+  "streamers": [
+   "AMC+"
+  ],
   "synopsis": "In 1750 Austria, a deeply religious woman named Agnes has just married her beloved, but her mind and heart soon grow heavy as her life becomes a long list of chores and expectations. Day after day, she is increasingly trapped in a murky and lonely path leading to evil thoughts, until the possibility of committing a shocking act of violence seems like the only way out of her inner prison. Giving a voice to the invisible and unheard women of the rural past; THE DEVIL'S BATH is based on historical court records about a shocking, hitherto unexplored chapter of European history.",
   "title": "The Devil's Bath",
   "url": "https://www.rottentomatoes.com/m/the_devils_bath",
   "year": "2024"
  },
  "The Domestics|2018": {
-  "audience": "49%",
+  "audience": "50%",
   "critics": "100%",
   "genres": [
    "Action",
@@ -3053,7 +3057,7 @@
   "year": "2018"
  },
  "The Endless|2017": {
-  "audience": "68%",
+  "audience": "67%",
   "critics": "91%",
   "genres": [
    "Horror",
@@ -3071,7 +3075,7 @@
   "year": "2017"
  },
  "The Favourite|2018": {
-  "audience": "70%",
+  "audience": "71%",
   "critics": "93%",
   "genres": [
    "Comedy",
@@ -3093,7 +3097,7 @@
   ],
   "poster": "img/movies/TheFeast.jpg",
   "streamers": [
-   "Hulu"
+   "AMC+"
   ],
   "synopsis": "An affluent family gathers at their lavish home in the Welsh mountains for a dinner party, hosting a local businessman and neighboring farmer to broker a business deal to mine the surrounding countryside. When a mysterious young woman arrives to be the family's waitress for the evening, they find their beliefs and values challenged, as her quiet yet disturbing presence begins to unravel their lives -- slowly, deliberately, and with the most terrifying of consequences.",
   "title": "The Feast",
@@ -3138,10 +3142,7 @@
    "Drama"
   ],
   "poster": "img/movies/TheGrandBudapestHotel.jpg",
-  "streamers": [
-   "Disney+",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "In the 1930s, the Grand Budapest Hotel is a popular European ski resort, presided over by concierge Gustave H.. Zero, a junior lobby boy, becomes Gustave's friend and protege. Gustave prides himself on providing first-class service to the hotel's guests, including satisfying the sexual needs of the many elderly women who stay there. When one of Gustave's lovers dies mysteriously, Gustave finds himself the recipient of a priceless painting and the chief suspect in her murder.",
   "title": "The Grand Budapest Hotel",
   "url": "https://www.rottentomatoes.com/m/the_grand_budapest_hotel",
@@ -3155,7 +3156,7 @@
   ],
   "poster": "img/movies/TheHatefulEight.jpg",
   "streamers": [
-   "Netflix"
+   "Peacock"
   ],
   "synopsis": "While racing toward the town of Red Rock in post-Civil War Wyoming, bounty hunter John \"The Hangman\" Ruth and his fugitive prisoner encounter another bounty hunter and a man who claims to be a sheriff. Hoping to find shelter from a blizzard, the group travels to a stagecoach stopover located on a mountain pass. Greeted there by four strangers, the eight travelers soon learn that they may not make it to their destination after all.",
   "title": "The Hateful Eight",
@@ -3180,7 +3181,7 @@
   "year": "2008"
  },
  "The Kill Team|2019": {
-  "audience": "41%",
+  "audience": "42%",
   "critics": "69%",
   "genres": [
    "War",
@@ -3253,7 +3254,8 @@
   ],
   "poster": "img/movies/TheLittleHours.jpg",
   "streamers": [
-   "Peacock"
+   "Disney+",
+   "Hulu"
   ],
   "synopsis": "Medieval nuns Alessandra, Fernanda, and Ginevra lead a simple life in their convent. Their days are spent chafing at monastic routine, spying on one another, and berating the estate's day laborer. After a particularly vicious insult session drives the peasant away, Father Tommasso brings on newly hired hand Massetto, a virile young servant forced into hiding by his angry lord. Introduced to the sisters as a deaf-mute to discourage temptation, Massetto struggles to maintain his cover.",
   "title": "The Little Hours",
@@ -3309,7 +3311,7 @@
  },
  "The Night House|2020": {
   "audience": "69%",
-  "critics": "87%",
+  "critics": "88%",
   "genres": [
    "Horror",
    "Mystery",
@@ -3346,16 +3348,14 @@
    "War"
   ],
   "poster": "img/movies/ThePianist.jpg",
-  "streamers": [
-   "Peacock"
-  ],
+  "streamers": [],
   "synopsis": "In this adaptation of the autobiography \"The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945,\" Wladyslaw Szpilman, a Polish Jewish radio station pianist, sees Warsaw change gradually as World War II begins. Szpilman is forced into the Warsaw Ghetto, but is later separated from his family during Operation Reinhard. From this time until the concentration camp prisoners are released, Szpilman hides in various locations among the ruins of Warsaw.",
   "title": "The Pianist",
   "url": "https://www.rottentomatoes.com/m/pianist",
   "year": "2002"
  },
  "The Pink Cloud|2021": {
-  "audience": "46%",
+  "audience": "48%",
   "critics": "95%",
   "genres": [
    "Drama",
@@ -3386,7 +3386,7 @@
   "year": "2025"
  },
  "The Platform|2019": {
-  "audience": "73%",
+  "audience": "72%",
   "critics": "81%",
   "genres": [
    "Sci-Fi",
@@ -3418,7 +3418,7 @@
  },
  "The Prestige|2006": {
   "audience": "92%",
-  "critics": "77%",
+  "critics": "76%",
   "genres": [
    "Drama",
    "Fantasy",
@@ -3426,7 +3426,11 @@
    "Thriller"
   ],
   "poster": "img/movies/ThePrestige.jpg",
-  "streamers": [],
+  "streamers": [
+   "Disney+",
+   "Peacock",
+   "Hulu"
+  ],
   "synopsis": "An illusion gone horribly wrong pits two 19th-century magicians, Alfred Borden and Rupert Angier, against each other in a bitter battle for supremacy. Terrible consequences loom when the pair escalate their feud, each seeking not just to outwit -- but to destroy -- the other man.",
   "title": "The Prestige",
   "url": "https://www.rottentomatoes.com/m/prestige",
@@ -3442,9 +3446,7 @@
    "Sci-Fi"
   ],
   "poster": "img/movies/TheRoad.jpg",
-  "streamers": [
-   "Peacock"
-  ],
+  "streamers": [],
   "synopsis": "America is a grim, gray shadow of itself after a catastrophe. A man and his young son wander through this post-apocalyptic world, trying to keep the dream of civilization alive. They journey toward the sea, surviving as best they can on what they can scavenge, and try to avoid roving gangs of savage humans who will turn them into slaves, or worse.",
   "title": "The Road",
   "url": "https://www.rottentomatoes.com/m/the_road_2009",
@@ -3465,7 +3467,7 @@
  },
  "The Shining|1980": {
   "audience": "93%",
-  "critics": "83%",
+  "critics": "84%",
   "genres": [
    "Horror",
    "Mystery",
@@ -3495,14 +3497,16 @@
   "year": "1991"
  },
  "The Substance|2024": {
-  "audience": "75%",
+  "audience": "76%",
   "critics": "89%",
   "genres": [
    "Horror",
    "Drama"
   ],
   "poster": "img/movies/TheSubstance.jpg",
-  "streamers": [],
+  "streamers": [
+   "Max"
+  ],
   "synopsis": "Have you ever dreamt of a better version of yourself? You, only better in every way. You should try this new product, it's called The Substance. IT CHANGED MY LIFE. With The Substance, you can generate another you: younger, more beautiful, more perfect. You just have to share time -- one week for one, one week for the other. A perfect balance of seven days each... Easy right? If you respect the balance... What could possibly go wrong?",
   "title": "The Substance",
   "url": "https://www.rottentomatoes.com/m/the_substance",
@@ -3531,7 +3535,9 @@
    "Drama"
   ],
   "poster": "img/movies/TheTrumanShow.jpg",
-  "streamers": [],
+  "streamers": [
+   "Paramount+"
+  ],
   "synopsis": "He doesn't know it, but everything in Truman Burbank's life is part of a massive TV set. Executive producer Christof orchestrates \"The Truman Show,\" a live broadcast of Truman's every move captured by hidden cameras. Cristof tries to control Truman's mind, even removing his true love, Sylvia, from the show and replacing her with Meryl. As Truman gradually discovers the truth, however, he must decide whether to act on it.",
   "title": "The Truman Show",
   "url": "https://www.rottentomatoes.com/m/truman_show",
@@ -3594,7 +3600,7 @@
   "year": "2014"
  },
  "The Wailing|2016": {
-  "audience": "82%",
+  "audience": "81%",
   "critics": "99%",
   "genres": [
    "Mystery",
@@ -3603,7 +3609,7 @@
   ],
   "poster": "img/movies/TheWailing.jpg",
   "streamers": [
-   "Peacock"
+   "Prime Video"
   ],
   "synopsis": "Suspicion leads to hysteria when rural villagers link a series of brutal murders to the arrival of a mysterious stranger.",
   "title": "The Wailing",
@@ -3617,10 +3623,7 @@
    "Drama"
   ],
   "poster": "img/movies/TheWhale.jpg",
-  "streamers": [
-   "Paramount+",
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "A reclusive English teacher suffering from severe obesity attempts to reconnect with his estranged teenage daughter for one last chance at redemption.",
   "title": "The Whale",
   "url": "https://www.rottentomatoes.com/m/the_whale_2022",
@@ -3642,7 +3645,7 @@
   "year": "2020"
  },
  "They Look Like People|2015": {
-  "audience": "58%",
+  "audience": "57%",
   "critics": "92%",
   "genres": [
    "Drama",
@@ -3681,7 +3684,9 @@
    "Comedy"
   ],
   "poster": "img/movies/ThreeBillboardsOutsideEbbingMissouri.jpg",
-  "streamers": [],
+  "streamers": [
+   "Max"
+  ],
   "synopsis": "After months have passed without a culprit in her daughter's murder case, Mildred Hayes makes a bold move, painting three signs leading into her town with a controversial message directed at William Willoughby, the town's revered chief of police. When his second-in-command, Officer Dixon -- an immature mother's boy with a penchant for violence -- gets involved, the battle is only exacerbated.",
   "title": "Three Billboards Outside Ebbing Missouri",
   "url": "https://www.rottentomatoes.com/m/three_billboards_outside_ebbing_missouri",
@@ -3697,10 +3702,7 @@
    "Drama"
   ],
   "poster": "img/movies/Titane.jpg",
-  "streamers": [
-   "Disney+",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "Titane: A metal highly resistant to heat and corrosion, with high tensile strength alloys, often used in medical prostheses due to its pronounced biocompatibility.",
   "title": "Titane",
   "url": "https://www.rottentomatoes.com/m/titane",
@@ -3733,9 +3735,7 @@
    "Action"
   ],
   "poster": "img/movies/TrainToBusan.jpg",
-  "streamers": [
-   "Peacock"
-  ],
+  "streamers": [],
   "synopsis": "A man, his estranged daughter and other passengers become trapped on a speeding train during a zombie outbreak in South Korea.",
   "title": "Train To Busan",
   "url": "https://www.rottentomatoes.com/m/train_to_busan",
@@ -3743,15 +3743,13 @@
  },
  "Trainspotting|1996": {
   "audience": "93%",
-  "critics": "90%",
+  "critics": "93%",
   "genres": [
    "Comedy",
    "Drama"
   ],
   "poster": "img/movies/Trainspotting.jpg",
-  "streamers": [
-   "Paramount+"
-  ],
+  "streamers": [],
   "synopsis": "Heroin addict Mark Renton stumbles through bad ideas and sobriety attempts with his unreliable friends -- Sick Boy, Begbie, Spud and Tommy. He also has an underage girlfriend, Diane, along for the ride. After cleaning up and moving from Edinburgh to London, Mark finds he can't escape the life he left behind when Begbie shows up at his front door on the lam, and a scheming Sick Boy follows.",
   "title": "Trainspotting",
   "url": "https://www.rottentomatoes.com/m/trainspotting",
@@ -3759,14 +3757,13 @@
  },
  "Triangle of Sadness|2022": {
   "audience": "80%",
-  "critics": "72%",
+  "critics": "71%",
   "genres": [
    "Comedy"
   ],
   "poster": "img/movies/TriangleOfSadness.jpg",
   "streamers": [
-   "Disney+",
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "In Ruben Östlund's wickedly funny Palme d'Or winner, social hierarchy is turned upside down, revealing the tawdry relationship between power and beauty. Celebrity model couple, Carl and Yaya, are invited on a luxury cruise for the uber-rich, helmed by an unhinged boat captain. What first appeared instagrammable ends catastrophically, leaving the survivors stranded on a desert island and fighting for survival.",
   "title": "Triangle of Sadness",
@@ -3785,9 +3782,7 @@
    "Thriller"
   ],
   "poster": "img/movies/Tuesday.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "A mother and her teenage daughter must confront Death when it arrives in the form of an astonishing talking bird. From debut filmmaker Daina O. Pusić, Tuesday is a heart-rending fairy tale about the echoes of loss and finding resilience in the unexpected.",
   "title": "Tuesday",
   "url": "https://www.rottentomatoes.com/m/tuesday_2023",
@@ -3818,7 +3813,9 @@
    "Music"
   ],
   "poster": "img/movies/Tar.jpg",
-  "streamers": [],
+  "streamers": [
+   "Peacock"
+  ],
   "synopsis": "From writer-producer-director Todd Field comes TÁR, starring Cate Blanchett as Lydia Tár, the groundbreaking conductor of a major German Orchestra. We meet Tár at the height of her career, as she's preparing both a book launch and much-anticipated live performance of Mahler's Fifth Symphony. Over the ensuing weeks her life begins to unravel in a singularly modern way. The result is a searing examination of power, and its impact and durability in today's society.",
   "title": "Tár",
   "url": "https://www.rottentomatoes.com/m/tar_2022",
@@ -3840,7 +3837,7 @@
   "year": "2018"
  },
  "Us|2019": {
-  "audience": "61%",
+  "audience": "62%",
   "critics": "93%",
   "genres": [
    "Horror",
@@ -3848,7 +3845,9 @@
    "Thriller"
   ],
   "poster": "img/movies/Us.jpg",
-  "streamers": [],
+  "streamers": [
+   "Max"
+  ],
   "synopsis": "Accompanied by her husband, son and daughter, Adelaide Wilson returns to the beachfront home where she grew up as a child. Haunted by a traumatic experience from the past, Adelaide grows increasingly concerned that something bad is going to happen. Her worst fears soon become a reality when four masked strangers descend upon the house, forcing the Wilsons into a fight for survival. When the masks come off, the family is horrified to learn that each attacker takes the appearance of one of them.",
   "title": "Us",
   "url": "https://www.rottentomatoes.com/m/us_2019",
@@ -3870,7 +3869,7 @@
   "year": "2005"
  },
  "Vivarium|2019": {
-  "audience": "39%",
+  "audience": "40%",
   "critics": "73%",
   "genres": [
    "Mystery",
@@ -3912,8 +3911,7 @@
   ],
   "poster": "img/movies/Watcher.jpg",
   "streamers": [
-   "Disney+",
-   "Hulu"
+   "AMC+"
   ],
   "synopsis": "As a serial killer stalks the city, Julia -- a young actress who just moved to town with her boyfriend -- notices a mysterious stranger watching her from across the street in this terrifying thriller.",
   "title": "Watcher",
@@ -3961,7 +3959,6 @@
   ],
   "poster": "img/movies/WelcomeToMe.jpg",
   "streamers": [
-   "Peacock",
    "Prime Video"
   ],
   "synopsis": "A mentally unbalanced lottery winner goes off her medication, buys a talk show and uses it as a platform to broadcast her bizarre opinions on a wide variety of topics.",
@@ -3984,15 +3981,14 @@
   "year": "2014"
  },
  "When Evil Lurks|2023": {
-  "audience": "79%",
+  "audience": "84%",
   "critics": "96%",
   "genres": [
    "Horror"
   ],
   "poster": "img/movies/Whenevillurks.jpg",
   "streamers": [
-   "Disney+",
-   "Hulu"
+   "AMC+"
   ],
   "synopsis": "When brothers Pedro and Jimmy discover that a demonic infection has been festering in a nearby farmhouse -- its very proximity poisoning the local livestock -- they attempt to evict the victim from their land. Failing to adhere to the proper rites of exorcism, their reckless actions inadvertently trigger an epidemic of possessions across their rural community. Now they must outrun an encroaching evil as it corrupts and mutilates everyone it is exposed to, and enlist the aid of a wizened \"cleaner,\" who holds the only tools that can stop this supernatural plague.",
   "title": "When Evil Lurks",
@@ -4007,9 +4003,7 @@
    "Music"
   ],
   "poster": "img/movies/Whiplash.jpg",
-  "streamers": [
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "Andrew Neiman is an ambitious young jazz drummer, in pursuit of rising to the top of his elite music conservatory. Terence Fletcher, an instructor known for his terrifying teaching methods, discovers Andrew and transfers the aspiring drummer into the top jazz ensemble, forever changing the young man's life. But Andrew's passion to achieve perfection quickly spirals into obsession, as his ruthless teacher pushes him to the brink of his ability and his sanity.",
   "title": "Whiplash",
   "url": "https://www.rottentomatoes.com/m/whiplash_2014",
@@ -4025,7 +4019,9 @@
    "Drama"
   ],
   "poster": "img/movies/WindRiver.jpg",
-  "streamers": [],
+  "streamers": [
+   "Netflix"
+  ],
   "synopsis": "Cory Lambert is a wildlife officer who finds the body of an 18-year-old woman on an American Indian reservation in snowy Wyoming. When the autopsy reveals that she was raped, FBI agent Jane Banner arrives to investigate. Teaming up with Lambert as a guide, the duo soon find that their lives are in danger while trying to solve the mystery of the teen's death.",
   "title": "Wind River",
   "url": "https://www.rottentomatoes.com/m/wind_river_2017",
@@ -4067,9 +4063,7 @@
    "Thriller"
   ],
   "poster": "img/movies/X.jpg",
-  "streamers": [
-   "Max"
-  ],
+  "streamers": [],
   "synopsis": "In 1979, a group of young filmmakers set out to make an adult film in rural Texas, but when their reclusive, elderly hosts catch them in the act, the cast find themselves fighting for their lives.",
   "title": "X",
   "url": "https://www.rottentomatoes.com/m/x_2022",
@@ -4084,7 +4078,9 @@
    "Romance"
   ],
   "poster": "img/movies/YoungAdult.jpg",
-  "streamers": [],
+  "streamers": [
+   "Paramount+"
+  ],
   "synopsis": "Mavis Gary is a successful writer of teen literature who returns to her hometown with a dual mission: to relive her glory days and steal away her now-married high-school sweetheart. However, her mission does not go exactly to plan, and she finds her homecoming more problematic than she expected. Instead, Mavis forms an unusual bond with a former classmate, who has also found it difficult to move past high school.",
   "title": "Young Adult",
   "url": "https://www.rottentomatoes.com/m/young_adult",
@@ -4100,14 +4096,17 @@
    "War"
   ],
   "poster": "img/movies/ZeroDarkThirty.jpg",
-  "streamers": [],
+  "streamers": [
+   "Disney+",
+   "Hulu"
+  ],
   "synopsis": "Following the terrorist attacks of Sept. 11, 2001, Osama bin Laden becomes one of the most-wanted men on the planet. The worldwide manhunt for the terrorist leader occupies the resources and attention of two U.S. presidential administrations. Ultimately, it is the work of a dedicated female operative that proves instrumental in finally locating bin Laden. In May 2011, Navy SEALs launch a nighttime strike, killing bin Laden in his compound in Abbottabad, Pakistan.",
   "title": "Zero Dark Thirty",
   "url": "https://www.rottentomatoes.com/m/zero_dark_thirty",
   "year": "2012"
  },
  "Zodiac|2007": {
-  "audience": "77%",
+  "audience": "78%",
   "critics": "90%",
   "genres": [
    "Crime",
@@ -4116,7 +4115,9 @@
    "Thriller"
   ],
   "poster": "img/movies/Zodiac.jpg",
-  "streamers": [],
+  "streamers": [
+   "Paramount+"
+  ],
   "synopsis": "In the late 1960s and 1970s, fear grips the city of San Francisco as a serial killer called Zodiac stalks its residents. Investigators and reporters become obsessed with learning the killer's identity and bringing him to justice. Meanwhile, Zodiac claims victim after victim and taunts the authorities with cryptic messages, cyphers and menacing phone calls.",
   "title": "Zodiac",
   "url": "https://www.rottentomatoes.com/m/zodiac",
@@ -4132,14 +4133,16 @@
    "Drama"
   ],
   "poster": "img/movies/Zola.jpg",
-  "streamers": [],
+  "streamers": [
+   "Netflix"
+  ],
   "synopsis": "\"Y'all wanna hear a story about why me & this bitch here fell out? It's kind of long but full of suspense.\" Thus began the odyssey of one A'Ziah King, aka ZOLA. From acclaimed writer/director Janicza Bravo, Zola's stranger than fiction saga, which she first told in a now iconic series of viral, uproarious tweets, comes to dazzling cinematic life. Zola, a Detroit waitress, strikes up a new friendship with a customer, Stefani, who seduces her to join a weekend of dancing and partying in Florida. What at first seems like a glamorous trip full of \"hoeism\" rapidly transforms into a 48-hour journey involving a nameless pimp, an idiot boyfriend, some Tampa gangsters and other unexpected adventures in this wild, see-it-to-believe-it tale.",
   "title": "Zola",
   "url": "https://www.rottentomatoes.com/m/zola",
   "year": "2021"
  },
  "mother!|2017": {
-  "audience": "52%",
+  "audience": "51%",
   "critics": "68%",
   "genres": [
    "Horror",

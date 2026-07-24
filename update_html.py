@@ -10,6 +10,7 @@ the template below costs nothing -- no re-scraping needed. Delete a key (or the
 whole file) to force a refresh of a movie.
 '''
 
+import argparse
 import hashlib
 import html
 import json
@@ -24,6 +25,11 @@ DATA_FILE = "movies.json"
 INDEX_FILE = "index.html"
 
 LOGO_DIR = "img/logos"
+
+# Fields --refresh re-reads from Rotten Tomatoes. Synopsis, poster, title and
+# year are deliberately left alone: they don't go stale, and re-writing them
+# would churn the diff every night for no reason.
+REFRESH_FIELDS = ("critics", "audience", "streamers", "url")
 
 
 def read_movies():
@@ -198,7 +204,70 @@ def replace_region(contents, marker, body):
 	return contents[:start] + "\n" + body + contents[end:]
 
 
+def refresh_all(wanted, data):
+	'''
+	Re-reads every known movie's RT page, updating scores and streamers.
+
+	A movie that fails to refresh keeps whatever data it already had -- a bad
+	night on RT's end must never blank out the streaming badges on the site.
+	Returns a list of human-readable changes.
+	'''
+	changes = []
+	failed = []
+
+	# Requests are spaced by rt_scraper's request-layer throttle, so this loop
+	# doesn't need its own sleep.
+	for title, year in wanted:
+		key = title + "|" + year
+		movie = data.get(key)
+		if not movie:
+			continue
+
+		try:
+			fresh = rt_scraper.refresh(movie)
+		except rt_scraper.MovieNotFound:
+			print("refresh: " + title + " -- no longer found, keeping old data")
+			failed.append(title + " " + year)
+			continue
+		except Exception as e:
+			print("refresh: " + title + " -- failed (" + repr(e) + "), keeping old data")
+			failed.append(title + " " + year)
+			continue
+
+		# A page carrying a critics score parsed properly, so an empty streamer
+		# list from it is real ("left every service"), not a parse miss. Without
+		# that check an RT layout change would silently blank the whole site.
+		parsed_ok = bool(fresh.get("critics"))
+
+		for field in REFRESH_FIELDS:
+			new = fresh.get(field)
+			if new == movie.get(field):
+				continue
+			if not new and not (parsed_ok and field == "streamers"):
+				continue
+			if field == "streamers":
+				changes.append(
+					title + ": " + (", ".join(movie.get(field) or []) or "none")
+					+ " -> " + ", ".join(new)
+				)
+			elif field != "url":
+				changes.append(title + " " + field + ": " + str(movie.get(field)) + " -> " + str(new))
+			movie[field] = new
+
+	if failed:
+		print("\nCould not refresh " + str(len(failed)) + ": " + ", ".join(failed))
+	return changes
+
+
 def main():
+	parser = argparse.ArgumentParser(description=__doc__)
+	parser.add_argument(
+		"--refresh",
+		action="store_true",
+		help="also re-scrape movies already in movies.json for changed scores and streamers",
+	)
+	args = parser.parse_args()
+
 	wanted = read_movies()
 	data = load_data()
 	failed = []
@@ -216,6 +285,12 @@ def main():
 		except Exception as e:
 			print("  failed: " + repr(e))
 			failed.append(title + " " + year)
+
+	if args.refresh:
+		changes = refresh_all(wanted, data)
+		print("\n" + str(len(changes)) + " change(s) from refresh")
+		for change in changes:
+			print("  " + change)
 
 	save_data(data)
 

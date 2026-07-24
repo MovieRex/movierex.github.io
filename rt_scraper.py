@@ -35,6 +35,12 @@ HEADERS = {
 TIMEOUT = 20
 RETRIES = 3
 
+# Minimum seconds between any two requests to Rotten Tomatoes, enforced globally
+# at the request layer so slug-guessing, search fallbacks, poster downloads and
+# the nightly refresh all share one polite cadence. Override with the
+# RT_REQUEST_INTERVAL env var (e.g. to slow CI down further, or 0 in tests).
+REQUEST_INTERVAL = float(os.environ.get("RT_REQUEST_INTERVAL", "1.5"))
+
 # Streamers we don't care about listing. RT renamed "Fandango at Home" to
 # plain "Fandango" at some point; both spellings show up.
 IGNORED_STREAMERS = {"Fandango at Home", "Fandango", "In Theaters"}
@@ -54,9 +60,29 @@ GENRE_ALIASES = {
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
+# Wall-clock time of the last request, so _get can space the next one out.
+_last_request = 0.0
+
 
 class MovieNotFound(Exception):
 	'''Raised when a title can't be located on Rotten Tomatoes at all.'''
+
+
+def _get(url, **kwargs):
+	'''
+	SESSION.get, throttled to at most one request per REQUEST_INTERVAL.
+
+	Centralising the sleep here means every caller is rate-limited the same way
+	no matter how many requests a single movie lookup ends up making.
+	'''
+	global _last_request
+	wait = REQUEST_INTERVAL - (time.monotonic() - _last_request)
+	if wait > 0:
+		time.sleep(wait)
+	try:
+		return SESSION.get(url, timeout=TIMEOUT, **kwargs)
+	finally:
+		_last_request = time.monotonic()
 
 
 def fetch(url):
@@ -67,7 +93,7 @@ def fetch(url):
 	'''
 	for attempt in range(RETRIES):
 		try:
-			response = SESSION.get(url, timeout=TIMEOUT)
+			response = _get(url)
 		except requests.RequestException as e:
 			print("    request failed (" + repr(e) + "), retrying")
 		else:
@@ -211,7 +237,7 @@ def download_poster(url, path):
 
 	for attempt in range(RETRIES):
 		try:
-			response = SESSION.get(url, timeout=TIMEOUT)
+			response = _get(url)
 			response.raise_for_status()
 		except requests.RequestException as e:
 			print("    poster download failed (" + repr(e) + "), retrying")
@@ -225,15 +251,12 @@ def download_poster(url, path):
 	return False
 
 
-def scrape(title, year):
+def parse_page(soup):
 	'''
-	Returns a dict of movie data, or raises MovieNotFound.
+	Pulls the fields we care about out of an RT movie page.
 
-	Every field except the score is optional -- a missing synopsis or genre
-	list shouldn't sink an otherwise good entry.
+	Shared by scrape() and refresh() so both read the page the same way.
 	'''
-	url, soup = find_movie_page(title, year)
-
 	synopsis = text_of(soup, "rt-text", slot="content") or ""
 	# Get rid of stupid actor names in synopsis!
 	synopsis = re.sub(r"[^,]\([^()]*\)", "", synopsis)
@@ -253,6 +276,25 @@ def scrape(title, year):
 		if name and name not in IGNORED_STREAMERS and name not in streamers:
 			streamers.append(name)
 
+	return {
+		"critics": text_of(soup, "rt-text", slot="critics-score"),
+		"audience": text_of(soup, "rt-text", slot="audience-score"),
+		"synopsis": synopsis,
+		"genres": genres,
+		"streamers": streamers,
+	}
+
+
+def scrape(title, year):
+	'''
+	Returns a dict of movie data, or raises MovieNotFound.
+
+	Every field except the score is optional -- a missing synopsis or genre
+	list shouldn't sink an otherwise good entry.
+	'''
+	url, soup = find_movie_page(title, year)
+	movie = parse_page(soup)
+
 	poster_node = soup.find("rt-img", {"slot": "poster-image"})
 	poster_url = poster_node.get("src") if poster_node else None
 	path = poster_path(title)
@@ -260,14 +302,31 @@ def scrape(title, year):
 		print("    warning: no poster for " + title)
 		path = None
 
-	return {
-		"title": title,
-		"year": str(year),
-		"url": url,
-		"critics": text_of(soup, "rt-text", slot="critics-score"),
-		"audience": text_of(soup, "rt-text", slot="audience-score"),
-		"synopsis": synopsis,
-		"poster": path,
-		"genres": genres,
-		"streamers": streamers,
-	}
+	movie.update({"title": title, "year": str(year), "url": url, "poster": path})
+	return movie
+
+
+def refresh(movie):
+	'''
+	Re-reads an already-scraped movie's RT page for changed scores/streamers.
+
+	Goes straight to the stored url -- no slug guessing -- and falls back to a
+	full lookup only if that url has since moved. Returns the fields that
+	changed, or raises MovieNotFound.
+	'''
+	title, year = movie["title"], movie.get("year", "")
+	soup = None
+	url = movie.get("url")
+
+	if url:
+		soup = fetch(url)
+		if soup is not None and not text_of(soup, "rt-text", slot="critics-score"):
+			soup = None
+
+	if soup is None:
+		# The page moved or went away; re-locate it the slow way.
+		url, soup = find_movie_page(title, year)
+
+	fresh = parse_page(soup)
+	fresh["url"] = url
+	return fresh

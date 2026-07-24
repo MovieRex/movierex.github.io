@@ -1,0 +1,54 @@
+name: Daily refresh from Rotten Tomatoes
+
+on:
+  schedule:
+    # 09:00 UTC every day. GitHub queues cron runs under load, so the exact
+    # minute drifts -- that's fine for a nightly refresh.
+    - cron: "0 9 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # Shares a group with update-movies so a refresh and an add-movie push can't
+  # commit on top of each other and race the git push.
+  group: update-movies
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run tests
+        run: python test_scraper.py
+
+      - name: Re-scrape scores and streaming services
+        env:
+          # Seconds between requests to Rotten Tomatoes. Bump this if RT starts
+          # rate-limiting the runner; ~259 movies x this interval is the runtime.
+          RT_REQUEST_INTERVAL: "1.5"
+        run: python update_html.py --refresh
+
+      - name: Commit results
+        # Runs even if the refresh reports failures, so the movies that did
+        # update still get published. The job still goes red so it's visible.
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html movies.json img/movies
+          git diff --cached --quiet || git commit -m "Daily refresh: update scores and streaming services"
+          git push

@@ -806,8 +806,7 @@
   ],
   "poster": "img/movies/DjangoUnchained.jpg",
   "streamers": [
-   "Starz",
-   "Paramount+"
+   "Starz"
   ],
   "synopsis": "Two years before the Civil War, Django, a slave, finds himself accompanying an unorthodox German bounty hunter named Dr. King Schultz on a mission to capture the vicious Brittle brothers. Their mission successful, Schultz frees Django, and together they hunt the South's most-wanted criminals. Their travels take them to the infamous plantation of shady Calvin Candie, where Django's long-lost wife is still a slave.",
   "title": "Django Unchained",
@@ -1742,7 +1741,7 @@
   "year": "2015"
  },
  "Mads|2024": {
-  "audience": "67%",
+  "audience": "66%",
   "critics": "94%",
   "genres": [
    "Horror",

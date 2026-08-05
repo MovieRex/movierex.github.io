@@ -925,7 +925,8 @@
   ],
   "poster": "img/movies/ExMachina.jpg",
   "streamers": [
-   "Netflix"
+   "Netflix",
+   "Hulu"
   ],
   "synopsis": "Caleb Smith a programmer at a huge Internet company, wins a contest that enables him to spend a week at the private estate of Nathan Bateman, his firm's brilliant CEO. When he arrives, Caleb learns that he has been chosen to be the human component in a Turing test to determine the capabilities and consciousness of Ava, a beautiful robot. However, it soon becomes evident that Ava is far more self-aware and deceptive than either man imagined.",
   "title": "Ex Machina",
@@ -2185,7 +2186,9 @@
    "Comedy"
   ],
   "poster": "img/movies/Pearl.jpg",
-  "streamers": [],
+  "streamers": [
+   "Hulu"
+  ],
   "synopsis": "Filmmaker Ti West returns with another chapter from the twisted world of X, in this astonishing follow-up to the year's most acclaimed horror film. Trapped on her family's isolated farm, Pearl must tend to her ailing father under the bitter and overbearing watch of her devout mother. Lusting for a glamorous life like she's seen in the movies, Pearl finds her ambitions, temptations, and repressions all colliding in this stunning, technicolor-inspired origin story of X's iconic villain.",
   "title": "Pearl",
   "url": "https://www.rottentomatoes.com/m/pearl_2022",
@@ -4070,7 +4073,9 @@
    "Thriller"
   ],
   "poster": "img/movies/X.jpg",
-  "streamers": [],
+  "streamers": [
+   "Hulu"
+  ],
   "synopsis": "In 1979, a group of young filmmakers set out to make an adult film in rural Texas, but when their reclusive, elderly hosts catch them in the act, the cast find themselves fighting for their lives.",
   "title": "X",
   "url": "https://www.rottentomatoes.com/m/x_2022",

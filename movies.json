@@ -324,6 +324,7 @@
   "poster": "img/movies/Arrival.jpg",
   "streamers": [
    "Stream",
+   "Apple TV",
    "Paramount+"
   ],
   "synopsis": "Linguistics professor Louise Banks leads an elite team of investigators when gigantic spaceships touch down in 12 locations around the world. As nations teeter on the verge of global war, Banks and her crew must race against time to find a way to communicate with the extraterrestrial visitors. Hoping to unravel the mystery, she takes a chance that could threaten her life and quite possibly all of mankind.",
@@ -1184,6 +1185,7 @@
   "poster": "img/movies/GoneGirl.jpg",
   "streamers": [
    "Stream",
+   "Apple TV",
    "Netflix"
   ],
   "synopsis": "In Carthage, Mo., former New York-based writer Nick Dunne and his glamorous wife Amy present a portrait of a blissful marriage to the public; when Amy goes missing on the couple's fifth wedding anniversary, Nick becomes the prime suspect in her disappearance; the resulting police pressure and media frenzy cause the Dunnes' image of a happy union to crumble, leading to tantalizing questions about who Nick and Amy truly are.",
@@ -3193,7 +3195,7 @@
   "year": "1998"
  },
  "The Cured|2017": {
-  "audience": "45%",
+  "audience": "44%",
   "critics": "70%",
   "genres": [
    "Horror",
@@ -4453,6 +4455,7 @@
   "poster": "img/movies/Zodiac.jpg",
   "streamers": [
    "Stream",
+   "Apple TV",
    "Paramount+"
   ],
   "synopsis": "In the late 1960s and 1970s, fear grips the city of San Francisco as a serial killer called Zodiac stalks its residents. Investigators and reporters become obsessed with learning the killer's identity and bringing him to justice. Meanwhile, Zodiac claims victim after victim and taunts the authorities with cryptic messages, cyphers and menacing phone calls.",

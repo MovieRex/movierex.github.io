@@ -3529,6 +3529,7 @@
   "poster": "img/movies/TheLittleHours.jpg",
   "streamers": [
    "Stream",
+   "Disney+",
    "Hulu"
   ],
   "synopsis": "Medieval nuns Alessandra, Fernanda, and Ginevra lead a simple life in their convent. Their days are spent chafing at monastic routine, spying on one another, and berating the estate's day laborer. After a particularly vicious insult session drives the peasant away, Father Tommasso brings on newly hired hand Massetto, a virile young servant forced into hiding by his angry lord. Introduced to the sisters as a deaf-mute to discourage temptation, Massetto struggles to maintain his cover.",
@@ -4046,7 +4047,9 @@
    "Action"
   ],
   "poster": "img/movies/TrainToBusan.jpg",
-  "streamers": [],
+  "streamers": [
+   "Stream"
+  ],
   "synopsis": "A man, his estranged daughter and other passengers become trapped on a speeding train during a zombie outbreak in South Korea.",
   "title": "Train To Busan",
   "url": "https://www.rottentomatoes.com/m/train_to_busan",

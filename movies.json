@@ -738,7 +738,7 @@
  },
  "Civil War|2024": {
   "audience": "69%",
-  "critics": "81%",
+  "critics": "80%",
   "genres": [
    "Action",
    "War",
@@ -3210,6 +3210,7 @@
   "poster": "img/movies/TheCured.jpg",
   "streamers": [
    "Stream",
+   "Paramount+",
    "AMC+"
   ],
   "synopsis": "After years of a zombie plague that ravaged Europe, humanity grapples with how to reintegrate the former zombies into society.",

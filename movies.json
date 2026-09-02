@@ -305,7 +305,8 @@
   ],
   "poster": "img/movies/Argo.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Paramount+"
   ],
   "synopsis": "On Nov. 4, 1979, militants storm the U.S. embassy in Tehran, Iran, taking 66 American hostages. Amid the chaos, six Americans manage to slip away and find refuge with the Canadian ambassador. Knowing that it's just a matter of time before the refugees are found and likely executed, the U.S. government calls on extractor Tony Mendez to rescue them. Mendez's plan is to pose as a Hollywood producer scouting locations in Iran and train the refugees to act as his \"film\" crew.",
   "title": "Argo",
@@ -539,7 +540,8 @@
   ],
   "poster": "img/movies/Birdman.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Max"
   ],
   "synopsis": "Former cinema superhero Riggan Thomson is mounting an ambitious Broadway production that he hopes will breathe new life into his stagnant career. It's risky, but he hopes that his creative gamble will prove that he's a real artist and not just a washed-up movie star. As opening night approaches, a castmate is injured, forcing Riggan to hire an actor who is guaranteed to shake things up. Meanwhile, Riggan must deal with his girlfriend, daughter and ex-wife.",
   "title": "Birdman Or (The Unexpected Virtue Of Ignorance)",
@@ -885,7 +887,8 @@
   "poster": "img/movies/DjangoUnchained.jpg",
   "streamers": [
    "Stream",
-   "Starz"
+   "Starz",
+   "AMC+"
   ],
   "synopsis": "Two years before the Civil War, Django, a slave, finds himself accompanying an unorthodox German bounty hunter named Dr. King Schultz on a mission to capture the vicious Brittle brothers. Their mission successful, Schultz frees Django, and together they hunt the South's most-wanted criminals. Their travels take them to the infamous plantation of shady Calvin Candie, where Django's long-lost wife is still a slave.",
   "title": "Django Unchained",
@@ -1018,7 +1021,8 @@
   ],
   "poster": "img/movies/EyesWideShut.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Max"
   ],
   "synopsis": "After Dr. Bill Hartford's wife, Alice, admits to having sexual fantasies about a man she met, Bill becomes obsessed with having a sexual encounter. He discovers an underground sexual group and attends one of their meetings -- and quickly discovers that he is in over his head.",
   "title": "Eyes Wide Shut",
@@ -1038,7 +1042,9 @@
   "poster": "img/movies/Fargo.jpg",
   "streamers": [
    "Stream",
-   "Netflix"
+   "Netflix",
+   "Disney+",
+   "Hulu"
   ],
   "synopsis": "\"Fargo\" is a reality-based crime drama set in Minnesota in 1987. Jerry Lundegaard is a car salesman in Minneapolis who has gotten himself into debt and is so desperate for money that he hires two thugs, to kidnap his own wife. Jerry will collect the ransom from her wealthy father, paying the thugs a small portion and keeping the rest to satisfy his debts. The scheme collapses when the thugs shoot a state trooper.",
   "title": "Fargo",
@@ -1132,7 +1138,8 @@
   ],
   "poster": "img/movies/GetOut.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Peacock"
   ],
   "synopsis": "Now that Chris and his girlfriend, Rose, have reached the meet-the-parents milestone of dating, she invites him for a weekend getaway with Missy and Dean. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries leads him to a truth that he never could have imagined.",
   "title": "Get Out",
@@ -1549,7 +1556,9 @@
   ],
   "poster": "img/movies/InglouriousBasterds.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Disney+",
+   "Hulu"
   ],
   "synopsis": "It is the first year of Germany's occupation of France. Allied officer Lt. Aldo Raine assembles a team of Jewish soldiers to commit violent acts of retribution against the Nazis, including the taking of their scalps. He and his men join forces with Bridget von Hammersmark, a German actress and undercover agent, to bring down the leaders of the Third Reich. Their fates converge with theater owner Shosanna Dreyfus, who seeks to avenge the Nazis' execution of her family.",
   "title": "Inglourious Basterds",
@@ -1604,7 +1613,8 @@
   ],
   "poster": "img/movies/ItFollows.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Peacock"
   ],
   "synopsis": "After carefree teenager Jay sleeps with her new boyfriend, Hugh, for the first time, she learns that she is the latest recipient of a fatal curse that is passed from victim to victim via sexual intercourse. Death, Jay learns, will creep inexorably toward her as either a friend or a stranger. Jay's friends don't believe her seemingly paranoid ravings, until they too begin to see the phantom assassins and band together to help her flee or defend herself.",
   "title": "It Follows",
@@ -2366,6 +2376,7 @@
   "streamers": [
    "Stream",
    "Disney+",
+   "Max",
    "Hulu"
   ],
   "synopsis": "Filmmaker Ti West returns with another chapter from the twisted world of X, in this astonishing follow-up to the year's most acclaimed horror film. Trapped on her family's isolated farm, Pearl must tend to her ailing father under the bitter and overbearing watch of her devout mother. Lusting for a glamorous life like she's seen in the movies, Pearl finds her ambitions, temptations, and repressions all colliding in this stunning, technicolor-inspired origin story of X's iconic villain.",
@@ -2708,6 +2719,7 @@
   "streamers": [
    "Stream",
    "Disney+",
+   "Max",
    "Hulu"
   ],
   "synopsis": "Academy Award winning filmmaker Emerald Fennell brings us a beautifully wicked tale of privilege and desire. Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family's sprawling estate, for a summer never to be forgotten.",
@@ -2779,7 +2791,8 @@
   ],
   "poster": "img/movies/Seven.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Paramount+"
   ],
   "synopsis": "When retiring police Detective William Somerset tackles a final case with the aid of newly transferred David Mills, they discover a number of elaborate and grisly murders. They soon realize they are dealing with a serial killer who is targeting people he thinks represent one of the seven deadly sins. Somerset also befriends Mills' wife, Tracy, who is pregnant and afraid to raise her child in the crime-riddled city.",
   "title": "Seven",
@@ -2815,7 +2828,8 @@
   "poster": "img/movies/ShutterIsland.jpg",
   "streamers": [
    "Stream",
-   "Starz"
+   "Starz",
+   "Paramount+"
   ],
   "synopsis": "The implausible escape of a brilliant murderess brings U.S. Marshal Teddy Daniels and his new partner to Ashecliffe Hospital, a fortress-like insane asylum located on a remote, windswept island. The woman appears to have vanished from a locked room, and there are hints of terrible deeds committed within the hospital walls. As the investigation deepens, Teddy realizes he will have to confront his own dark fears if he hopes to make it off the island alive.",
   "title": "Shutter Island",
@@ -3112,7 +3126,8 @@
   ],
   "poster": "img/movies/TalkToMe.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Max"
   ],
   "synopsis": "When a group of friends discover how to conjure spirits using an embalmed hand, they become hooked on the new thrill, until one of them goes too far and unleashes terrifying supernatural forces.",
   "title": "Talk To Me",
@@ -3626,7 +3641,8 @@
   ],
   "poster": "img/movies/TheOneILove.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "AMC+"
   ],
   "synopsis": "A couple whose marriage is crumbling have a surreal experience during a weekend getaway at a house recommended by their therapist.",
   "title": "The One I Love",
@@ -3986,7 +4002,8 @@
   ],
   "poster": "img/movies/Thoroughbreds.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Starz"
   ],
   "synopsis": "Childhood friends Lily and Amanda reconnect in suburban Connecticut after years of growing apart. Lily has turned into a polished upper-class teenager who has a fancy boarding school on her transcript and a coveted internship on her resume. Amanda has developed a sharp wit and her own particular attitude but all in the process of becoming a social outcast. Though they initially seem completely at odds, the pair eventually bond and hatch a plan to solve both of their problems.",
   "title": "Thoroughbreds",
@@ -4414,6 +4431,7 @@
   "streamers": [
    "Stream",
    "Disney+",
+   "Max",
    "Hulu"
   ],
   "synopsis": "In 1979, a group of young filmmakers set out to make an adult film in rural Texas, but when their reclusive, elderly hosts catch them in the act, the cast find themselves fighting for their lives.",
@@ -4451,6 +4469,7 @@
   "poster": "img/movies/ZeroDarkThirty.jpg",
   "streamers": [
    "Stream",
+   "Apple TV",
    "Netflix"
   ],
   "synopsis": "Following the terrorist attacks of Sept. 11, 2001, Osama bin Laden becomes one of the most-wanted men on the planet. The worldwide manhunt for the terrorist leader occupies the resources and attention of two U.S. presidential administrations. Ultimately, it is the work of a dedicated female operative that proves instrumental in finally locating bin Laden. In May 2011, Navy SEALs launch a nighttime strike, killing bin Laden in his compound in Abbottabad, Pakistan.",

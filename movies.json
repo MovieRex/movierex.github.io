@@ -133,7 +133,8 @@
   ],
   "poster": "img/movies/Alien.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Netflix"
   ],
   "synopsis": "In deep space, the crew of the commercial starship Nostromo is awakened from their cryo-sleep capsules halfway through their journey home to investigate a distress call from an alien vessel. The terror begins when the crew encounters a nest of eggs inside the alien ship. An organism from inside an egg leaps out and attaches itself to one of the crew, causing him to fall into a coma.",
   "title": "Alien",
@@ -2184,7 +2185,8 @@
   ],
   "poster": "img/movies/NocturnalAnimals.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Peacock"
   ],
   "synopsis": "A successful Los Angeles art-gallery owner's idyllic life is marred by the constant traveling of her handsome second husband. While he is away, she is shaken by the arrival of a manuscript written by her first husband, who she has not seen in years. The manuscript tells the story of a teacher who finds a trip with his family turning into a nightmare. As Susan reads the book, it forces her to examine her past and confront some dark truths.",
   "title": "Nocturnal Animals",
@@ -2209,7 +2211,7 @@
  },
  "Obsession|2026": {
   "audience": "94%",
-  "critics": "93%",
+  "critics": "94%",
   "genres": [
    "Horror",
    "Mystery",
@@ -2587,6 +2589,7 @@
   "poster": "img/movies/ReadyOrNot.jpg",
   "streamers": [
    "Stream",
+   "Netflix",
    "Disney+",
    "Hulu"
   ],

@@ -116,8 +116,7 @@
   ],
   "poster": "img/movies/Adaptation.jpg",
   "streamers": [
-   "Stream",
-   "AMC+"
+   "Stream"
   ],
   "synopsis": "Nicolas Cage is Charlie Kaufman, a confused L.A. screenwriter overwhelmed by feelings of inadequacy, sexual frustration, self-loathing, and by the screenwriting ambitions of his freeloading twin brother Donald. While struggling to adapt \"The Orchid Thief,\" by Susan Orlean, Kaufman's life spins from pathetic to bizarre. The lives of Kaufman, Orlean's book, become strangely intertwined as each one's search for passion collides with the others'.",
   "title": "Adaptation",
@@ -326,7 +325,6 @@
   "poster": "img/movies/Arrival.jpg",
   "streamers": [
    "Stream",
-   "Apple TV",
    "Paramount+"
   ],
   "synopsis": "Linguistics professor Louise Banks leads an elite team of investigators when gigantic spaceships touch down in 12 locations around the world. As nations teeter on the verge of global war, Banks and her crew must race against time to find a way to communicate with the extraterrestrial visitors. Hoping to unravel the mystery, she takes a chance that could threaten her life and quite possibly all of mankind.",
@@ -732,8 +730,7 @@
   ],
   "poster": "img/movies/CityOfGod.jpg",
   "streamers": [
-   "Stream",
-   "Paramount+"
+   "Stream"
   ],
   "synopsis": "In the poverty-stricken favelas of Rio de Janeiro in the 1970s, two young men choose different paths. Rocket is a budding photographer who documents the increasing drug-related violence of his neighborhood. José \"Zé\" Pequeno is an ambitious drug dealer who uses Rocket and his photos as a way to increase his fame as a turf war erupts with his rival, \"Knockout Ned\". The film was shot on location in Rio's poorest neighborhoods.",
   "title": "City Of God",
@@ -888,7 +885,6 @@
   "poster": "img/movies/DjangoUnchained.jpg",
   "streamers": [
    "Stream",
-   "Starz",
    "AMC+"
   ],
   "synopsis": "Two years before the Civil War, Django, a slave, finds himself accompanying an unorthodox German bounty hunter named Dr. King Schultz on a mission to capture the vicious Brittle brothers. Their mission successful, Schultz frees Django, and together they hunt the South's most-wanted criminals. Their travels take them to the infamous plantation of shady Calvin Candie, where Django's long-lost wife is still a slave.",
@@ -1193,7 +1189,6 @@
   "poster": "img/movies/GoneGirl.jpg",
   "streamers": [
    "Stream",
-   "Apple TV",
    "Netflix"
   ],
   "synopsis": "In Carthage, Mo., former New York-based writer Nick Dunne and his glamorous wife Amy present a portrait of a blissful marriage to the public; when Amy goes missing on the couple's fifth wedding anniversary, Nick becomes the prime suspect in her disappearance; the resulting police pressure and media frenzy cause the Dunnes' image of a happy union to crumble, leading to tantalizing questions about who Nick and Amy truly are.",
@@ -1351,7 +1346,9 @@
   "poster": "img/movies/Heretic.jpg",
   "streamers": [
    "Stream",
-   "Max"
+   "Disney+",
+   "Max",
+   "Hulu"
   ],
   "synopsis": "Two young missionaries are forced to prove their faith when they knock on the wrong door and are greeted by a diabolical Mr. Reed, becoming ensnared in his deadly game of cat-and-mouse.",
   "title": "Heretic",
@@ -1577,8 +1574,6 @@
   "poster": "img/movies/Interstellar.jpg",
   "streamers": [
    "Stream",
-   "Disney+",
-   "Hulu",
    "Paramount+"
   ],
   "synopsis": "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand, a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.",
@@ -1819,8 +1814,7 @@
   "poster": "img/movies/LittleMissSunshine.jpg",
   "streamers": [
    "Stream",
-   "Netflix",
-   "Peacock"
+   "Netflix"
   ],
   "synopsis": "The Hoover family -- a man, his wife, an uncle, a brother and a grandfather -- puts the fun back in dysfunctional by piling into a VW bus and heading to California to support a daughter in her bid to win the Little Miss Sunshine Contest. The sanity of everyone involved is stretched to the limit as the group's quirks cause epic problems as they travel along their interstate route.",
   "title": "Little Miss Sunshine",
@@ -1950,8 +1944,7 @@
    "Netflix",
    "Disney+",
    "Peacock",
-   "Hulu",
-   "AMC+"
+   "Hulu"
   ],
   "synopsis": "Leonard is tracking down the man who raped and murdered his wife. The difficulty, however, of locating his wife's killer is compounded by the fact that he suffers from a rare, untreatable form of memory loss. Although he can recall details of life before his accident, Leonard cannot remember what happened fifteen minutes ago, where he's going, or why.",
   "title": "Memento",
@@ -2040,10 +2033,7 @@
    "LGBTQ+"
   ],
   "poster": "img/movies/Moonlight.jpg",
-  "streamers": [
-   "Stream",
-   "Hulu"
-  ],
+  "streamers": [],
   "synopsis": "A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him.",
   "title": "Moonlight",
   "url": "https://www.rottentomatoes.com/m/moonlight_2016",
@@ -2591,9 +2581,7 @@
   "poster": "img/movies/ReadyOrNot.jpg",
   "streamers": [
    "Stream",
-   "Netflix",
-   "Disney+",
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "Grace couldn't be happier after she marries the man of her dreams at his family's luxurious estate. There's just one catch -- she must now hide from midnight until dawn while her new in-laws hunt her down with guns, crossbows and other weapons. As Grace desperately tries to survive the night, she soon finds a way to turn the tables on her not-so-lovable relatives.",
   "title": "Ready Or Not",
@@ -2723,9 +2711,7 @@
   "poster": "img/movies/Saltburn.jpg",
   "streamers": [
    "Stream",
-   "Disney+",
-   "Max",
-   "Hulu"
+   "Max"
   ],
   "synopsis": "Academy Award winning filmmaker Emerald Fennell brings us a beautifully wicked tale of privilege and desire. Struggling to find his place at Oxford University, student Oliver Quick finds himself drawn into the world of the charming and aristocratic Felix Catton, who invites him to Saltburn, his eccentric family's sprawling estate, for a summer never to be forgotten.",
   "title": "Saltburn",
@@ -2777,8 +2763,7 @@
   ],
   "poster": "img/movies/SevenPsychopaths.jpg",
   "streamers": [
-   "Stream",
-   "Paramount+"
+   "Stream"
   ],
   "synopsis": "Boozy writer Marty is a man in search of a screenplay. He has a catchy title but no story to go along with it. Marty has a couple of oddball buddies, Hans and Billy, who make a living by kidnapping rich people's dogs, then returning them and collecting the reward. However this time, the fur flies when Hans and Billy kidnap the beloved pooch of a gangster, and Marty uses the ensuing events as fodder for his screenplay.",
   "title": "Seven Psychopaths",
@@ -3028,8 +3013,7 @@
   ],
   "poster": "img/movies/SourceCode.jpg",
   "streamers": [
-   "Stream",
-   "Peacock"
+   "Stream"
   ],
   "synopsis": "Helicopter pilot Colter Stevens is part of a top-secret military operation that enables him to experience the last few minutes in the life of Sean Fentress, a man who died in a commuter-train explosion. The purpose of Colter's mission is to learn the identity of the bomber and prevent a similar catastrophe. As Colter lives Sean's final moments, he becomes more certain that he can prevent the first tragedy from occurring -- as long as he doesn't run out of time.",
   "title": "Source Code",
@@ -3268,6 +3252,7 @@
   "poster": "img/movies/TheDeathofStalin.jpg",
   "streamers": [
    "Stream",
+   "Paramount+",
    "AMC+"
   ],
   "synopsis": "When tyrannical dictator Joseph Stalin dies in 1953, his parasitic cronies square off in a frantic power struggle to become the next Soviet leader. Among the contenders are the dweebish Georgy Malenkov, the wily Nikita Khrushchev and Lavrenti Beria -- the sadistic secret police chief. As they bumble, brawl and back-stab their way to the top, the question remains -- just who is running the government?",
@@ -3593,8 +3578,7 @@
   ],
   "poster": "img/movies/TheMatrix.jpg",
   "streamers": [
-   "Stream",
-   "Peacock"
+   "Stream"
   ],
   "synopsis": "Neo believes that Morpheus, an elusive figure considered to be the most dangerous man alive, can answer his question -- What is the Matrix? Neo is contacted by Trinity, a beautiful stranger who leads him into an underworld where he meets Morpheus. They fight a brutal battle for their lives against a cadre of viciously intelligent secret agents. It is a truth that could cost Neo something more precious than his life.",
   "title": "The Matrix",
@@ -4493,7 +4477,6 @@
   "poster": "img/movies/Zodiac.jpg",
   "streamers": [
    "Stream",
-   "Apple TV",
    "Paramount+"
   ],
   "synopsis": "In the late 1960s and 1970s, fear grips the city of San Francisco as a serial killer called Zodiac stalks its residents. Investigators and reporters become obsessed with learning the killer's identity and bringing him to justice. Meanwhile, Zodiac claims victim after victim and taunts the authorities with cryptic messages, cyphers and menacing phone calls.",

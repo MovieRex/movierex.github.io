@@ -865,7 +865,7 @@
   "year": "2013"
  },
  "District 9|2009": {
-  "audience": "82%",
+  "audience": "83%",
   "critics": "90%",
   "genres": [
    "Sci-Fi"
@@ -1008,6 +1008,7 @@
   "poster": "img/movies/ExMachina.jpg",
   "streamers": [
    "Stream",
+   "Disney+",
    "Hulu"
   ],
   "synopsis": "Caleb Smith a programmer at a huge Internet company, wins a contest that enables him to spend a week at the private estate of Nathan Bateman, his firm's brilliant CEO. When he arrives, Caleb learns that he has been chosen to be the human component in a Turing test to determine the capabilities and consciousness of Ava, a beautiful robot. However, it soon becomes evident that Ava is far more self-aware and deceptive than either man imagined.",

@@ -9,6 +9,7 @@
   "poster": "img/movies/10CloverfieldLane.jpg",
   "streamers": [
    "Stream",
+   "Peacock",
    "Paramount+"
   ],
   "synopsis": "After surviving a car accident, Michelle wakes up to find herself in an underground bunker with two men. Howard tells her that a massive chemical attack has rendered the air unbreathable, and their only hope of survival is to remain inside. Despite the comforts of home, Howard's controlling and menacing nature makes Michelle want to escape. After taking matters into her own hands, the young woman finally discovers the truth about the outside world.",
@@ -327,6 +328,7 @@
   "poster": "img/movies/Arrival.jpg",
   "streamers": [
    "Stream",
+   "Peacock",
    "Paramount+"
   ],
   "synopsis": "Linguistics professor Louise Banks leads an elite team of investigators when gigantic spaceships touch down in 12 locations around the world. As nations teeter on the verge of global war, Banks and her crew must race against time to find a way to communicate with the extraterrestrial visitors. Hoping to unravel the mystery, she takes a chance that could threaten her life and quite possibly all of mankind.",
@@ -665,6 +667,7 @@
   "poster": "img/movies/BodiesBodiesBodies.jpg",
   "streamers": [
    "Stream",
+   "Prime Video",
    "Disney+",
    "Hulu"
   ],
@@ -1046,7 +1049,6 @@
   "streamers": [
    "Stream",
    "Netflix",
-   "Prime Video",
    "Disney+",
    "Hulu"
   ],
@@ -1338,6 +1340,7 @@
   "poster": "img/movies/Hereditary.jpg",
   "streamers": [
    "Stream",
+   "Prime Video",
    "Max"
   ],
   "synopsis": "When the matriarch of the Graham family passes away, her daughter and grandchildren begin to unravel cryptic and increasingly terrifying secrets about their ancestry, trying to outrun the sinister fate they have inherited.",
@@ -1994,6 +1997,7 @@
   "poster": "img/movies/Midsommar.jpg",
   "streamers": [
    "Stream",
+   "Prime Video",
    "Max"
   ],
   "synopsis": "A young American couple, their relationship foundering, travel to a fabled Swedish midsummer festival where a seemingly pastoral paradise transforms into a sinister, dread-soaked nightmare as the locals reveal their terrifying agenda.",
@@ -2149,6 +2153,7 @@
   "poster": "img/movies/NoCountryforOldMen.jpg",
   "streamers": [
    "Stream",
+   "Peacock",
    "Paramount+"
   ],
   "synopsis": "While out hunting, Llewelyn Moss finds the grisly aftermath of a drug deal. Though he knows better, he cannot resist the cash left behind and takes it with him. The hunter becomes the hunted when a merciless killer named Chigurh picks up his trail. Also looking for Moss is Sheriff Bell, an aging lawman who reflects on a changing world and a dark secret of his own, as he tries to find and protect Moss.",
@@ -2381,6 +2386,7 @@
   "poster": "img/movies/Pearl.jpg",
   "streamers": [
    "Stream",
+   "Prime Video",
    "Disney+",
    "Max",
    "Hulu"
@@ -2889,8 +2895,7 @@
   ],
   "poster": "img/movies/SideEffects.jpg",
   "streamers": [
-   "Stream",
-   "Prime Video"
+   "Stream"
   ],
   "synopsis": "For four years, Emily Taylor has awaited the release of her husband, Martin, from being imprisoned for insider trading. Finally, Martin comes home, but Emily feels just as bad as she did when he was incarcerated, and she sinks into a deep depression. After her failed suicide attempt, psychiatrist Jonathan Banks prescribes a series of medications. When those don't work, he gives Emily a new medication -- but the drug leads to ruined lives and death.",
   "title": "Side Effects",
@@ -2981,7 +2986,6 @@
   "poster": "img/movies/Snowpiercer.jpg",
   "streamers": [
    "Stream",
-   "Prime Video",
    "Disney+",
    "Hulu"
   ],
@@ -3674,8 +3678,7 @@
   ],
   "poster": "img/movies/ThePianist.jpg",
   "streamers": [
-   "Stream",
-   "Prime Video"
+   "Stream"
   ],
   "synopsis": "In this adaptation of the autobiography \"The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945,\" Wladyslaw Szpilman, a Polish Jewish radio station pianist, sees Warsaw change gradually as World War II begins. Szpilman is forced into the Warsaw Ghetto, but is later separated from his family during Operation Reinhard. From this time until the concentration camp prisoners are released, Szpilman hides in various locations among the ruins of Warsaw.",
   "title": "The Pianist",
@@ -3781,7 +3784,8 @@
   ],
   "poster": "img/movies/TheRoad.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Prime Video"
   ],
   "synopsis": "America is a grim, gray shadow of itself after a catastrophe. A man and his young son wander through this post-apocalyptic world, trying to keep the dream of civilization alive. They journey toward the sea, surviving as best they can on what they can scavenge, and try to avoid roving gangs of savage humans who will turn them into slaves, or worse.",
   "title": "The Road",
@@ -3921,7 +3925,6 @@
   "poster": "img/movies/TheUsualSuspects.jpg",
   "streamers": [
    "Stream",
-   "Prime Video",
    "Max"
   ],
   "synopsis": "\"The greatest trick the devil ever pulled was convincing the world he didn't exist,\" says con man Kint, drawing a comparison to the most enigmatic criminal of all time, Keyser Soze. Kint attempts to convince the feds that the mythic crime lord not only exists, but is also responsible for drawing Kint and his four partners into a multi-million dollar heist that ended with an explosion in San Pedro Harbor - leaving few survivors.",
@@ -4250,8 +4253,7 @@
   ],
   "poster": "img/movies/Vivarium.jpg",
   "streamers": [
-   "Stream",
-   "Prime Video"
+   "Stream"
   ],
   "synopsis": "Hoping to find the perfect place to live, a couple travel to a suburban neighbourhood in which all the houses look identical. But when they try to leave the labyrinth-like development, each road mysteriously takes them back to where they started.",
   "title": "Vivarium",
@@ -4421,8 +4423,7 @@
   ],
   "poster": "img/movies/WomenTalking.jpg",
   "streamers": [
-   "Stream",
-   "Prime Video"
+   "Stream"
   ],
   "synopsis": "Do nothing. Stay and fight. Or leave. In 2010, the women of an isolated religious community grapple with reconciling a brutal reality with their faith.",
   "title": "Women Talking",
@@ -4454,6 +4455,7 @@
   "poster": "img/movies/X.jpg",
   "streamers": [
    "Stream",
+   "Prime Video",
    "Disney+",
    "Max",
    "Hulu"

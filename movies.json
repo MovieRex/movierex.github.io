@@ -64,7 +64,8 @@
   ],
   "poster": "img/movies/28DaysLater.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Apple TV"
   ],
   "synopsis": "A group of misguided animal rights activists free a caged chimp infected with the \"Rage\" virus from a medical research lab. When London bike courier Jim wakes up from a coma a month after, he finds his city all but deserted. On the run from the zombie-like victims of the Rage, Jim stumbles upon a group of survivors, including Selena and cab driver Frank, and joins them on a perilous journey to what he hopes will be safety.",
   "title": "28 Days Later",
@@ -220,6 +221,7 @@
    "Stream",
    "Prime Video",
    "Disney+",
+   "Peacock",
    "Hulu"
   ],
   "synopsis": "In New York City in 1987, a handsome, young urban professional, Patrick Bateman, lives a second life as a gruesome serial killer by night. The cast is filled by the detective, the fiance, the mistress, the coworker, and the secretary. This is a biting, wry comedy examining the elements that make a man a monster.",
@@ -255,7 +257,8 @@
   "poster": "img/movies/AnatomyOfAFall.jpg",
   "streamers": [
    "Stream",
-   "Netflix"
+   "Netflix",
+   "Max"
   ],
   "synopsis": "For the past year, Sandra, her husband Samuel, and their eleven-year-old son Daniel have lived a secluded life in a remote town in the French Alps. When Samuel is found dead in the snow below their chalet, the police question whether he was murdered or committed suicide. Samuel's suspicious death is presumed murder, and Sandra becomes the main suspect. What follows is not just an investigation into the circumstances of Samuel's death but an unsettling psychological journey into the depths of Sandra and Samuel's conflicted relationship.",
   "title": "Anatomy of a Fall",
@@ -367,6 +370,7 @@
   "poster": "img/movies/Babes.jpg",
   "streamers": [
    "Stream",
+   "Netflix",
    "Disney+",
    "Hulu"
   ],
@@ -386,7 +390,9 @@
   "poster": "img/movies/Barbarian.jpg",
   "streamers": [
    "Stream",
-   "Max"
+   "Disney+",
+   "Max",
+   "Hulu"
   ],
   "synopsis": "Traveling to Detroit for a job interview, a young woman books a rental home. But when she arrives late at night, she discovers that the house is double booked and a strange man is already staying there. Against her better judgement, she decides to spend the evening, but soon discovers that there's a lot more to fear than just an unexpected house guest.",
   "title": "Barbarian",
@@ -631,7 +637,8 @@
   ],
   "poster": "img/movies/BlinkTwice.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Paramount+"
   ],
   "synopsis": "When tech billionaire Slater King meets cocktail waitress Frida at his fundraising gala, sparks fly. He invites her to join him and his friends on a dream vacation on his private island. It's paradise. Wild nights blend into sun soaked days and everyone's having a great time. No one wants this trip to end, but as strange things start to happen, Frida begins to question her reality. There is something wrong with this place. She'll have to uncover the truth if she wants to make it out of this party alive.",
   "title": "Blink Twice",
@@ -773,6 +780,7 @@
   "poster": "img/movies/Cloverfield.jpg",
   "streamers": [
    "Stream",
+   "Peacock",
    "Paramount+"
   ],
   "synopsis": "As a group of New Yorkers enjoy a going-away party, little do they know that they will soon face the most terrifying night of their lives. A creature the size of a skyscraper descends upon the city, leaving death and destruction in its wake. Using a handheld video camera, the friends record their struggle to survive as New York crumbles around them.",
@@ -1306,7 +1314,8 @@
   ],
   "poster": "img/movies/Haunt.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "AMC+"
   ],
   "synopsis": "On Halloween, several friends enter an extreme haunted house and quickly discover some of their nightmares are real.",
   "title": "Haunt",
@@ -1625,7 +1634,8 @@
   "poster": "img/movies/ItFollows.jpg",
   "streamers": [
    "Stream",
-   "Peacock"
+   "Peacock",
+   "Paramount+"
   ],
   "synopsis": "After carefree teenager Jay sleeps with her new boyfriend, Hugh, for the first time, she learns that she is the latest recipient of a fatal curse that is passed from victim to victim via sexual intercourse. Death, Jay learns, will creep inexorably toward her as either a friend or a stranger. Jay's friends don't believe her seemingly paranoid ravings, until they too begin to see the phantom assassins and band together to help her flee or defend herself.",
   "title": "It Follows",
@@ -2050,7 +2060,10 @@
    "LGBTQ+"
   ],
   "poster": "img/movies/Moonlight.jpg",
-  "streamers": [],
+  "streamers": [
+   "Stream",
+   "Hulu"
+  ],
   "synopsis": "A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him.",
   "title": "Moonlight",
   "url": "https://www.rottentomatoes.com/m/moonlight_2016",
@@ -2367,7 +2380,8 @@
   ],
   "poster": "img/movies/Parasite.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Paramount+"
   ],
   "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
   "title": "Parasite",
@@ -2895,7 +2909,8 @@
   ],
   "poster": "img/movies/SideEffects.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Paramount+"
   ],
   "synopsis": "For four years, Emily Taylor has awaited the release of her husband, Martin, from being imprisoned for insider trading. Finally, Martin comes home, but Emily feels just as bad as she did when he was incarcerated, and she sinks into a deep depression. After her failed suicide attempt, psychiatrist Jonathan Banks prescribes a series of medications. When those don't work, he gives Emily a new medication -- but the drug leads to ruined lives and death.",
   "title": "Side Effects",
@@ -3298,7 +3313,8 @@
   ],
   "poster": "img/movies/TheDeparted.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Max"
   ],
   "synopsis": "South Boston cop Billy Costigan goes under cover to infiltrate the organization of gangland chief Frank Costello. As Billy gains the mobster's trust, a career criminal named Colin Sullivan infiltrates the police department and reports on its activities to his syndicate bosses. When both organizations learn they have a mole in their midst, Billy and Colin must figure out each other's identities to save their own lives.",
   "title": "The Departed",
@@ -3367,7 +3383,8 @@
   "streamers": [
    "Stream",
    "Prime Video",
-   "Peacock"
+   "Peacock",
+   "AMC+"
   ],
   "synopsis": "Two brothers receive a cryptic video message inspiring them to revisit the UFO death cult they escaped a decade earlier. Hoping to find the closure that they couldn't find as young men, they're forced to reconsider the cult's beliefs when confronted with unexplainable phenomena surrounding the camp. As the members prepare for the coming of a mysterious event, the brothers race to unravel the seemingly impossible truth before their lives become permanently entangled with the cult.",
   "title": "The Endless",
@@ -3748,7 +3765,8 @@
   ],
   "poster": "img/movies/ThePost.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Max"
   ],
   "synopsis": "Katharine Graham is the first female publisher of a major American newspaper -- The Washington Post. With help from editor Ben Bradlee, Graham races to catch up with The New York Times to expose a massive cover-up of government secrets that spans three decades and four U.S. presidents. Together, they must overcome their differences as they risk their careers -- and very freedom -- to help bring long-buried truths to light.",
   "title": "The Post",
@@ -3817,7 +3835,8 @@
   ],
   "poster": "img/movies/TheShining.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Max"
   ],
   "synopsis": "Jack Torrance becomes winter caretaker at the isolated Overlook Hotel in Colorado, hoping to cure his writer's block. He settles in along with his wife, Wendy, and his son, Danny, who is plagued by psychic premonitions. As Jack's writing goes nowhere and Danny's visions become more disturbing, Jack discovers the hotel's dark secrets and begins to unravel into a homicidal maniac hell-bent on terrorizing his family.",
   "title": "The Shining",
@@ -3836,7 +3855,8 @@
   "poster": "img/movies/TheSilenceOfTheLambs.jpg",
   "streamers": [
    "Stream",
-   "Prime Video"
+   "Prime Video",
+   "Peacock"
   ],
   "synopsis": "Jodie Foster stars as Clarice Starling, a top student at the FBI's training academy. Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism. Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
   "title": "The Silence Of The Lambs",
@@ -4099,7 +4119,8 @@
   ],
   "poster": "img/movies/TrainToBusan.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Peacock"
   ],
   "synopsis": "A man, his estranged daughter and other passengers become trapped on a speeding train during a zombie outbreak in South Korea.",
   "title": "Train To Busan",
@@ -4496,7 +4517,8 @@
   "streamers": [
    "Stream",
    "Apple TV",
-   "Netflix"
+   "Netflix",
+   "Paramount+"
   ],
   "synopsis": "Following the terrorist attacks of Sept. 11, 2001, Osama bin Laden becomes one of the most-wanted men on the planet. The worldwide manhunt for the terrorist leader occupies the resources and attention of two U.S. presidential administrations. Ultimately, it is the work of a dedicated female operative that proves instrumental in finally locating bin Laden. In May 2011, Navy SEALs launch a nighttime strike, killing bin Laden in his compound in Abbottabad, Pakistan.",
   "title": "Zero Dark Thirty",

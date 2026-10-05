@@ -103,7 +103,8 @@
   ],
   "poster": "img/movies/AdAstra.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Netflix"
   ],
   "synopsis": "Thirty years ago, Clifford McBride led a voyage into deep space, but the ship and crew were never heard from again. Now his son -- a fearless astronaut -- must embark on a daring mission to Neptune to uncover the truth about his missing father and a mysterious power surge that threatens the stability of the universe.",
   "title": "Ad Astra",
@@ -868,7 +869,8 @@
   ],
   "poster": "img/movies/DallasBuyer'sClub.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Netflix"
   ],
   "synopsis": "In mid-1980s Texas, electrician Ron Woodroof is stunned to learn that he has AIDS. Though told that he has just 30 days left to live, Woodroof refuses to give in to despair. He seeks out alternative therapies and smuggles unapproved drugs into the U.S. from wherever he can find them. Woodroof joins forces with a fellow AIDS patient and begins selling the treatments to the growing number of people who can't wait for the medical establishment to save them.",
   "title": "Dallas Buyer's Club",
@@ -1350,7 +1352,9 @@
   "streamers": [
    "Stream",
    "Prime Video",
-   "Max"
+   "Disney+",
+   "Max",
+   "Hulu"
   ],
   "synopsis": "When the matriarch of the Graham family passes away, her daughter and grandchildren begin to unravel cryptic and increasingly terrifying secrets about their ancestry, trying to outrun the sinister fate they have inherited.",
   "title": "Hereditary",
@@ -2008,7 +2012,9 @@
   "streamers": [
    "Stream",
    "Prime Video",
-   "Max"
+   "Disney+",
+   "Max",
+   "Hulu"
   ],
   "synopsis": "A young American couple, their relationship foundering, travel to a fabled Swedish midsummer festival where a seemingly pastoral paradise transforms into a sinister, dread-soaked nightmare as the locals reveal their terrifying agenda.",
   "title": "Midsommar",
@@ -2062,6 +2068,7 @@
   "poster": "img/movies/Moonlight.jpg",
   "streamers": [
    "Stream",
+   "Netflix",
    "Hulu"
   ],
   "synopsis": "A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him.",
@@ -3102,7 +3109,8 @@
   ],
   "poster": "img/movies/StillAlice.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Netflix"
   ],
   "synopsis": "Dr. Alice Howland is a renowned linguistics professor at Columbia University. When words begin to escape her and she starts becoming lost on her daily jogs, Alice must come face-to-face with a devastating diagnosis: early-onset Alzheimer's disease. As the once-vibrant woman struggles to hang on to her sense of self for as long as possible, Alice's three grown children must watch helplessly as their mother disappears more and more with each passing day.",
   "title": "Still Alice",
@@ -3328,7 +3336,8 @@
   ],
   "poster": "img/movies/TheDetails.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Starz"
   ],
   "synopsis": "Seemingly blind to the actual cracks in his marriage, a doctor blames a family of destructive raccoons for the problems in his home life.",
   "title": "The Details",
@@ -3677,6 +3686,7 @@
   "poster": "img/movies/TheOneILove.jpg",
   "streamers": [
    "Stream",
+   "Prime Video",
    "AMC+"
   ],
   "synopsis": "A couple whose marriage is crumbling have a surreal experience during a weekend getaway at a house recommended by their therapist.",
@@ -3783,7 +3793,8 @@
   ],
   "poster": "img/movies/ThePrestige.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Netflix"
   ],
   "synopsis": "An illusion gone horribly wrong pits two 19th-century magicians, Alfred Borden and Rupert Angier, against each other in a bitter battle for supremacy. Terrible consequences loom when the pair escalate their feud, each seeking not just to outwit -- but to destroy -- the other man.",
   "title": "The Prestige",
@@ -3872,7 +3883,9 @@
   "poster": "img/movies/TheSubstance.jpg",
   "streamers": [
    "Stream",
-   "Max"
+   "Disney+",
+   "Max",
+   "Hulu"
   ],
   "synopsis": "Have you ever dreamt of a better version of yourself? You, only better in every way. You should try this new product, it's called The Substance. IT CHANGED MY LIFE. With The Substance, you can generate another you: younger, more beautiful, more perfect. You just have to share time -- one week for one, one week for the other. A perfect balance of seven days each... Easy right? If you respect the balance... What could possibly go wrong?",
   "title": "The Substance",

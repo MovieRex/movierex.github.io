@@ -371,9 +371,7 @@
   "poster": "img/movies/Babes.jpg",
   "streamers": [
    "Stream",
-   "Netflix",
-   "Disney+",
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "BABES follows inseparable childhood friends Eden and Dawn, having grown up together in NYC, now firmly in different phases of adulthood. When carefree an single Eden decides to have a baby on her own after a one-night stand, their friendship faces its greatest challenge. BABES delves into the complexities of female friendship with a blend of laughter, tears and labor pains.",
   "title": "Babes",
@@ -752,7 +750,7 @@
  },
  "Civil War|2024": {
   "audience": "69%",
-  "critics": "80%",
+  "critics": "81%",
   "genres": [
    "Action",
    "War",
@@ -1031,7 +1029,7 @@
  },
  "Eyes Wide Shut|1999": {
   "audience": "74%",
-  "critics": "77%",
+  "critics": "76%",
   "genres": [
    "Drama"
   ],
@@ -4158,7 +4156,7 @@
  },
  "Triangle of Sadness|2022": {
   "audience": "80%",
-  "critics": "71%",
+  "critics": "72%",
   "genres": [
    "Comedy"
   ],

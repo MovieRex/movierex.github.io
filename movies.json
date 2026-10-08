@@ -390,7 +390,6 @@
   "streamers": [
    "Stream",
    "Disney+",
-   "Max",
    "Hulu"
   ],
   "synopsis": "Traveling to Detroit for a job interview, a young woman books a rental home. But when she arrives late at night, she discovers that the house is double booked and a strange man is already staying there. Against her better judgement, she decides to spend the evening, but soon discovers that there's a lot more to fear than just an unexpected house guest.",
@@ -876,7 +875,7 @@
   "year": "2013"
  },
  "District 9|2009": {
-  "audience": "83%",
+  "audience": "82%",
   "critics": "90%",
   "genres": [
    "Sci-Fi"
@@ -3667,7 +3666,8 @@
   ],
   "poster": "img/movies/TheNightHouse.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Prime Video"
   ],
   "synopsis": "Reeling from the unexpected death of her husband, Beth is left alone in the lakeside home he built for her. She tries as best she can to keep it together -- but then nightmares come. Disturbing visions of a presence in the house calling to her, beckoning her with a ghostly allure. Against the advice of her friends, she begins digging into her husband's belongings, yearning for answers. What she finds are secrets both strange and disturbing -- a mystery she's determined to unravel.",
   "title": "The Night House",
@@ -3883,7 +3883,6 @@
   "streamers": [
    "Stream",
    "Disney+",
-   "Max",
    "Hulu"
   ],
   "synopsis": "Have you ever dreamt of a better version of yourself? You, only better in every way. You should try this new product, it's called The Substance. IT CHANGED MY LIFE. With The Substance, you can generate another you: younger, more beautiful, more perfect. You just have to share time -- one week for one, one week for the other. A perfect balance of seven days each... Easy right? If you respect the balance... What could possibly go wrong?",

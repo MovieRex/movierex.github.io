@@ -672,9 +672,7 @@
   "poster": "img/movies/BodiesBodiesBodies.jpg",
   "streamers": [
    "Stream",
-   "Prime Video",
-   "Disney+",
-   "Hulu"
+   "Prime Video"
   ],
   "synopsis": "When a group of rich 20-somethings plan a hurricane party at a remote family mansion, a party game goes awry in this fresh and funny look at backstabbing, fake friends, and one party gone very, very wrong.",
   "title": "Bodies Bodies Bodies",
@@ -899,8 +897,7 @@
   ],
   "poster": "img/movies/DjangoUnchained.jpg",
   "streamers": [
-   "Stream",
-   "AMC+"
+   "Stream"
   ],
   "synopsis": "Two years before the Civil War, Django, a slave, finds himself accompanying an unorthodox German bounty hunter named Dr. King Schultz on a mission to capture the vicious Brittle brothers. Their mission successful, Schultz frees Django, and together they hunt the South's most-wanted criminals. Their travels take them to the infamous plantation of shady Calvin Candie, where Django's long-lost wife is still a slave.",
   "title": "Django Unchained",
@@ -998,8 +995,7 @@
   ],
   "poster": "img/movies/EverythingEverywhereAllAtOnce.jpg",
   "streamers": [
-   "Stream",
-   "Hulu"
+   "Stream"
   ],
   "synopsis": "Directed by Daniel Kwan and Daniel Scheinert, collectively known as Daniels, the film is a hilarious and big-hearted sci-fi action adventure about an exhausted Chinese American woman who can't seem to finish her taxes.",
   "title": "Everything Everywhere All at Once",
@@ -1028,7 +1024,7 @@
  },
  "Eyes Wide Shut|1999": {
   "audience": "74%",
-  "critics": "76%",
+  "critics": "77%",
   "genres": [
    "Drama"
   ],
@@ -1055,9 +1051,7 @@
   "poster": "img/movies/Fargo.jpg",
   "streamers": [
    "Stream",
-   "Netflix",
-   "Disney+",
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "\"Fargo\" is a reality-based crime drama set in Minnesota in 1987. Jerry Lundegaard is a car salesman in Minneapolis who has gotten himself into debt and is so desperate for money that he hires two thugs, to kidnap his own wife. Jerry will collect the ransom from her wealthy father, paying the thugs a small portion and keeping the rest to satisfy his debts. The scheme collapses when the thugs shoot a state trooper.",
   "title": "Fargo",
@@ -1804,9 +1798,7 @@
   "poster": "img/movies/LadyBird.jpg",
   "streamers": [
    "Stream",
-   "Disney+",
-   "Max",
-   "Hulu"
+   "Max"
   ],
   "synopsis": "A teenager navigates a loving but turbulent relationship with her strong-willed mother over the course of an eventful and poignant senior year of high school.",
   "title": "Lady Bird",
@@ -1814,7 +1806,7 @@
   "year": "2017"
  },
  "Little Fish|2020": {
-  "audience": "89%",
+  "audience": "90%",
   "critics": "91%",
   "genres": [
    "Romance",
@@ -2066,8 +2058,7 @@
   "poster": "img/movies/Moonlight.jpg",
   "streamers": [
    "Stream",
-   "Netflix",
-   "Hulu"
+   "Netflix"
   ],
   "synopsis": "A look at three defining chapters in the life of Chiron, a young black man growing up in Miami. His epic journey to manhood is guided by the kindness, support and love of the community that helps raise him.",
   "title": "Moonlight",
@@ -2244,10 +2235,7 @@
    "Thriller"
   ],
   "poster": "img/movies/Obsession.jpg",
-  "streamers": [
-   "Stream",
-   "Peacock"
-  ],
+  "streamers": [],
   "synopsis": "After breaking the mysterious \"One Wish Willow\" to win his crush's heart, a hopeless romantic finds himself getting exactly what he asked for but soon discovers that some desires come at a dark, sinister price.",
   "title": "Obsession",
   "url": "https://www.rottentomatoes.com/m/obsession_2025",
@@ -2859,7 +2847,6 @@
   "poster": "img/movies/ShutterIsland.jpg",
   "streamers": [
    "Stream",
-   "Starz",
    "Paramount+"
   ],
   "synopsis": "The implausible escape of a brilliant murderess brings U.S. Marshal Teddy Daniels and his new partner to Ashecliffe Hospital, a fortress-like insane asylum located on a remote, windswept island. The woman appears to have vanished from a locked room, and there are hints of terrible deeds committed within the hospital walls. As the investigation deepens, Teddy realizes he will have to confront his own dark fears if he hopes to make it off the island alive.",
@@ -3004,9 +2991,7 @@
   ],
   "poster": "img/movies/Snowpiercer.jpg",
   "streamers": [
-   "Stream",
-   "Disney+",
-   "Hulu"
+   "Stream"
   ],
   "synopsis": "A post-apocalyptic ice age forces humanity's last survivors aboard a globe-spanning supertrain. One man will risk everything to lead a revolt for control of the engine and the future of the world.",
   "title": "Snowpiercer",
@@ -4506,8 +4491,7 @@
   ],
   "poster": "img/movies/YoungAdult.jpg",
   "streamers": [
-   "Stream",
-   "Paramount+"
+   "Stream"
   ],
   "synopsis": "Mavis Gary is a successful writer of teen literature who returns to her hometown with a dual mission: to relive her glory days and steal away her now-married high-school sweetheart. However, her mission does not go exactly to plan, and she finds her homecoming more problematic than she expected. Instead, Mavis forms an unusual bond with a former classmate, who has also found it difficult to move past high school.",
   "title": "Young Adult",
@@ -4526,7 +4510,6 @@
   "poster": "img/movies/ZeroDarkThirty.jpg",
   "streamers": [
    "Stream",
-   "Apple TV",
    "Netflix",
    "Paramount+"
   ],

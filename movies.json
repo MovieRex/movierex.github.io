@@ -871,7 +871,7 @@
   "year": "2013"
  },
  "District 9|2009": {
-  "audience": "82%",
+  "audience": "83%",
   "critics": "90%",
   "genres": [
    "Sci-Fi"
@@ -2355,7 +2355,9 @@
    "War"
   ],
   "poster": "img/movies/Pan'sLabyrinth.jpg",
-  "streamers": [],
+  "streamers": [
+   "Stream"
+  ],
   "synopsis": "In 1944 Spain young Ofelia and her ailing mother arrive at the post of her mother's new husband, a sadistic army officer who is trying to quell a guerrilla uprising. While exploring an ancient maze, Ofelia encounters the faun Pan, who tells her that she is a legendary lost princess and must complete three dangerous tasks in order to claim immortality.",
   "title": "Pan's Labyrinth",
   "url": "https://www.rottentomatoes.com/m/pans_labyrinth",

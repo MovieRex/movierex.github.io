@@ -828,8 +828,8 @@
   ],
   "poster": "img/movies/Creep2.jpg",
   "streamers": [
-   "Stream",
-   "Netflix"
+   "Netflix",
+   "Apple TV"
   ],
   "synopsis": "A video artist quickly realizes she has made a mistake when she meets a serial killer in a cabin.",
   "title": "Creep 2",
@@ -845,8 +845,8 @@
   ],
   "poster": "img/movies/Creep.jpg",
   "streamers": [
-   "Stream",
-   "Netflix"
+   "Netflix",
+   "Apple TV"
   ],
   "synopsis": "Aaron answers an online ad and drives to a stranger's house to film him for the day. The man wants to make a movie for his unborn child, but his requests become more bizarre as the day goes along.",
   "title": "Creep",
@@ -3689,7 +3689,8 @@
   ],
   "poster": "img/movies/ThePianist.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Peacock"
   ],
   "synopsis": "In this adaptation of the autobiography \"The Pianist: The Extraordinary True Story of One Man's Survival in Warsaw, 1939-1945,\" Wladyslaw Szpilman, a Polish Jewish radio station pianist, sees Warsaw change gradually as World War II begins. Szpilman is forced into the Warsaw Ghetto, but is later separated from his family during Operation Reinhard. From this time until the concentration camp prisoners are released, Szpilman hides in various locations among the ruins of Warsaw.",
   "title": "The Pianist",
@@ -3822,7 +3823,7 @@
  },
  "The Shining|1980": {
   "audience": "93%",
-  "critics": "84%",
+  "critics": "82%",
   "genres": [
    "Horror",
    "Mystery",

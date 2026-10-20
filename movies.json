@@ -1207,7 +1207,7 @@
   "year": "2014"
  },
  "Good Boy|2022": {
-  "audience": "46%",
+  "audience": "45%",
   "critics": "94%",
   "genres": [
    "Mystery",
@@ -3166,8 +3166,7 @@
   ],
   "poster": "img/movies/Tangerine.jpg",
   "streamers": [
-   "Stream",
-   "Prime Video"
+   "Stream"
   ],
   "synopsis": "After hearing that her boyfriend/pimp cheated on her while she was in jail, a transgender sex worker and her best friend set out to find him and teach him and his new lover a lesson.",
   "title": "Tangerine",
@@ -3823,7 +3822,7 @@
  },
  "The Shining|1980": {
   "audience": "93%",
-  "critics": "82%",
+  "critics": "75%",
   "genres": [
    "Horror",
    "Mystery",
@@ -3977,9 +3976,7 @@
    "Horror"
   ],
   "poster": "img/movies/TheWailing.jpg",
-  "streamers": [
-   "Prime Video"
-  ],
+  "streamers": [],
   "synopsis": "Suspicion leads to hysteria when rural villagers link a series of brutal murders to the arrival of a mysterious stranger.",
   "title": "The Wailing",
   "url": "https://www.rottentomatoes.com/m/the_wailing",

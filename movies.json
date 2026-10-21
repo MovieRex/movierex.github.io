@@ -1572,6 +1572,7 @@
   "poster": "img/movies/InglouriousBasterds.jpg",
   "streamers": [
    "Stream",
+   "Prime Video",
    "Disney+",
    "Hulu"
   ],
@@ -3777,10 +3778,7 @@
    "Thriller"
   ],
   "poster": "img/movies/ThePrestige.jpg",
-  "streamers": [
-   "Stream",
-   "Netflix"
-  ],
+  "streamers": [],
   "synopsis": "An illusion gone horribly wrong pits two 19th-century magicians, Alfred Borden and Rupert Angier, against each other in a bitter battle for supremacy. Terrible consequences loom when the pair escalate their feud, each seeking not just to outwit -- but to destroy -- the other man.",
   "title": "The Prestige",
   "url": "https://www.rottentomatoes.com/m/prestige",

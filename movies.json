@@ -1021,7 +1021,7 @@
  },
  "Eyes Wide Shut|1999": {
   "audience": "74%",
-  "critics": "78%",
+  "critics": "79%",
   "genres": [
    "Drama"
   ],
@@ -1153,7 +1153,7 @@
  },
  "Girl, Interrupted|1999": {
   "audience": "84%",
-  "critics": "52%",
+  "critics": "53%",
   "genres": [
    "Drama"
   ],
@@ -1314,7 +1314,7 @@
  },
  "Hedwig and the Angry Inch|2001": {
   "audience": "93%",
-  "critics": "92%",
+  "critics": "93%",
   "genres": [
    "Musical",
    "LGBTQ+"
@@ -2472,7 +2472,7 @@
  },
  "Prisoners|2013": {
   "audience": "87%",
-  "critics": "81%",
+  "critics": "82%",
   "genres": [
    "Mystery",
    "Thriller",
@@ -2629,7 +2629,7 @@
  },
  "Requiem For A Dream|2000": {
   "audience": "93%",
-  "critics": "80%",
+  "critics": "81%",
   "genres": [
    "Drama"
   ],
@@ -4364,7 +4364,7 @@
   ],
   "poster": "img/movies/WhatWeDoInTheShadows.jpg",
   "streamers": [
-   "Stream"
+   "Apple TV"
   ],
   "synopsis": "Vampire housemates try to cope with the complexities of modern life and show a newly turned hipster some of the perks of being undead.",
   "title": "What We Do in the Shadows",

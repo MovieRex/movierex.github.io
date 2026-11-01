@@ -4244,7 +4244,10 @@
    "Thriller"
   ],
   "poster": "img/movies/VForVendetta.jpg",
-  "streamers": [],
+  "streamers": [
+   "Stream",
+   "Paramount+"
+  ],
   "synopsis": "Following world war, London is a police state occupied by a fascist government, and a vigilante known only as V uses terrorist tactics to fight the oppressors of the world in which he now lives. When V saves a young woman named Evey from the secret police, he discovers an ally in his fight against England's oppressors.",
   "title": "V for Vendetta",
   "url": "https://www.rottentomatoes.com/m/v_for_vendetta",

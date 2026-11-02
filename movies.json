@@ -331,6 +331,7 @@
   "poster": "img/movies/Arrival.jpg",
   "streamers": [
    "Stream",
+   "Apple TV",
    "Peacock",
    "Paramount+"
   ],
@@ -635,6 +636,7 @@
   "poster": "img/movies/BlinkTwice.jpg",
   "streamers": [
    "Stream",
+   "Prime Video",
    "Paramount+"
   ],
   "synopsis": "When tech billionaire Slater King meets cocktail waitress Frida at his fundraising gala, sparks fly. He invites her to join him and his friends on a dream vacation on his private island. It's paradise. Wild nights blend into sun soaked days and everyone's having a great time. No one wants this trip to end, but as strange things start to happen, Frida begins to question her reality. There is something wrong with this place. She'll have to uncover the truth if she wants to make it out of this party alive.",
@@ -958,7 +960,8 @@
   ],
   "poster": "img/movies/Enemy.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Max"
   ],
   "synopsis": "A mild-mannered college professor discovers a look-alike actor and delves into the other man's private affairs.",
   "title": "Enemy",
@@ -1047,7 +1050,8 @@
   ],
   "poster": "img/movies/Fargo.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Peacock"
   ],
   "synopsis": "\"Fargo\" is a reality-based crime drama set in Minnesota in 1987. Jerry Lundegaard is a car salesman in Minneapolis who has gotten himself into debt and is so desperate for money that he hires two thugs, to kidnap his own wife. Jerry will collect the ransom from her wealthy father, paying the thugs a small portion and keeping the rest to satisfy his debts. The scheme collapses when the thugs shoot a state trooper.",
   "title": "Fargo",
@@ -1197,7 +1201,8 @@
   ],
   "poster": "img/movies/GoneGirl.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Paramount+"
   ],
   "synopsis": "In Carthage, Mo., former New York-based writer Nick Dunne and his glamorous wife Amy present a portrait of a blissful marriage to the public; when Amy goes missing on the couple's fifth wedding anniversary, Nick becomes the prime suspect in her disappearance; the resulting police pressure and media frenzy cause the Dunnes' image of a happy union to crumble, leading to tantalizing questions about who Nick and Amy truly are.",
   "title": "Gone Girl",
@@ -1590,7 +1595,7 @@
   "poster": "img/movies/Interstellar.jpg",
   "streamers": [
    "Stream",
-   "Prime Video",
+   "Apple TV",
    "Paramount+"
   ],
   "synopsis": "In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand, a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.",
@@ -1627,6 +1632,7 @@
   "poster": "img/movies/ItFollows.jpg",
   "streamers": [
    "Stream",
+   "Prime Video",
    "Peacock",
    "Paramount+"
   ],
@@ -1778,7 +1784,8 @@
   ],
   "poster": "img/movies/KnivesOut.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "AMC+"
   ],
   "synopsis": "The circumstances surrounding the death of crime novelist Harlan Thrombey are mysterious, but there's one thing that renowned Detective Benoit Blanc knows for sure -- everyone in the wildly dysfunctional Thrombey family is a suspect. Now, Blanc must sift through a web of lies and red herrings to uncover the truth.",
   "title": "Knives Out",
@@ -2138,7 +2145,8 @@
   "poster": "img/movies/Nightcrawler.jpg",
   "streamers": [
    "Stream",
-   "Netflix"
+   "Netflix",
+   "Peacock"
   ],
   "synopsis": "Los Angeles denizen Louis Bloom survives by scavenging and petty theft. He stumbles into a new career as a cameraman and -- armed with a camcorder and police scanner -- begins nocturnal forays across the city in search of shocking and grisly crimes. When he catches the eye of a shopworn news director who welcomes the chance to raise her station's ratings, Louis goes to increasingly greater lengths to catch the \"money shot.\"",
   "title": "Nightcrawler",
@@ -2481,7 +2489,8 @@
   ],
   "poster": "img/movies/Prisoners.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Apple TV"
   ],
   "synopsis": "Keller Dover faces a parent's worst nightmare when his 6-year-old daughter, Anna, and her friend go missing. The only lead is an old motorhome that had been parked on their street. The head of the investigation, Detective Loki, arrests the driver, but a lack of evidence forces Loki to release his only suspect. Dover, knowing that his daughter's life is at stake, decides that he has no choice but to take matters into his own hands.",
   "title": "Prisoners",
@@ -2551,7 +2560,7 @@
   "poster": "img/movies/PulpFiction.jpg",
   "streamers": [
    "Stream",
-   "Prime Video",
+   "Apple TV",
    "Paramount+"
   ],
   "synopsis": "Vincent Vega and Jules Winnfield are hitmen with a penchant for philosophical discussions. In this ultra-hip, multi-strand crime movie, their storyline is interwoven with those of their boss, gangster Marsellus Wallace ; his actress wife, Mia ; struggling boxer Butch Coolidge ; master fixer Winston Wolfe and a nervous pair of armed robbers, Pumpkin and Honey Bunny.",
@@ -3666,7 +3675,8 @@
   "poster": "img/movies/TheOneILove.jpg",
   "streamers": [
    "Stream",
-   "Prime Video"
+   "Prime Video",
+   "Starz"
   ],
   "synopsis": "A couple whose marriage is crumbling have a surreal experience during a weekend getaway at a house recommended by their therapist.",
   "title": "The One I Love",
@@ -3789,8 +3799,7 @@
   ],
   "poster": "img/movies/TheRoad.jpg",
   "streamers": [
-   "Stream",
-   "Prime Video"
+   "Stream"
   ],
   "synopsis": "America is a grim, gray shadow of itself after a catastrophe. A man and his young son wander through this post-apocalyptic world, trying to keep the dream of civilization alive. They journey toward the sea, surviving as best they can on what they can scavenge, and try to avoid roving gangs of savage humans who will turn them into slaves, or worse.",
   "title": "The Road",
@@ -3842,7 +3851,6 @@
   "poster": "img/movies/TheSilenceOfTheLambs.jpg",
   "streamers": [
    "Stream",
-   "Prime Video",
    "Peacock"
   ],
   "synopsis": "Jodie Foster stars as Clarice Starling, a top student at the FBI's training academy. Jack Crawford wants Clarice to interview Dr. Hannibal Lecter, a brilliant psychiatrist who is also a violent psychopath, serving life behind bars for various acts of murder and cannibalism. Crawford believes that Lecter may have insight into a case and that Starling, as an attractive young woman, may be just the bait to draw him out.",
@@ -4399,7 +4407,8 @@
   ],
   "poster": "img/movies/Whiplash.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Netflix"
   ],
   "synopsis": "Andrew Neiman is an ambitious young jazz drummer, in pursuit of rising to the top of his elite music conservatory. Terence Fletcher, an instructor known for his terrifying teaching methods, discovers Andrew and transfers the aspiring drummer into the top jazz ensemble, forever changing the young man's life. But Andrew's passion to achieve perfection quickly spirals into obsession, as his ruthless teacher pushes him to the brink of his ability and his sanity.",
   "title": "Whiplash",

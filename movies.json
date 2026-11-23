@@ -865,7 +865,7 @@
   "year": "2013"
  },
  "District 9|2009": {
-  "audience": "83%",
+  "audience": "82%",
   "critics": "90%",
   "genres": [
    "Sci-Fi"
@@ -1969,7 +1969,9 @@
   "poster": "img/movies/Mickey17.jpg",
   "streamers": [
    "Stream",
-   "Max"
+   "Disney+",
+   "Max",
+   "Hulu"
   ],
   "synopsis": "Mickey 17, known as an \"expendable,\" goes on a dangerous journey to colonize an ice planet.",
   "title": "Mickey 17",
@@ -3060,7 +3062,8 @@
   ],
   "poster": "img/movies/Spotlight.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Peacock"
   ],
   "synopsis": "In 2001, editor Marty Baron of The Boston Globe assigns a team of journalists to investigate allegations against John Geoghan, an unfrocked priest accused of molesting more than 80 boys. Led by editor Walter \"Robby\" Robinson, reporters Michael Rezendes, Matt Carroll and Sacha Pfeiffer interview victims and try to unseal sensitive documents. The reporters make it their mission to provide proof of a cover-up of sexual abuse within the Roman Catholic Church.",
   "title": "Spotlight",

@@ -2125,7 +2125,6 @@
   "poster": "img/movies/Nightcrawler.jpg",
   "streamers": [
    "Stream",
-   "Netflix",
    "Peacock"
   ],
   "synopsis": "Los Angeles denizen Louis Bloom survives by scavenging and petty theft. He stumbles into a new career as a cameraman and -- armed with a camcorder and police scanner -- begins nocturnal forays across the city in search of shocking and grisly crimes. When he catches the eye of a shopworn news director who welcomes the chance to raise her station's ratings, Louis goes to increasingly greater lengths to catch the \"money shot.\"",
@@ -2952,7 +2951,6 @@
   "poster": "img/movies/SmallEngineRepair.jpg",
   "streamers": [
    "Stream",
-   "Netflix",
    "Prime Video"
   ],
   "synopsis": "Frankie, Swaino and Packie are lifelong friends who share a love of the Red Sox, rowdy bars and Frankie's teenaged daughter Crystal. But when Frankie invites his pals to a whiskey-fueled evening and asks them to do a favor on behalf of the brash young woman they all adore, events spin wildly out of control. Based on Pollono's award-winning play, Small Engine Repair is a pitch-black comedic drama with a wicked twist and a powerful exploration of brotherhood, class struggle and toxic masculinity.",
@@ -3024,7 +3022,8 @@
   ],
   "poster": "img/movies/SourceCode.jpg",
   "streamers": [
-   "Stream"
+   "Stream",
+   "Prime Video"
   ],
   "synopsis": "Helicopter pilot Colter Stevens is part of a top-secret military operation that enables him to experience the last few minutes in the life of Sean Fentress, a man who died in a commuter-train explosion. The purpose of Colter's mission is to learn the identity of the bomber and prevent a similar catastrophe. As Colter lives Sean's final moments, he becomes more certain that he can prevent the first tragedy from occurring -- as long as he doesn't run out of time.",
   "title": "Source Code",
@@ -3472,7 +3471,7 @@
   "year": "2008"
  },
  "The Kill Team|2019": {
-  "audience": "43%",
+  "audience": "42%",
   "critics": "69%",
   "genres": [
    "War",
